@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AOMM Assessment{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/static/fonts/roboto/font.css">
+    <link rel="stylesheet" href="/static/fonts/anonymous-pro/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #fafafb;
+            color: #333;
+        }
+        .top-bar-heading a {
+            background-color: #092e63;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Verdana, sans-serif;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .top-bar {
+            background-color: #092e63;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Verdana, sans-serif;
+        }
+        .top-bar nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .top-bar nav li {
+            margin-right: 20px;
+        }
+        .top-bar nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .top-bar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .top-bar .icons i {
+            margin-left: 10px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 50px;
+            background-color: #535558;
+            color: #ffffff;
+            padding: 20px 0;
+            transition: width 0.3s ease-in-out;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .sidebar.open {
+            width: 200px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            position: relative;
+        }
+        .sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar a i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .sidebar .dropdown-menu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: #092e63;
+            padding: 10px;
+            list-style-type: none;
+            z-index: 1;
+        }
+        .sidebar .dropdown-menu li {
+            margin-bottom: 5px;
+            padding: 0;
+        }
+        .sidebar .dropdown-menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .sidebar li:hover > .dropdown-menu {
+            display: block;
+        }
+        .main-content {
+            flex: 1;            
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            height: 980;
+            overflow-y: auto;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .main-content:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        .main-content h2 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333333;
+            margin-top: 0;
+        }
+        .main-content table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .main-content td {
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        }
+        .main-content th {
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+            color: #1f56e0;            
+            background-color: #f5f5f5;
+            font-weight: 500;
+        }
+        .quadrant {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            height: 600px;
+            overflow-y: auto;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .quadrant:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        .quadrant h2 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333333;
+            margin-top: 0;
+        }
+        form label {
+            margin-right: 10px;
+            font-weight: 500;
+        }
+        #time-series-graph {
+            margin-top: 20px;
+        }
+        form select, 
+        form input[type="date"] {
+            margin-right: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            color: #333;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        form select:focus, 
+        form input[type="date"]:focus {
+            border-color: #092e63;
+            box-shadow: 0 0 5px rgba(9, 46, 99, 0.5);
+        }
+        form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #092e63;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        form button:hover {
+            background-color: #07408d;
+            box-shadow: 0 0 10px rgba(7, 64, 141, 0.5);
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #092e63;
+            margin-bottom: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Anonymous Pro', monospace;
+        }
+        form label {
+            font-family: 'Anonymous Pro', monospace;
+            font-size: 14px;
+            color: #333333;
+            margin-right: 5px;
+        }
+         /* Tooltip container */
+        .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100px;
+        font-size: 10px;
+        font-weight: 500;
+        background-color: #05035d;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+
+        /* Position the tooltip text */
+        position: absolute;
+        z-index: 1;
+        bottom: 25%;
+        left: 40%;
+        margin-left: -90px;
+
+        /* Fade in tooltip */
+        opacity: 0;
+        transition: opacity 0.3s;
+        }
+
+        /* Tooltip arrow */
+        .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        font-size: 10px;
+        font-weight: 200;        
+        top: 100%;
+        left: 90%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 0.6;
+        }
+
+         /* moreinfo container */
+         .moreinfo {
+        position: relative;
+        display: inline-block;
+        }
+
+        /* moreinfo text */
+        .moreinfo .moreinfotext {
+        visibility: hidden;
+        width: 100px;
+        font-size: 9px;
+        font-weight: 200;
+        background-color: #092e63;
+        color: #fff;
+        text-align: justify;
+        padding: 5px 0;
+        border-radius: 6px;
+
+        /* Position the moreinfo text */
+        position: relative;
+        z-index: 1;
+        bottom: 25%;
+        left: 0%;
+        margin-left: 0px;
+
+        /* Fade in moreinfo */
+        opacity: 0;
+        transition: opacity 0.3s;
+        }
+
+        /* moreinfo arrow */
+        .moreinfo .moreinfotext::after {
+        content: "";
+        position: relative;
+        font-size: 9px;
+        font-weight: 200;        
+        top: 0%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        }
+
+        /* Show the moreinfo text when you mouse over the moreinfo container */
+        .moreinfo:hover .moreinfotext {
+        visibility: visible;
+        opacity: 1;
+        }
+        
+        .auto-text-container {
+            width: 100%;
+            height: 4vh;
+            background: #2b323c;
+            color: #ffc500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .auto-text-container p {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        span {
+            color: #ffffff;
+        }
+
+        .dropdown {
+            display: none
+        }
+
+        .navbar-tags:hover > .dropdown {
+            display: block;
+            color: #f5f5f5;
+            text-decoration: none;
+        }
+
+        .navbar-list a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar-tags {
+            margin: 2px;
+        }
+
+        .navbar-sub-tags {
+            margin: 12px;
+        }
+
+        .navbar-tags, .dropdown { 
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top-bar">
+            <div class="logo">  <img src="/static/images/logo.svg" alt="Nokia" width="111" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/static/images/AOMMAT.png" alt="AOMM" width="385" height="43"></div>
+            <div class="top-bar-heading"><a href="https://www.tmforum.org/resources/guidebook/gb1042a-autonomous-operations-maturity-model-aomm-v1-3-0/">Reference: TM Forum GB1042A v1.3 AOMM Guidelines</a></div>
+            <!--
+            <nav>
+                <ul>
+                    <li class='fa fa-arrow-left' style='font-size:24px;color:white'><a href="/index">&nbsp;&nbsp;</a></li>
+                    <li><a href="javascript:history.back()">FAQ</a></li>
+                </ul>
+            </nav>
+            -->
+            <div class="icons">
+                <div class="tooltip"><a href="/password?access_token={{ access_token }}&session_id={{ session_id }}"><i class="fas fa-user"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="tooltiptext">Change password</span>
+                </div>
+                <div class="tooltip"><a href="/logout?session_id={{ session_id }}"><i class="fas fa-sign-out-alt"></i></a>&nbsp;&nbsp;
+                    <span class="tooltiptext">Logout</span>
+                </div>
+            </div>
+
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="navbar-list">
+                    <li class="navbar-tags"><a href="/assessment?access_token={{ access_token }}&session_id={{ session_id }}&service=SERVICE_MOBILE&operation=OP_AO&operation_sub_group=OP_AO_01"><i class="fas fa-home"></i>Assessment Feed</a></li>
+                    <li class="navbar-tags"><a href="/dashboard?access_token={{ access_token }}&session_id={{ session_id }}&service=SERVICE_MOBILE&operation=OP_AO&operation_sub_group=OP_AO_01"><i class="fas fa-chart-line"></i>Dashboard</a></li>
+                    <li class="navbar-tags"><i class="fas fa-cogs"></i>&nbsp; Admin
+                    <ul class="dropdown">
+                        <li class="navbar-sub-tags"><a href="/signup?access_token={{ access_token }}&session_id={{ session_id }}">Signup</a></li>
+                        <li class="navbar-sub-tags"><a href="/selectusertoedit?access_token={{ access_token }}&session_id={{ session_id }}">Edit user</a></li></ul></li>
+                    <!--<li class="navbar-tags"><a href="/review?access_token={{ access_token }}&session_id={{ session_id }}&service=SERVICE_MOBILE&operation=OP_AO&operation_sub_group=OP_AO_01"><i class="fa fa-bar-chart"></i>Review</a></li>-->
+                    <li class="navbar-tags"><a href="/criteria?access_token={{ access_token }}&session_id={{ session_id }}&dimension=PARTY&sub_dimension=1.1"><i class="fas fa-briefcase"></i>AOMM Criteria GB1042A</a></li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+    {% block scripts %}
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <!--<script src="/static/js/plotly-2.31.1.min.js" charset="utf-8"></script>-->
+    <script>
+        $(document).ready(function() {
+            $('.display').DataTable({
+                "scrollY": "260px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+    {% endblock %}
+</body>
+</html>

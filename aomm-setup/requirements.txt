@@ -1,0 +1,13 @@
+asyncpg==0.29.0
+DateTime==5.5
+numpy==1.26.4
+pandas==2.2.2
+psycopg2-binary==2.9.9
+pycparser==2.22
+pydantic_core==2.18.2
+pydantic==2.7.1
+pydantic-extra-types==2.10.0
+pydantic-settings==2.6.1
+python-decouple==3.8
+python-dotenv==1.0.1
+SQLAlchemy==2.0.30

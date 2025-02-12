@@ -1,0 +1,601 @@
+capability_id,capability_name,capability_definition,weighting,value_stream_id,sub_dimension_id
+1.11.1,Customer Experience Coordination,"Customer Experience Coordination represents the cross-channel components that drive consistency and analytics of the customer experience. Channel infrastructure would manage common contact event information such as transaction state, statistics, history, etc.",10,1.11,1.1
+1.11.10,Customer SLA Violation Notification and Tracking,Customer SLA Violation Notification and Tracking function provides the necessary functionality to notify appropriate people or systems to remedy the SLA violation. to track and manage open Customer SLA issues.,10,1.11,1.4
+1.11.2,Customer Digital Interaction Tracking,"Customer Digital Interaction Tracking Function tracks all user steps on the web site and influence on social networks: click-stream, viewed pages, consulted product descriptions, comments. In real time, this function analyses the user behavior, identifies his centers of interest and then deduces his profile which will be used to push contents and offers adequate for the user / customer needs.",10,1.11,1.1
+1.11.3,Customer Insights and Closed Loop Automation,"Automatically detect customer insights (segmented/collective/individual) and drive decisions regarding customer treatment and action for each specific situation based on observing what the customer is immediately experiencing in a Closed Loop manner. This action can be taken either proactively in real time, or reactively when the customer contacts the Service Provider.",10,1.11,1.2
+1.11.4,Customer Profile Signature Creation,"Customer Profile Signature Creation function creates a personalized profile signature based on combined segment, interest and behavior for the individual customer  (ex. Soccer Mom, Gold/Silver/Bronze customer, Golfer, Early adopter), and around content (ex. Content sharing - College kids + Field Sales). This also includes continuous learning and update of individual Profile Signature.",10,1.11,1.3
+1.11.5,Customer Value Segmentation and Profile Prediction,"Customer Value Segmentation regroups the customers in relevant sets (even subsets) for Marketing. The segmentation criteria use the customer value, the customer lifetime value, the product and service uses (consumption behaviours). With Profile Prediction, the predictive Scoring of the new customer behavior: using a predictive model based on the histories of customers having similar profiles, determines the expected evolution of the customer value and its lifetime.",10,1.11,1.3
+1.11.6,Customer Unified Information View,"A unified customer data store using various criteria (name, address, subscriber number, equipment id, billing account number, etc.) and finds the customer record to add the new orders, track outstanding orders, progress and history displays.It also links to the predictive customer value score.",10,1.11,1.3
+1.11.7,Customer Feedback and Satisfaction Reporting,"A unified collection, storage and analysis of customer feedback from all touchpoints (including CRM, PoS etc.), Network QoS reports, Predictive Customer Value Score, Customer complaint and online interaction with agent (in person) or self service. ",10,1.11,1.3
+1.11.8,Customer Proactive Issue Detection,"Customer Proactive Issue Detection analyses the existing service performance issues or absence of product/services and proposes new services and enhancements according to what the customer presently has. It includes bundling, product proposals, service discounts and compensation in case of service degradation etc.",10,1.11,1.3
+1.11.9,Customer Proactive and Predictive Care,"Outbounbd notification and reach out to customer in case of service disruption or service issue. With Service Degradation Prediction, the outeach iis predictive.",10,1.11,1.4
+1.12.1,Self-Help Digital and Call Center Access,Self Help Digital Access and Call Center Access provides access to call center self empowered fulfillment function providing an internet technology driven interface for the customer to undertake a variety of fulfillment functions directly for themselves.,34,1.12,1.1
+1.12.2,Guided Customer Registration,"Customer Registration registers a new customer if this is a new customer (using Customer Information Management). It provides a step by step guide at the channel to capture the specific information items to be collected (e.g. customer identification, required product / order and the pertinent data for the order). Including Validation guidance  for each information element, may provide set of valid input.",33,1.12,1.2
+1.12.3,Customer Self Service in lieu of Contact Queuing,Intelligent Customer Self Service using digital assistant and robotic automation - Zero Touch/Zero Wait. The agent is aware of customer context and reason for contact.,33,1.12,1.4
+1.13.1,Interaction Channel Digitization,"Interaction Channel digitization refers to the number of customer interaction channels that are digital versus the optimal interaction channels. This is evaluated for each customer or customer segment, based on the profile study and the history of the contacts.",34,1.13,1.1
+1.13.2,Customer Service Access,"Customer Service Access to functions to provide fully automated service or assisted service over customers touch points. The functions enables customers to assure the service level that they benefit from their service provider for functions like:
+
+User Account management - account management (such as contact attributes)
+Self registration to online services
+Service requests management
+Service request submission
+Service request amendment
+Service request closure
+Alerts and notifications setting
+Address book management
+Access to Knowledge Management database & solutions to common problems
+Service Requests and SLA Reporting - reports on service requests and SLA across services.",33,1.13,1.1
+1.13.3,Customer Relationship Personalization,"Customer Relationship Personalization Function, based on a follow-up of the customer behavior, selects some key elements in order to personalize the relation during the customer contacts (contacts with the Telco operator services initiated by the customer).",33,1.13,1.3
+1.14.1,Customer Self-service Portal Access,"Customer Self-service Portal Access function allows Customers, whether individual or corporate, direct online access to account services, subscription configuration and/or applications that are made available to them. Such access could be provided either through a web interface or an installed application.",34,1.14,1.1
+1.14.2,Knowledge Support Access,Knowledge Support Access provides customer browsing function to undertake Self Service access to Knowledge Management database & solutions to common problems.,33,1.14,1.1
+1.14.3,Customer Interaction Logging,"Customer Interaction Logging provides collection and storage of all contact events with the customer via all channels whether unassisted (self service, retail kiosk) or assisted (call center, retail store). All types of interactions, including interaction history order history, trouble ticket history, billing collection history, case management, etc...
+The Store of any communications in any current or future form including Fax, IVR, email, Page, text, online chat, social media and postal mail.
+The storage of all inbound and outbound interactions with the customer.",33,1.14,1.3
+1.15.1,Loyalty and Retention Management Automation,"Loyalty and Retention Management Automation function undertakes trend analysis on loyalty and retention, including customer acquisitions and churn. It supports intelligent automation of the definition ofthe goals and objectives, target markets and products, approach, relevant partnerships, critical success factors and key metrics that make up the strategy behind Customer Loyalty Programs. It supports collecting metrics customer personal information and other data on all aspects of loyalty programs.",50,1.15,1.1
+1.15.2,Loyalty Program Performance Monitoring,"Loyalty Program Performance Assessment function enables determining whether and how well loyalty programs are meeting their intended objectives, whether as a whole or in specific markets, how they compare with alternatives, and their cost-effectiveness. It also supports automatically defining the rewards to be made available to customers, their ""pricing"" values and fulfillment approaches and terms.",50,1.15,1.1
+1.16.1,Customer Value Profile Prediction,"Customer Value Profile Prediction function comprises predictive Scoring of the new customer behavior: using a predictive model based on the histories of customers having similar profiles, determines the expected evolution of the customer value and its lifetime.",50,1.16,1.2
+1.16.2,Capture Customer Activity continuously,"Intelligent capture of customer traffic and usage data using smart packet brokers to optimize the resources required for user plane data capture. Collects high-volume technical events from web-site navigation, network probes, device agents, etc. Ingesting real-time feeds from relevant sources into a consistent and smart structure for processing.",50,1.16,1.2
+1.17.1,Network SLA/KPI Management,"SLA/KPI Management requires understanding of contractual implications for SLA non compliance, processes for root cause analysis and proactive mitigation. 
+SLA reporting, reconciliation/ sign-off including with sub contractors and other 3rd parties.",100,1.17,1.4
+1.21.1,Customer Value Profile Segmentation and Calculation,"Customer Value Profile Segmentation and Calculation function comprises automatic segmentation based on the customer value and/or lifetime value using relavant legally collected data for Marketing. The segmentation criteria use the customer value, the customer lifetime value, the product and service uses (consumption behaviors) and Average Revenue Per User, margin per user. Customer Profile Signature is automatically calculated using a personalized profile signature based on combined segment, interest and behavior for the individual customer  (ex. Soccer Mom, Gold/Silver/Bronze customer, Golfer, Early adopter), and around content (ex. Content sharing - College kids + Field Sales). This also includes continuous learning and update of individual Profile Signature.",17,1.21,1.1
+1.21.2,Guided Customer Information Capturing,"Guided Customer Information Capturing provides a step by step guide at the Digital channel to capture specific information items to be collected (e.g. customer identification, required product / order and the pertinent data for the order). Including Validation guidance  for each information element, may provide set of valid input.",17,1.21,1.1
+1.21.3,Customer Interaction Tracking,"Customer Interaction Tracking tracks the customer activity by different contacts - email, SMS, Web chat (e.g Whatsapp etc.), phone, mail and Web to provide a detailed and precise understanding of the customer behavior in front of the Telco operator solicitations (marketing campaigns, customer inquiries) or during a customer request. It provides an ability to take over governance of orders handled by other channels (e.g. self service) amend and relinquish, while preserving all the captured data.",17,1.21,1.2
+1.21.4,Customer Profile Updating,"Customer Profile Updating function concerns the management of our knowledge of the individual customer to keep or produce an up-to-date, accurate and legally compliant Customer information. It will incorporate into the customer profile, all relevant information gathered through all contacts with the customer.",17,1.21,1.3
+1.21.5,Customer Relationship/Context Event Data Accumulation,"Customer Relationship/Context Event Data Accumulation provides an ability to accumulate and map customer interaction event data from all channels (agent interaction/notes, web/device click analytics, retail transactions, etc.), including received information from Customer Interaction Collection & Storage.",16,1.21,1.3
+1.21.6,Customer Data Privacy and Personal Data Protection,"Customer data privacy is the practice of protecting sensitive customer data, such as contact information, payment information, and usernames and passwords. Data protection is the use of technologies and policies to keep customer data safe. ",16,1.21,1.4
+1.31.1,Recommended Action Result Analysis,"Recommended Action Result Analysis provides a closed loop functionality to learn from whether the recommended action was accepted or not, including functionality to avoid proactive backfire (i.e. ensuring a customer reach out action doesnt result in confusion and more calls to the call center)",100,1.31,1.1
+1.32.1,Customer Support Guiding and Feedback collection,"Customer Support Conversational Guiding displays recommended text and scripting to guide agents in specific conversations/dialogue tailored to each customer interaction. Also provides branching based on customer answers.
+Further it captures customer feedback and complements to in-context scenario. It intelligently guides the Customer Support through the interaction. The guidance can span any subjectcross-sell, up-sell, retention, service and support, quality or training.",100,1.32,1.1
+1.33.1,Customer Behaviour Modelling,"Model and understand the relationship between the service provider and the customer, looking across all interactions, over time, and across lines of business. ",17,1.33,1.2
+1.33.2,Customer Behaviour Monitoring,"Use of smart tools and intelligent analysis to classify and predict patterns that identify trends and changes in customer behavior, which in turn update the individual profile signatures. This is represented as a Classification and Regression model.",17,1.33,1.2
+1.33.3,Customer Risk Profile & Mitigation Scenario Definition,"Customer Risk Mitigation Scenario Definition Function is meant to define an array of actions, related to triggering conditions such as threshold(s) of billable amounts defined according to risk level, to avoid bill shock. Customer Risk Profile Definition Function defines Customer criteria (such as VIP) to identify the corresponding Prevention scenario to be applied. 
+It also defines the dunning scenario specification which describes the companys dunning strategy. It describes the dunning actions to be applied to a case, the order in which these actions should be performed, the interval between two actions.",17,1.33,1.3
+1.33.4,Customer Churn Risk Identification,Customer Churn Risk Identification function identifies indicators that can suggest imminent churn because of dissatisfaction. Measurements can be collected via various tools such as Net Promoter Score (NPS) and made available for action by various service provider groups and supervisory staff.,17,1.33,1.3
+1.33.5,Customer Observations and Interaction Inference Analyzing,"Customer Observations Inference Analyzing provides observation rules inferencing type of analysis (Processing of the ingested events/data to interpret new updates (transactions, unbilled charges, self service activity) into customer context).
+The data for interaction including outbound triggering of direct interaction with Customers, whether by phone callback (automated or in person), SMS, MMS, in-app notification, email, or paper and inbound interactions with Customers and places them in the appropriate queue, due to the nature of the interaction.",16,1.33,1.3
+1.33.6,Customer Sentiment Analysis,"Sentiment analysis of individual and VIP subscribers using data collected from social media, feedback survey and point of sales.",16,1.33,1.3
+1.41.1,Order Status Viewing,Order Status Viewing provides self empowered fulfillment function of an internet technology driven interface for the customer to undertake Order status inquiry.,100,1.41,1.1
+1.42.1,Ordering Customer Order Error Resolution,"Ordering Customer Order Error Resolution provides to view pool of orders resulted in error or stuck orders during ordering and enable the Customer Support to act accordingly.
+For example, a configuration incompatibility with functional or commercial constraint, product unavailability according to the configuration may trigger the resend of the request or notify the user with recommended action.",50,1.42,1.1
+1.42.2,Pending Customer Order Proactive Suggestion,Pending Customer Orders Proactive Suggestion saves an ongoing order/quote for future processing (in case the customer is not sure if they want to go through with the order at this point) and proactively suggests new products or enhacements to existing products (in use of in purchase basket).,50,1.42,1.3
+1.43.1,Order Data Enrichment,"Order Data Enrichment function acquire missing order data from surrounding systems (often values taken from catalogs and inventories, billing, fraud, etc.) or from external 3rd party systems (like country\'s common address or credit check system). It also alculates missing order data values on-the-fly from existing data and ordering rules.",100,1.43,1.1
+1.51.1,B2B2X partner onboarding,"5G promises to unlock new business opportunities among enterprises for digital transformation. To monetize this emerging opportunity, CSPs must break from their tradition of simply selling connectivity and provide highly specialized solutions in partnership with best-of-breed players. Seemless onboarding of B2B2X partner using a scalable, partner-centric BSS platform is a must.",34,1.51,1.5
+1.51.2,B2B2X partner fulfillment,"Preparing for B2B2X with Automated, Open, and Highly Scalable Partner Fulfillment and Management Systems",33,1.51,1.5
+1.51.3,B2B2X partner support,"Preparing for B2B2X with Automated, Open, and Highly Scalable Partner Support Systems",33,1.51,1.5
+1.52.1,B2B2X partner satisfaction,"Measure and analyse B2B2X partner satisfaction for improved RoI on partner investment, value creation and combined revenue.",50,1.52,1.5
+1.52.2,B2B2X partner value,Create models to measure B2B2X partner value comparing the partner capabilities and service monetization.,50,1.52,1.5
+1.61.1,"Workplace Health, Safety and Security",Good safety regulations encourage both workers and employers to protect each others well-being and financial health. It takes mutual effort to keep everyone safe and productive.,25,1.61,1.6
+1.61.2,Skill and Training,"As routine tasks get automated, the organization gives employees the opportunity to learn new skills and advance their careers(inc. training in advanced technologies, data analysis, system management, and other areas that are increasingly important in a digitized workplace).",25,1.61,1.6
+1.61.3,Job Satisfaction,Automate monotonous tasks and provide employees with higher skill based tasks for improved job satisfaction.,25,1.61,1.6
+1.61.4,Collaboration and Communication,"AO facilitates robust feedback integration from the employee towards intelligent agent - with more effective communication tools and collaboration platforms among teams, departments, and even with external partners, leading to a more integrated and dynamic work environment. ",25,1.61,1.6
+1.62.1,Efficiency and Productivity,Efficiency gains and productivity improvements are measured with the ratio of routine tasks automated. ,25,1.62,1.6
+1.62.2,Change management & adaptability,"With improved efficiency and productivity, there can be a need to adapt jobs and rolesto new operating model.",25,1.62,1.6
+1.62.3,Adoption & utilization,The extent to which employees are implementing and using intelligent automation in their daily tasks. Access to advanced tools and data empowers employees to make more informed decisions and contribute more effectively to the organization\'s goals.,25,1.62,1.6
+1.62.4,Innovation contributions,"Employees can play a more active role in innovation and continuous improvement initiatives within the organization, as they are more likely to identify opportunities for improvements and efficiency gains.",25,1.62,1.6
+1.71.1,Onboarding,"self-installation / self-configuration: machine-to-machine (no human intervention),including self-training",100,1.71,1.7
+1.72.1,Healing,"Smart Things enable predictive maintenance by continuously monitoring the condition of equipment. Sensors can predict failures before they occur, allowing for timely maintenance, thereby reducing downtime and extending the life of equipment.",50,1.72,1.7
+1.72.2,Dynamic adaptation,operational efficiency augmented by intelligent agent: via machine-to-machine dynamic adaptation (no human intervention),50,1.72,1.7
+1.73.1,Communication and learning,augmented by intelligent agent: autonomous machine-to-machine communication and learning (no human intervention),50,1.73,1.7
+1.73.2,Safety,"augmented by intelligent agent: machine-to-machine, machine-to-human: interact safely with the environment, humans and other things",50,1.73,1.7
+2.1.2,Dynamic Work Order Assigning,"Dynamic Work Order Assigning takes into consideration the following criteria:
+
+
+    Work order priority
+    Associated SLAs
+    Work order due date
+    Required skills to perform work
+    Dependencies between work items/orders  
+    Job location relative to other assignments made to the dispatchable staff
+    Workload of staff
+    Staff availability hours.",20,2.1,3.4
+2.1.1,Work Order Assignment Dispatching,Dispatching of work order assignments to dispatchable staff.,20,2.1,3.4
+2.1.4,Work Order Coordination,Work Order Coordination function for coordinating work between dependent or related work orders for Network dispatchable staff.,20,2.1,3.4
+2.1.5,Work Order Re-assigning ,"Initiates re-assignments as needed based on changing priorities, technician progress on other job assignments, etc.",20,2.1,3.4
+2.2.1,Work Order Manual Activities Determining,Work Order Manual Activities Determining function provides the necessary functionality to analyze the work order and determine what manual activities are necessary.,50,2.2,3.4
+2.2.2,Work Orders Initiation ,Work Orders Initiation initiates workforce orders for Network preventive and corrective maintenance and change.,50,2.2,3.4
+2.3.1,Work Order Closing,Work Order Closing function closes completed work orders,20,2.3,3.4
+2.3.2,Work Order Information Transferring ,Work Order Information Transferring provides information transfer between the operator\'s workforce management system(s) and those of external third parties (when the infrastructure is owned and operated by third parties).,20,2.3,6.1
+2.3.3,Work Order Status Monitoring,"Monitors the status and progress of the various manual activities, including the various states of the work order",20,2.3,3.4
+2.3.4,Work Order Updating,"Work Order Updating updates the transition of the order through its various states, including in-flight changes and cancellations",20,2.3,3.4
+2.3.5,Workflow Delay Jeopardy Analyzing,"Workflow Delay Jeopardy Analyzing function should be found in any process or workflow management system and warns when a delay in the due date of a task or process step will prevent subsequent tasks from starting, or affect the overall end date of the process, also including escalation function for issues as required.",20,2.3,4.6
+2.4.1,Fleet Lifecycle and Maintenance Planning,Fleet Lifecycle and Maintenance Planning supports the administration of vehicle financing and vehicle maintenance planning.,25,2.4,3.1
+2.4.2,Fleet Tracing and Monitoring,"Fleet Tracing and Monitoring includes equipment tracing through e.g. vehicle telematics (tracking and diagnostics),",25,2.4,3.1
+2.4.3,Fleet Security and Efficiency Management,"Fleet Security and Efficiency Management includes support for driver management, speed management, fuel management and health and safety management.",25,2.4,3.1
+2.4.4,Fleet Logistic Optimization,Fleet Logistic Optimization provides fleet optimization and risk minimizing through route and utilization planning.,25,2.4,3.1
+3.1.1,Location Structure Data Configuration,"Location Structure Data Configuration provides facilities for creating, modifying and deleting location structures data according to business rules of Service Providers or national and international location regulations.",50,3.1,6.2
+3.1.2,Location Data Integrity Management,Location Data Integrity Management provides ability to maintain data integrity in the whole location repository. Its especially important if there are many external data sources that deliver new addresses for the repository.,50,3.1,6.2
+3.2.1,Network Resources Scanning,Network Resources Scanning functions are responsible for discovering the resources and their details through out a management channel. These functions may either directly communicate with the Network resources or communicate through a Resource Domain Manager.,34,3.2,3.1
+3.2.2,Network Instantiation Management,"Network Instantiation Management function will control the states of Network instances like starting of new instances and closing of instances of a Network like, but not limited to, CPU, Memory etc.",33,3.2,3.1
+3.2.3,Network Onboarding Configuration,"Network Onboarding Configuration function will configure the on boarded Networks and the relevant systems to establish integration automatically, when requested.",33,3.2,3.1
+3.3.1,Network Configuration Management,Network Configuration Management provides configuration database and management of the configurations of the individual Networks.,20,3.3,3.4
+3.3.2,Network Topology Verification,Network Topology Verification works with the Inventory Management functions to ensure that the topology reflected in its database is in sync with that in the Inventory Management Systems.,20,3.3,3.4
+3.3.3,Network Repository Retrieval,This function allows for client operations support (service assurance and billing systems) to retrieve part or all of the Network inventory known to the target OSS.,20,3.3,3.4
+3.3.4,Network Repository Updating,"Network Repository Updating function entails update of the Network Repository based on a provided collection of updates. The expectation is that the Repository is updated as requested, but no other side-effects are expected (e.g., creating an Sub Network Connection (SNC) in the network).",20,3.3,3.4
+3.3.5,Network Data Repository Synchronization,Network Data Repository Synchronization is the function that ensure OSS Inventory data generated in each function is available to other functions as required.,20,3.3,3.4
+3.4.1,Network for Service Deployment Designing,Network for Service Deployment Designing provides End-to-end Network design and architecture to support service deployments.,34,3.4,3.4
+3.4.2,Multi-layer Design and Modeling Support,"Multi-layer Design and Modeling Support provides real world multi-layer modeling and design (physical, data, transport, etc.).",33,3.4,3.4
+3.4.3,Network Design What-if Analyzing,"Network Design What-if Analyzing provides Network design functions for ""What-if configurations and modeling"" analysis.",33,3.4,3.4
+3.5.1,Network Data Pattern Recognition,Network Data Pattern Recognition provides Network fault and performance data pattern recognition.,100,3.5,4.1
+3.6.1,Stock Item Inventory Check,The Stock Item Inventory Check (a.k.a. stock taking) performs physical inventory of entire inventory or specific sub inventories.,50,3.6,4.6
+3.6.2,Stock Item Receiving Management,"Stock Item Receiving Management provides logistics management functionality controlling quality of resources received from suppliers' or from movements coming from a warehouse (quantity, status).
+It also includes controlling materials returned by customers.",50,3.6,4.6
+3.7.1,Stock Inventory Administration,Stock Inventory Administration provides a database of all stock items including location of the stock items in Warehouse.,50,3.7,4.6
+3.7.2,Stock Item Tracking,Stock Item Tracking function tracks Resources (through the Barcode) corresponding to each Stock Item for each Warehouse.,50,3.7,4.6
+3.8.1,Stock Item Requests Management,Stock Item Requests may come from Customer orders or Stock Level replenishment rules.,34,3.8,4.6
+3.8.2,Stock Item Level Tracking and Replenishment,Stock Item Level Tracking and Replenishment supports reconciliation including retrieval and update with updated stock movements notifications (i.e. Replenishment or Booking stock item requests).,33,3.8,4.6
+3.8.3,Stock Item Requests Identification,"Stock Item Requests Identification function supports supply chain management functions to identify Stock replenishment needs.
+Stock Item Requests are identified considering Stock Level in Warehouses according to Stock Level replenishment rules. It takes into account booking Stock Item Requests.
+It includes identifying Stock Item Requests to balance Stock Levels or special events requirements.",33,3.8,4.6
+3.9.1,Network Logistics Management ,Network Logistics Management functions coordinate the availability and deployment of Networks to their in-service locations.,34,3.9,4.6
+3.9.2,Material Warehousing,Material Warehousing is a Logistics Management functionality for Put-away of materials to targeted storage locations and Picking of materials to fulfill orders including Staging and assembly of materials as required.,33,3.9,4.6
+3.9.3,Supply Chain Order Shipment Tracking,"Supply Chain Order Shipment Tracking provides the necessary functionality to track the movement of shipments from point of origin through cross-docks, and to the final destination.",33,3.9,4.6
+4.1.1,Network Construction and Engineering,"Network Construction and Engineering function is responsible for planning, design, construction and capital maintenance of the network physical infrastructure.",17,4.1,3.4
+4.1.2,Physical Network Planning,"Physical Network Planning function focuses on the long-term network design of OSI layers 0-3 (physical network). This includes analysis of the network impact of a new resources, optimization of network resources, failure survivability analysis, forecasting and expansion to meet forecasted demand, and what-if analysis for new technology or different network designs. Responsible for engineering of all OSI layer 0-3 capacity and thereby monitors all equipment accordingly. Also manages capacity augmentation through hand-offs of provisioned capacity to network operations and coordinates the optimization of access facilities.",17,4.1,3.4
+4.1.3,Configurable Network Planning,"Configurable Network Planning function is responsible for the planning and capacity management of configurable switch and wireless networks (OSI layers 4+). This includes actively managing firewalls, security, planning and capacity management of our national data centers responsible for SMS and MMS messaging. Additionally, this includes management of the VoIP platforms as well as trunk planning and forecasting for wireline and wireless networks.",17,4.1,3.4
+4.1.4,Network Strategic Planning and Engineering,"Network Strategic Planning and Engineering function provides fundamental planning and engineering of wired and wireless networks across the globe. This function coordinates closely with technology labs,network operations and network construction & engineering, as well as other functions. Externally, this function works with the equipment vendors and regulatory bodies on matters affecting the industry.",17,4.1,3.4
+4.1.5,Network Planning Handoff to Engineering,Network Planning Handoff Support function provides the support for the handoff and management of approved network plans from Planning to Engineering for implementation.,16,4.1,3.4
+4.1.6,Network Space and Power Management ,"Network Space and Power Management function is responsible for managing supporting infrastructure in the form of floor space, equipment power, and Heating Ventilation and Air Conditioning (HVAC) supporting network build activities.",16,4.1,3.4
+4.2.1,Network Baseline Management,"Process  to capture the incremental network baseline.
+Process to match resource dimensioning to incremental network growth.
+Process to ensure revenue is adjusted with increase/decrease in network baseline",50,4.2,3.3
+4.2.2,Network SLA/KPI Management,"SLA/KPI Management requires understanding of contractual implications for SLA non compliance, processes for root cause analysis and proactive mitigation. 
+SLA reporting, reconciliation/ sign-off including with sub contractors and other 3rd parties.",50,4.2,1.4
+4.3.1,Network Change Capture,Network Change Capture function enables capturing detected changes and receiving planned changes to the communications network.,20,4.3,3.4
+4.3.2,Network Change Lifecycle Tracking,Network Change Lifecycle Tracking function enables monitoring and tracking the progress of network changes through their lifecycle,20,4.3,3.4
+4.3.3,Network Change Information Management,"Network Change Information Management function enables recording and providing information about planned, current and historical changes to the communications network.",20,4.3,3.4
+4.3.4,Network Change Notification and Reporting,"Network Change Notification & Reporting function supports identifying concerned parties and for originating notifications to them and status of oepn and completed changes to the communications network that may affect them, along with status updates for those changes.",20,4.3,3.4
+4.3.5,Network Change Verification and Closure,Network Change Verification and Closure function supports verifying that network changes have been completed and for closing the network change cases appropriately.,20,4.3,3.4
+4.4.1,Network Deployment Optimization,"Network Deployment Optimization determines optimum network deployments, such as tier structuring and resilient topologies.",34,4.4,3.4
+4.4.2,Strategic Network Sizing Decision Support,Support Strategic Network Sizing Decisions supports strategic decisions as to which locations and which links to grow or shrink across the network.,33,4.4,3.4
+4.4.3,Strategic Sites Determining,Strategic Sites Determining determines which locations are to become strategic sites.,33,4.4,3.4
+4.5.1,Network Resource Performance Analysis,Resource Performance Analysis Function comprises off-line analysis of the resource performance depending on rules and performance indicators (aggregated and otherwise),50,4.5,4.1
+4.5.2,Network Resource Performance Forecast,"Network Performance Forecast Function calculates forecast (ex: loads linked to the uses, number of failures, etc.) concerning the Network performance indicators based on Network Performance Analysis.",50,4.5,4.1
+4.6.1,Network Diagnostic and Test Analysis,Management of success/failure result feedback of diagnostic and correction provided by technicians or the systems after a correction; Offline analysis of the success/failure data compared to the diagnostic and correction rules to provide modifications to improve them. This analysis is done using statistical diagnostic data and performance test results to evaluate their relevance and the needed updates.,50,4.6,4.1
+4.6.2,Network Diagnostic and Test Rules Improvement,Network Diagnostic and Test Rules Improvement Function provides improvements used to update the definition of diagnostic rules and correction actions,50,4.6,4.1
+4.7.1,Radio Planning,Provides Radio Planning for cell site coverage and quality and for cell-to-cell coverage is a specialist function used in Implementation Planning.,20,4.7,4.4
+4.7.2,Network Forecasting,Network Forecasting supports forecasting functionality to be applied at different levels of detail and over different time frames. Some types of forecast are more relevant to Strategic and others more relevant to Tactical Planning. Both product volume forecasts and utilization trends are relevant to this automation function.,20,4.7,4.4
+4.7.3,Design Automation,"Provides design automation, applying algorithmic and heuristic analysis of the network in order, for example, to determine the optimum topology of a green field national, where geography and population distribution need to be taken into account.",20,4.7,4.4
+4.7.4,Network Planning Analyzing,"Network Planning Analyzing provides complex algorithmic and heuristic analysis capability for network planning and make use of market forecasts and utilization trends, and can be used to optimize the network for capacity and resilience.",20,4.7,4.4
+4.7.5,Network Demand Analyzing,"Network Demand Analyzing analyzes demand forecasts and utilization trends for the network architecture and capacity, together with the strategy for the deployment of network and IT technology within the architecture. It predominately supports processes in Strategy, Infrastructure and Product wing of the Business Process Framework.",20,4.7,4.4
+5.1.1,Service Performance Analyzing,"Service Performance Analyzing function provides the necessary functionality to analyze the performance of the various service provider\'s services. This includes:
+
+Analyzing performance data received from Service Performance Monitoring
+Notify operations functions for automatic or manual action in case of alarming analysis results
+Provide recommendations for performance improvements and trend analysis.",8,5.1,3.1
+5.1.10,Service Assurance Deviation Monitoring,Service Assurance Deviation Monitoring analyzes the monitoring information to identify deviations from set values for performance and quality indicators. Service availability deviations are also detected.,9,5.1,3.1
+5.1.11,Service Problem to Topology Correlation,Service Problem to Topology Correlation provides correlation of collected service problem status messages to service topology and comparing them to the established service monitoring model.,9,5.1,3.1
+5.1.12,Service Quality Trend Analyzing,Service Quality Trend Analyzing provides service quality evaluation of the trends over time.,9,5.1,3.1
+5.1.2,Service Performance Root Cause Analyzing,"Service Performance Root Cause Analyzing provides support for analyzing of performance data received from Service Performance Monitoring, considering service topology to support determining the root causes of service performance degradations.",8,5.1,3.1
+5.1.3,Service Performance Data Analyzing,Service Performance Data Analyzing provides aggregation and trend analyzing of collected Service Performance Data.,8,5.1,3.1
+5.1.4,Service Performance Event Correlation,"Service Performance Event Correlation maps the performance data to service topology and identifies service related performance problems, event filtering included.",8,5.1,3.1
+5.1.5,Service Root Problem Analyzing,Service Root Problem Analyzing provides analysis of customer\'s present and past problem information by correlation and consolidation of the various customer problems and resource troubles into a single root service problem.,8,5.1,3.1
+5.1.6,Service Quality Analyzing,"Service Quality Analyzing function analyzes and evaluates the quality data collected by Service Quality Monitoring, and considering the past service quality data or system environment data in the analysis, notifying operations functions for automatic or manual action in case of alarming analysis results.",8,5.1,3.1
+5.1.7,Service Quality Comparison,Comparison of the collected service quality data to the KQIs and SLOs established by SQM Establishment.,8,5.1,3.1
+5.1.8,Service Quality Improvement Analyzing,Service Quality Improvement Analyzing provides an analyzing function to provide conclusions to relevant areas to make quality improvement proposals.,8,5.1,3.1
+5.1.9,Service Quality Correlation,Provides service quality information correlation from various sources to determine root cause and impact.,9,5.1,3.1
+5.11.1,Service Problem Diagnose Supporting,"Service Problem Diagnose Supporting Function supports the service trouble cause identification via diagnostic actions (Test, inventories and historic consultation, Workforce Intervention) and interpretation rules of their results.
+The identification of the service trouble cause can be made through:
+
+Analysis of associated Service Trouble Ticket Information (first diagnostic)
+Analysis of Service alarm events (fault of performance data)
+Issuing service tests, including one time tests or a series of tests over a period of time
+Analysis of previous service test results, service usage historic, QoS historic, service platform logs, equipment logs, anomaly historic, etc.",50,5.11,3.1
+5.11.2,Service Problem Resolution,"Service Problem Resolution Function supports the identification of the necessary resolution actions, or the best identified solution, to realize to solve the problem.",50,5.11,3.1
+5.12.1,Service Trouble Grouping,Service Trouble Grouping Function is in charge of grouping Service Troubles with the same Trouble Cause and of grouping the related Service Trouble Tickets (for example: in case of a collective disturbance).,50,5.12,3.1
+5.12.2,Service Trouble Lifecycle Management,"Service Trouble Lifecycle Management Function tracks and manages the events and the lifecycle related to the Service Trouble (for example when the resolution is ended), and assures that service troubles are assigned, coordinated, efficiently solved, and escalating as needed.
+
+It manages Service Trouble closure according to business rules:
+
+the service trouble can be closed as soon as a palliative action has been done and the user retrieved a not degraded use, and at least one Resource Trouble Ticket is still ongoing
+or only when the trouble is definitely treated - all associated Resource Trouble Tickets are closed.",50,5.12,3.1
+5.13.1,Service Problem Monitoring Model Definition,Service Problem Monitoring Model Definition designs the service problem monitoring model and its dependencies.,50,5.13,3.1
+5.13.2,Service Problem Monitoring Model Establishing,"Service Problem Monitoring Model Establishing function provides establishment of models to derive, identify and mitigate Service Problems.",50,5.13,3.1
+5.14.1,Service Quality Model Definition,Service Quality Model Definition function defines the service quality model and its dependencies. It includes KQIs and SLOs specifications establishment.,100,5.14,3.1
+5.15.1,Service Performance Planning,"Service Performance Planning provides the necessary functionality to perform near term (hours/days) tactical service performance planning. This includes the means to model and explore various ""what if"" scenarios. The results may then lead to a near term network adjustment (e.g. - reroute of traffic).",100,5.15,3.1
+5.16.1,Service Performance Monitoring,Service Performance Monitoring provides monitoring of service performance data including notification and accumulation for e.g. Service Performance Dashboard.,50,5.16,3.1
+5.16.2,Service Problem SLA Monitoring,"Service Problem SLA Monitoring function compares the service problem status', severity and lapse of time against established service level agreements.",50,5.16,3.1
+5.17.1,Service Performance Reporting,"Service Performance Reporting provides the necessary functionality required to generate reports about the performance of the service provider\'s services.
+These reports may be generated as part of the normal periodic operations (""scheduled""), or may be as a result of a specific analysis request (""in-demand"").  Report types include near real time, historical view, and trend analysis.
+Relevant performance reports are also provided to service/network planning to perform network updates.",12.5,5.17,3.1
+5.17.2,Service Performance Data Collection,Service Performance Data Collection collects Service Performance Data from the Resource Management functions related to a specific Service (or directly in the absence of Resource Performance Management function) and Collection of Service Performance data from the end-to-end tests done by the service test functions internally or from external Service Test applications. Includes archiving.,12.5,5.17,3.1
+5.17.3,Service Quality Collection & Monitoring,"Service Quality Collection & Monitoring collects service quality related information from established sources, including service performance management, service problem management, third parties, and customers. Collected data is logged for further analysis and monitored for direct notification in case of significant quality deviation.",12.5,5.17,3.1
+5.17.5,Service Quality Reporting,Service Quality Reporting functions generate various reports on service quality and makes them available for consumption. E.g. Visual aids.,12.5,5.17,3.1
+5.17.6,Service Problem Monitoring Model Data Definition,"Accepting input from customer contracts, service definitions (KQIs, SLOs etc.) or changes in the service topology the function establishes the data the models needs for monitoring of services with respect to problems.",12.5,5.17,3.1
+5.17.7,Service Problem Monitoring Model Data Integration,"Establishment of data sources for monitoring of customer contracts, service definitions (KQIs, SLOs etc.) or changes in the service topology the function establishes the data the models needs for monitoring of services with respect to problems.",12.5,5.17,3.1
+5.17.8,Service Problem Messages Monitoring,Service Problem Messages Monitoring is responsible for collecting status messages for further correlation and comparison to the topology and service monitoring model.,12.5,5.17,3.1
+5.17.9,Service Problem Correction Reporting,Service Problem Correction Reporting and notification of correction status to applications and personnel responsible for problem mitigation of the services and resources.,12.5,5.17,3.1
+5.2.1,Onboarded Service Integration Configuration,"Onboarded Service Integration Configuration function will configure the on boarded service and the relevant systems to establish integration automatically, when requested. There are several system services in the infrastructure that needs to be aware and integrated with the new service.",12.5,5.2,3.2
+5.2.2,Service Data Retrieval,Service Data Retrieval provides retrieval of appropriate inventory data for example in the context of service end to end testing.,12.5,5.2,3.2
+5.2.3,Service-Resource Relationship Management Notifications,Notification of Service-Resource Relationship Management actions to relevant stakeholders.,12.5,5.2,3.2
+5.2.4,Service Repository Updating,Service Repository Updating updates information in the service inventory according to the configuration of specific services.,12.5,5.2,3.2
+5.2.5,Service to Resource Relationship Management,"Service to Resource Relationship Management provides Creation, Update and Deletion of the relations of stand-alone physical or logical resources whose assignment is critical to service\'s fulfillment, and whose tracking is critical to service operations, assurance, and billing, as well as, resources, which represent a larger resource structure supporting the service, often referred to as an Access Point.",12.5,5.2,3.1
+5.2.6,Service to Resource Relationship Synchronization,Service to Resource Relationship Synchronization function entails reconciliation of the data in a Service Inventory Management system with inventory discovered from other sources and synchronizes mismatched service inventory records.,12.5,5.2,3.1
+5.2.7,Service Instance Lifecycle Management,"Service Instance Lifecycle Management function will control the starting of new instances and closing of instances of a service as well as other activity states of the service instances.
+Software based Services performance and availability may be controlled by managing multiple instances of the service with multiple states of activity.",12.5,5.2,3.2
+5.2.8,Service Topology Discovery,Service Topology Discovery function provides the required capability to discover how resources (e.g. network) are related to each other in providing a service.,12.5,5.2,3.1
+5.3.1,Service Impact Identification,"Service Impact Identification Function enables the calculation of the impact of a resource event or set of events, depending on severity and risk level evaluation rules.
+
+The resource event can be:
+
+a resource trouble or a resource trouble ticket
+an alarm on the resource
+a work planned on the resource (Resource Order issued from a Delivery process, from infrastructure operations, from problem management) or a Project concerning the resource
+
+The nature and the estimated duration of the event can be used for the impact analysis.
+
+Different types of evaluation rules can be defined, for example:
+
+rules based on the volume of the impact (example: number of installed services using an installed resource)
+rules based on the related service level agreement (example: a unique installed service can be impacted but with a very high SLA)
+
+
+This function provides functionality to:
+
+identify impacted elements: makes the link between the impacted installed resource and directly or indirectly impacted installed services and installed products (example: an access trouble impacts services supported by the access)
+determine the level, severity and the risk level of the impact.",50,5.3,3.1
+5.3.2,Service Impact Resolution Management,"Service Impact Resolution Management Function provides functionality to:
+
+help to plan the execution in appropriate time slot, when customer agreement is required and/or to comply with SLA
+make sure that the means to process the impact are correctly identified, affected and overseen
+get back the necessary information to be able to notify the concerned customers.",50,5.3,3.1
+5.4.1,Customer Facing Service and Service Platforms Comparison,The Customer Facing Service and Service Platforms Comparison Function compares Customer Facing Service configuration with the Service configuration on the Service platform.,50,5.4,3.3
+5.4.2,Customer Facing Service and Network Equipment Comparison,The Customer Facing Service and Network Equipment Comparison Function  compares Customer Facing Service configuration with the Service configuration on the Network Equipment.,50,5.4,3.3
+5.5.1,Automatic Service Reconciliation,"The Automatic Service Reconciliation Function directly applies, rules to treat gaps between the installed Service Repository and the current state of installed Services on Service Platforms or equipment, identified by the Service Audit.
+These rules describe in which cases it is necessary to update the Service Repository, via the Service Repository Management, or to update the Service Platform itself (ex: Mobile Line and Voice Mail) through specific operations comparable to delivery ones.",50,5.5,3.1
+5.5.2,Manual Service Reconciliation Support,"The Manual Service Reconciliation Support Function defines, suggests (when no automatic rule can be applied) to an administrator to treat gaps between the installed Service Repository and the current state of installed Services on Service Platforms or equipment, identified by the Service Audit.",50,5.5,3.1
+5.6.1,Service Usage Analysis,"Service Usage Analysis Function includes:
+
+allow traffic visualization according to various criteria (produced, country, carriers, services, routings)
+analyze the traffic measured, developed and billed with KPIs such as volume in minutes, number of communications, number of messages, amount valued / charged expressed by nature by call, by products, countries, cities or regions, by operators, by network type (2G, 3G, 4G), by contracts on the market international Wholesale in purchase / sales
+deliver mobile KPIs such as the number of unique Roaming users per product (Month To Date / Year To Date)
+
+
+deliver analysis to optimize the network elements involved.",50,5.6,3.1
+5.6.2,Service Usage Forecast,Service Usage Forecast Function calculates Service Usage forecast between operators according to Service Usage Analysis.,50,5.6,3.1
+5.7.1,Service Delivery Control,"Service Delivery Control function enables control over the delivery of a service instance.  Control could be actions, such as start/stop/rewind/pause/restart-from-last-position, or changes to QoS, such as changing bandwidth, starting encryption, etc.",34,5.7,3.1
+5.7.2,Service Delivery Operation,"Service Delivery Operation  operates the service instances being delivered - e.g. streaming  a video, running a conference call, running a spyware check, running a virtual machine, etc.",33,5.7,3.1
+5.7.3,Service Delivery Information Management,"Service Delivery Information Management function supports collecting, maintaining and providing information about Service Instances that are, will be, or have been delivered. This information could include states, operational parameters, identification of the service of which an instance is being delivered, as well as of the instance itself, parties and logins associated with the service instance, etc.",33,5.7,3.1
+5.8.1,Service Problem Automatic Correction,"Service Problem Automatic Correction functions provide the necessary maintenance functionality to automatically resolve service problems back to a normal operational state or mitigation of the service problems.
+This involve automated restoration activities.",20,5.8,3.1
+5.8.2,Service Problem Configuration Verification,Supports function for Verification that service configuration matches the product features.,20,5.8,3.1
+5.8.3,Service Problem Receiving,Service Problem Receiving functions provide appropriate functionality to receive customer problems (manually or automated) that are perceived to be service affecting as well as resource troubles (faults).,20,5.8,3.1
+5.8.4,Service Problem Reporting,"Service Problem Reporting functions provide the necessary functionality to report on the status of open service problems. This includes operational reports, management reports, reports against various metrics, as well as information needed by other BSS or OSSes.",20,5.8,3.1
+5.8.5,Service Problem Tracking & Management,"Service Problem Tracking & Management functions provides necessary functionality to assure that service problems are assigned, coordinated, and restored efficiently, escalating as needed.",20,5.8,3.1
+5.9.1,Service Problem Prioritization,"Prioritization of currently open service problems, giving consideration to problem impact, service level agreement, etc. The function will send notifications to operations applications for manual or automatic mitigation or correction.",34,5.9,3.1
+5.9.2,Service Assurance Control Calculation,Service Assurance Control Calculation calculates corrective actions to prevent or restore performance and quality. The calculations are rule based and takes the services dynamics into account to perform a closed loop control to hold the performance and quality at a decided level.,33,5.9,3.1
+5.9.3,Service Assurance Trouble Mitigation,Service Assurance Trouble Mitigation have autonomic rules to minimize the lack of service by doing mitigation action e.g. restart or re-routing etc. to mitigate the negative impact for the customer from a service problem or fall-out.,33,5.9,3.1
+6.1.1,RAN Fault Assurance Metrics Generation,Fault Analytics & Metrics Generation function collects necessary data to generate fault metrics to support various assurance metrics.,34,6.1,4.1
+6.1.2,Radio Network Fault Reporting,"The Network Fault Reporting function provides the necessary functionality to provide reports about the various faults within the service provider\'s network, including the archival of these reports. This can include standard periodic operational reports as part of running the network to special reports requested by Root Cause Analysis.",33,6.1,4.1
+6.1.3,RAN Operational Status Monitoring,Operational Status Monitoring is responsible for displaying the operational status of Networks in either a tabular or graphical representation or both. The function is responsible for collecting the status messages and correlating them to Network topology.,33,6.1,4.1
+6.2.1,RAN Alarm Correlation,"Alarm Correlation includes Alarm de-duplication, Alarm auto-clearing, Alarm thresholding and Alarm Correlation that is alarm element and element topology aware for enrichment, filtering and consolidation of alarms.",100,6.2,4.1
+6.3.1,Radio Network Performance Data Analyzing,"Network Performance Data Analyzing functions provide the necessary functionality to analyze the performance of the various service provider\'s Networks.  This includes:
+
+
+    Analyzing performance data received from Network Performance Monitoring and historic performance data or system environment data
+    Notify operations applications for automatic or manual action in case of alarming analysis results
+    Determining the root causes of Network performance degradations.",12.5,6.3,4.2
+6.3.2,Radio Network Performance Event Filtering,Network Performance Event Filtering provides performance event filtering in Network performance monitoring.,12.5,6.3,4.2
+6.3.3,Radio Network Performance Data Aggregation and Trend Analyzing,Network Performance Data Aggregation and Trend Analyzing provides data aggregation and trend analysis in Network performance monitoring.,12.5,6.3,4.2
+6.3.4,Radio Network Performance Event Correlation,Network Performance Event Correlation provides performance event correlation in Network performance monitoring.,12.5,6.3,4.2
+6.3.5,Radio Network Performance Data Accumulation,"Network Performance Data Accumulation provides performance data accumulation for Network performance monitoring, including real time monitoring data.",12.5,6.3,4.2
+6.3.6,RAN Vulnerability Assessment Planning,Vulnerability Assessment Planning function for Assessing networks and systems for vulnerabilities and taking proactive action to reduce the vulnerabilities or limit the impacts if they are exploited.,12.5,6.3,2.4
+6.3.7,RAN Anomaly Monitoring,"System and network monitoring activity, determining whether it is normal or anomalous, based on rules, signatures or heuristics.",12.5,6.3,4.1
+6.3.8,RAN Anomaly Monitoring Data Analyzing,Anomaly Monitoring Data Analyzing function is analyzing monitoring Data Events by Log Correlation and Intrusion Detection Systems analysis.,12.5,6.3,4.1
+6.4.1,Radio Network Trouble Ticket Reporting,Network Trouble Ticket Reporting Function reports Network Trouble Tickets progress.,20,6.4,4.2
+6.4.2,Radio Network Trouble Ticket Repository Management,"Network Trouble Ticket Repository Management Function records Network Trouble Tickets and manages its lifecycle.
+It also manages corresponding registered Network Troubles and relationships between Network Troubles.",20,6.4,4.2
+6.4.3,Radio Network Performance Reporting,Network Performance Reporting provides the functionality required to generate reports about the performance of the service provider\'s Networks.,20,6.4,3.4
+6.4.4,Radio Network Trouble Grouping,"The Network Trouble Grouping Function groups Network Troubles with the same trouble cause (for example: in case of power failure).
+It correlates also Network Trouble Ticket, if needed: when Network Troubles with the same cause are grouped, the associated Network Trouble Tickets must also be grouped.",20,6.4,3.4
+6.4.5,Radio Network Trouble Lifecycle Management,Network Trouble Lifecycle Management Function tracks and manages the events and the lifecycle related to the Network Trouble (for example when the resolution is ended) and Trouble Ticket,20,6.4,3.4
+6.5.1,Radio Network Fault Correction & Restoration Support,Network Fault Correction & Restoration Support functions are used during repair or replacement of faulty Networks.,100,6.5,3.4
+6.6.1,Radio Network Trouble Identification,"Network Trouble Identification Function identifies and triggers diagnostic actions relevant to identify the Network trouble, depending on the Network type and rules defined by the Network Problem Policy Management function.",20,6.6,3.4
+6.6.2,Radio Network Trouble Ticket Escalation Management,Network Trouble Ticket Escalation Management Function identifies if an escalation has to be triggered and find corresponding actions when relevant.,20,6.6,3.4
+6.6.3,Radio Network Trouble Assignment Coordination,"The Network Trouble Assignment Coordination Function assures that Network troubles are assigned, coordinated, restored efficiently, and escalating as needed.",20,6.6,3.4
+6.6.4,Radio Network Problem Reception,"Network Problem Reception function receives reports or alerts of problems that are perceived to be either Network-caused or Network-affecting, and is responsible for executing policy to initiate Trouble Tickets where appropriate.",20,6.6,3.4
+6.6.5,Radio Network Problem Tracking and Management,Network Problem Tracking and Management function monitors Network problem diagnostic and resolution efforts and ensures that Network problems are remedied as efficiently as possible (including escalation).,20,6.6,4.2
+6.7.1,Radio Network Trouble Cause Identification,"Network Trouble Cause Identification Function supports the trouble causes identification, that is to say the reasons why the installed Network is in trouble and among these reasons the root cause of the Network trouble.
+It implements Network Problem Policy composed of diagnostic actions (Test, inventories and historic consultation, workforce intervention, etc.)",100,6.7,4.2
+6.8.1,Usage Event Collection,"These functions are required to support both file and event based (batch and real-time) processing when distributed to upstream systems. The events are used in the functions for charging/billing, assurance and management of customers and networks.",100,6.8,3.4
+6.9.1,Fraud & Anomaly Detection,Fraud & Anomaly Detection function indicates fraudulent use of networks or systems. This is achieved by effective Fraud Management systems coupled with the instrumentation and monitoring that enables potential fraudulent activities to be identified. There are close linkages between fraud identification and anomaly detection.,100,6.9,4.1
+10.1.1,Network Capacity Analysis,"Network Capacity Analysis function is responsible for reviewing network traffic monitoring data, performing trend analysis, utilization history analysis and problem history analysis to determine anticipated and actual network asset utilization.For ports, bandwidth and memory measures, this includes measures such as the current consumption, months to exhaust, and average monthly consumption.",34,10.1,4.1
+10.1.2,Network Capacity Planning,"Network Capacity Planning function is responsible for directing the deployment, use and capacity of network inventory in the 0-12 month timeframe to ensure the right technology is efficiently deployed and positioned to meet the service delivery needs of the market, while minimizing capital and expense.",33,10.1,4.2
+10.1.3,Network Capacity Tuning,Network Capacity Tuning function adjusts allocation of resources in response to Network Capacity Planning.It alsotriggers activation of components to meet the current demand.,33,10.1,4.2
+10.2.1,Network Traffic Monitoring,"Network Traffic Monitoring function enables performing real-time and historical surveillance of network traffic to detect traffic problems or other anomalous traffic patterns, and to trigger alerts as necessary in order to enable resolution of traffic problems.",50,10.2,4.1
+10.2.2,Network Traffic Control,"Network Traffic Controlfunction supports triggering actions to address network traffic problems, whether these actions involve changing traffic routing, changing network element configurations, requesting dispatches, or blocking traffic sources deemed to be causing problems.",50,10.2,4.1
+10.6.1,Analyse and Identify Problem in core network,"Collect statistics data from OSS, probe reports and results of prior actions. Analyse to identify the problem and optimization steps.",25,10.6,4.3
+10.6.2,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,25,10.6,4.3
+10.6.3,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",25,10.6,4.3
+10.6.4,Evaluate results and summerize,"Using data from OSS, probe reports, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",25,10.6,4.2
+11.1.1,Business Operational Usage Analyzing,"Business Operational Usage Analyzing provides functions used for mathematical and statistical analysis of Usage Data: calculating correlations, trends, and patterns using complex algorithms. Information includes, but is not limited to:
+
+on customer and consumer: calculation of the customer average revenues according to the offer range and flow (acquisition, churn, migration)
+for customers: purchase behavior",100,11.1,3.4
+11.11.1,Loyalty Product Events Collection,"Loyalty Product Events Collection Function collects the events defined by the Loyalty Product (nature and perimeter). Examples: monthly international usage volume, amount of the invoice, customer orders, interactions, customer birthday",100,11.11,1.1
+11.13.1,Product Fraud Detection,"The Fraud Detection Function consists in the detection of atypical traffics and exceptional consumption and analysis and research of the fraudulent behavior profiles.
+It consumes Product Usage Analysis, Service Usage Analysis, Invoice (in case of right diversion distance between the invoice and the valued use) and usage analysis for a specific number (Surcharged number) in front of installed base, invoiced base.",100,11.13,4.4
+11.14.1,Product Specification Usage Forecast,Product Specification Usage Forecast Function forecasts Product Usages for Product Specifications based on previous usages.,50,11.14,4.4
+11.14.3,Product Usage Collection,"Product Usage Collection Function collects all Product Usages (network probes, device agent, CDRs, Customer Premise Equipment, use of gateway).
+It also concerns usage by Customer or by the CSP.",50,11.14,4.4
+11.18.1,Customer Service Access,"Customer Service Access to functions to provide fully automated service or assisted service over customers touch points. The functions enables customers to assure the service level that they benefit from their service provider for functions like:
+
+User Account management - account management (such as contact attributes)
+Self registration to online services
+Service requests management
+Service request submission
+Service request amendment
+Service request closure
+Alerts and notifications setting
+Address book management
+Access to Knowledge Management database & solutions to common problems
+Service Requests and SLA Reporting - reports on service requests and SLA across services.",100,11.18,1.1
+11.19.1,Customer SLA Violation Tracking,Customer SLA Violation Tracking function to track and manage open Customer SLA issues.,50,11.19,1.4
+11.19.2,Customer SLA Monitoring,Customer SLA Monitoring monitors pending SLA violations before they occur (Jeopardy) by measuring current performance/commitment activity compared to SLA thresholds.,50,11.19,1.4
+11.2.1,Customer QoS Satisfaction Reporting,"Customer QoS Satisfaction Reporting Function develops a report in order to analyze the customer satisfaction in terms of QoS (QoS as seen from the customer viewpoint), from the indicators concerning the main processes:
+
+Customer Welcome,
+Customer Inquiries,
+Support to the service use,
+Claims and Complaints,
+After Sales,
+Interaction Channels.",50,11.2,1.2
+11.2.2,Product QoS Dashboard Analysis,"Product QoS Dashboard Analysis Function develops a global ""Dashboard"" in order to analyze the quality / efficiency of the service provided to the customers, measure the customer satisfaction and analyze their claims and/or troubles.
+It also includes QoS performance aggregation across groups of customers or aggregate analysis of SLA types.",50,11.2,4.4
+11.22.1,Customer SLA Violation Quantification,Customer SLA Violation Quantification function enables one to quantify the violation in terms of adjustments or actions per the contract (Per the SLA contract).,50,11.22,4.2
+11.22.2,Customer SLA Violation Remedy Initiation,Customer SLA Violation Remedy Initiation function provides the necessary functionality to pass adjustment or action on to billing or appropriate systems for remedy.,50,11.22,4.2
+11.23.1,Root Cause Diagnostics,"Root Cause Diagnostics provides diagnostic functions to determine the source (root cause) of the problem and Update the case with a Cause Code
+
+Use a detailed physical, logical and service inventory to create an up-to-date detailed customer connectivity/topology view
+Correlate various events associated with customer contact to determine the source
+Use the result of Diagnostics /Testing tools to determine the actual cause.",50,11.23,4.2
+11.23.3,Knowledge Support Access,Knowledge Support Access provides customer browsing function to undertake Self Service access to Knowledge Management database & solutions to common problems.,50,11.23,1.1
+11.3.2,Product Performance Management,"Product Specification Performance Management  function ensures the products' success and optimization throughout their lifecycles. This function involves monitoring, analyzing, and enhancing products' performance based on key metrics, customer feedback, and market trends. Key responsibilities include:
+1. Performance Monitoring: Continuously track product specification performance metrics such as sales, customer satisfaction, and operational efficiency.
+2. Data Analysis: Collect and analyze data to identify trends and areas for improvement.
+3. Customer Feedback: Gather and assess customer feedback to make informed product specification adjustments.
+4. Competitive Analysis: Evaluate market competition inform decisions to update the product specifications to maintain a competitive edge.
+5. Optimization: Recommend changes and improvements to enhance product specification performance and meet customer needs.
+6. Lifecycle Management: Plan for product specification updates, revisions, and, if necessary, discontinuation.
+7. Quality Control: Ensure product quality and reliability meet or exceed industry standards.
+8. Pricing Strategies: Adjust pricing based on performance and market dynamics.
+9. Resource Allocation: Allocate resources effectively to support product specification enhancements.",100,11.3,4.4
+11.38.1,Enterprise Processes Information Management,"Managing the information related to experiences, enterprise processes, practices, market etc.",20,11.38,6.1
+11.38.2,Collaboration Information Updating,Collaboration Information Updating provides using and sharing of information to enhance knowledge.,20,11.38,6.1
+11.38.5,Knowledge Sharing Policy Processing,Knowledge Sharing Policy Processing Applies rules and policies for sharing of knowledge.,20,11.38,6.3
+11.38.7,Knowledge Tailoring,Knowledge Tailoring provides tailoring of the knowledge items for different discovery and listing requirements.,20,11.38,6.1
+11.38.8,Knowledge Identification,Knowledge Identification identifies enterprise vital knowledge from internal and external sources.,20,11.38,5.5
+11.41.1,Enterprise Security Risk Identification,"The Enterprise Security Risk Identification Function is in charge of identifying security risk and security risk level on various security aspects.
+
+Security concerns several parts:
+ CSP financial and legal security
+ Personnel security (employees in their work environment, customers)
+ Site security (buildings)
+ Network, Service Platform and IS infrastructure security
+ Information security (GDPR, confidentiality, defense secrecy)
+
+The CSP Security Policy may be applied to these different parts, and its implementation may be carried out in operational functions of collection, control, supervision and analysis.",34,11.41,3.2
+11.41.2,Security Rules Definition,"The Security Rules Definition Function enables the definition of security rules and the means to verify compliance (processes, tools, organization, etc.).
+
+Security concerns several parts:
+ CSP financial and legal security
+ Personnel security (employees in their work environment, customers)
+ Site security (buildings)
+ Network, Service Platform and IS infrastructure security
+ Information security (GDPR, confidentiality, defense secrecy)
+The CSP Security Policy may be applied to these different parts.",33,11.41,3.2
+11.41.3,Security Rules Implementation,"The Security Rules Implementation Function is in charge of the implementation of security rules and the means to verify compliance (processes, tools, organization, etc.).
+
+Security concerns several parts:
+ CSP financial and legal security
+ Personnel security (employees in their work environment, customers)
+ Site security (buildings)
+ Network, Service Platform and IS infrastructure security
+ Information security (GDPR, confidentiality, defense secrecy)
+The CSP Security Policy may be applied to these different parts, and its implementation may be carried out in operational functions of collection, control, supervision and analysis.",33,11.41,3.2
+11.42.1,Anomaly Pattern Collection,"This function collects and stores ""patterns"" from various
+sources for use in anomaly detection. It takes input from a pattern discovery or pattern management source to be used internally for anomaly pattern processing.",7.7,11.42,4.1
+11.42.2,Anomaly Normal Description Capture,"Anomaly Normal-Day Description Capture function is used to capture reference points to be used in the anomaly pattern processing. It takes as inputs of ""normal-day"" behavior, trend or pattern etc. and outputs a categorization of patterns.",7.7,11.42,4.1
+11.42.3,Anomaly Pattern Correlation,This function exposes analysis of the correlation between different anomaly patterns and their possible causes and impacts.  It takes as input a pattern dataset and outputs the correlations between different anomaly patterns.,7.7,11.42,4.1
+11.42.4,Anomaly Learning,This function uses training methods to train and update the anomaly detection models based on data patterns and feedback (man/machine). It takes as input a dataset and outputs a model that can identify anomalies.,7.7,11.42,4.1
+11.42.5,Anomaly Alerting,"This function sends alerts out (to users or other components) when an anomaly is detected. It takes as input the data and the model from the Anomaly Learning function, and outputs a signal to alert when the model identifies anomalies.",7.7,11.42,4.1
+11.42.6,Anomaly Reporting,"This function generates and renders reports on the detected anomalies and their details. It takes as input the data and the anomalies identified, and outputs a report detailing these anomalies.",7.7,11.42,4.1
+11.42.7,Anomaly Pattern Analysis,This function performs statistical and graphical analysis on patterns received and inferred to identify trends and outliers. It takes as input patterns and outputs an analysis of the patterns found to be outliers.,7.7,11.42,4.1
+11.42.8,Univariate Anomaly Detection,"Detects anomalies in one variable, like revenue, cost, etc. The model is selected automatically based on pattern. It takes as input a univariate dataset and outputs the identified anomalies.",7.7,11.42,4.1
+11.42.9,Multi Variate Anomaly Detection,"Detects anomalies in multiple variables with correlations, which are usually gathered from products, services or resources (including devices, IoT and equipment etc.) or other complex systems. It takes as input a multivariate dataset and outputs the identified anomalies.",7.7,11.42,4.1
+11.42.10,Anomaly Model Selection,"This function selects the best-fitting anomaly detection model from own or a external model repository for a given data set or scenario. It takes as input a dataset and potential models, and outputs the best model for a given anomaly detection requirement.",7.7,11.42,4.1
+11.42.11,Realtime Anomaly Inferencing,"This function (a.k.a Streaming Detection) performs anomaly detection on real-time data streams using a given or selected model. It takes as input new data and the selected model, and outputs identified anomalies in real-time.",7.7,11.42,4.1
+11.42.12,Anomaly Batch Inferencing,"This function performs anomaly detection on batch data sets using given or selected model. It takes as input a batch of new data and the selected model, and outputs identified anomalies.",7.7,11.42,4.1
+11.42.13,Anomaly Pattern Matching,"This function compares the detected anomalies with known anomaly patterns to find similarities and differences. It will compare observed patterns to known patterns (either anomalous or non-anomalous) to identify matches. It takes input from a dataset and a set of known patterns, and output matches between the observed and known patterns.",7.6,11.42,4.1
+11.43.1,Prediction Data Collection,"This function collects the data that will be used for prediction. It takes as input raw data optimized for anomaly prediction, and outputs a dataset that is ready for anomaly prediction processing actions.",10,11.43,4.1
+11.43.2,Anomaly Prediction Description Capture,Anomaly Prediction Description Capture the prediction expectation and goal. It takes as input a machine/man provided prediction requirement scenario and outputs a categorize prediction pattern expectation confirmation.,10,11.43,4.1
+11.43.3,Anomaly Prediction Data Preprocessing,"Cleans and transforms the ingested anomaly prediction data to make it suitable for predictive analysis. The input is the raw anomaly targeted data and the output is the processed data, ready for predictive processing.",10,11.43,4.1
+11.43.4,Anomaly Prediction Model Training,This function trains a machine learning model on a prediction optimized dataset. The input to this function is the preprocessed data and the output is a trained anomaly prediction model that can make anomaly predictions,10,11.43,4.1
+11.43.5,Anomaly Prediction,"Function uses the trained model to predict anomalies in new data. The input is new, unseen data and the output is the anomaly prediction of whether each data point is an anomaly.",10,11.43,4.1
+11.43.6,Anomaly Prediction Result Interpreter,The function interprets the results of the anomalies predicted. The input is the prediction results and the output is an interpretation of these results based on performance measures. .,10,11.43,4.1
+11.43.7,Anomaly Prediction Alerting,The function generates alerts based on the interpreted prediction results. The input is the interpreted results and the output is alerts for any predicted anomalies.,10,11.43,4.1
+11.43.8,Anomaly Prediction Model Updater,"This function updates the prediction model based on new data and feedback. The input is new data and feedback on anomaly prediction performance, and the output is an updated anomaly prediction model.",10,11.43,4.1
+11.43.9,Anomaly Prediction Reporting,"This function generates anomaly prediction reports summarizing the prediction results based on a given period. The input is a period of focus, with the interpreted prediction results and the output is a report summarizing anomaly prediction results.",10,11.43,4.1
+11.43.10,Anomaly Prediction Reporting Visualization,"This function visualizes anomaly prediction results in a graphical format. The input is the prediction results, visualization expectations and the output is a visual representation of anomaly predictions by visualization and/or by period.",10,11.43,4.1
+11.44.1,Anomaly Cause Indication ,"This function identifies the potential causes of detected anomalies. The input to this function reference sources of data and detected anomalies, and the output is the potential narrowed down points of causes of detected anomalies.",20,11.44,4.1
+11.44.2,Anomaly Mitigation Pattern Correlation,"The function identifies correlations between different anomaly mitigation patterns and uses this information to inform mitigation strategies for current predicted anomalies. The input to this function would be anomaly Mitigation plans or anomaly Mitigation runbooks correlated to detected anomalies, and the output is the correlations between different anomaly mitigation strategies.",20,11.44,4.1
+11.44.3,Anomaly Mitigation Planner,"A function that establishes the set strategy/plan on how to mitigate detected anomalies. The input to this function is sources of data, the detected anomalies, and the correlations between different anomalies, and the is a plan for mitigating the detected anomalies.",20,11.44,4.1
+11.44.4,Anomaly Mitigation Learning,"This function learns from past anomalies mitigation plans and results to improve future anomaly mitigation plans. The input to this function is the sources of data underpinning the anomaly detected, knowledge/history of past anomaly mitigation outcomes/performance, and the output is an improved anomaly mitigation model for future anomaly mitigation.",20,11.44,4.1
+11.44.5,Anomaly Mitigation Reporter,"The function generates anomaly mitigation plan reports about detected anomalies and the mitigation plans and efforts. The input is detected anomalies, incidents, trouble tickets, problem management reports, mitigation plan/efforts, and the output is a report detailing anomalies and status of mitigation efforts.",20,11.44,4.1
+11.9.1,Customer Loyalty Score Balance Management,"Customer Loyalty Score Balance Management function calculates the score according to accumulation/decrease rules. When a customer subscribes to the loyalty program with more than one SIM or other traffic objects, the Score Management accumulates the points into a single balance. The loyalty score could decrease for one of the following events: prize purchase, points expiry or points deletion by Call Center. The functionality may also include the visualization of Score details (date, description event type, points, final score) via different contact Channels (e.g. via Web, IVR, Call Center).",50,11.9,1.1
+11.9.2,Customer Loyalty Communication,"Customer Loyalty Communication function sends information related to Loyalty Programs (Point Balance, Prize Request status, renewed Loyalty Code) to external components in push and pull modes.",50,11.9,1.1
+12.2.1,AO Solution Architecture,"The solution architecture should support Intent driven architecture, zero touch processing and closed loop architecture",25,12.2,3.2
+12.2.2,AO Solution Integration,"The capability of a system to do seamless cross domain integration using open API such as TM Forum ODA (Open Digital Architecture). Information flow and exchange is using standard, scalable protocols such as JSON to facilitate multi vendor multi technology integrations.",25,12.2,3.2
+12.2.3,AO Infrastructure,"The process for management of different environments (Development, ML Training, Testing, Production, Maintenance, etc) based on AO initiative project requirements including data privacy, security and legal compliance. How the environment scalability is handled (CPU/GPU/memory resources) of the underpinning applications, infrastructure components, ML training environment correlation between performance and capacity metrics for the in-scope components and cloud strategy (private, public, hybrid) and connectivity needs.",25,12.2,3.2
+12.2.4,AO Security Architecture,"The capability for definition and implementation of solution redundancy, business continuity plan and design for failure (DDF) architecture.",25,12.2,3.2
+12.3.1,People Skill,"Understanding of general skills for development and implementation of AO - suited for various roles such as Project Manager, Business/Solution Architects, AI Engineers, SW Engineers, Data Scientists, Data Engineers, Domain SMEs, etc.",15,12.3,3.3
+12.3.2,Applications & Platforms,"Measure the extend to which the technology and application platforms and tools used by the organization, efficiently address AO Technology requirements, during project\'s lifetime.",15,12.3,3.3
+12.3.3,Application Connectivity,"Evaluate the ability to establish and maintain reliable and secure communication channels between different devices, systems, networks and stakeholders, across AO solutions.",14,12.3,3.3
+12.3.4,Virtualization of Compute Resources and Network,Measure the extend of virtualization of network and compute resources in the different applications that are used to deliver the AO projects.,14,12.3,3.3
+12.3.5,Data Center,"Measure how AO infrastructure is managed effectively, throughout its lifecycle.",14,12.3,3.3
+12.3.6,Cloud Infrastructure,Evaluate the degree to which cloud native solutions in application architecture and delivery is used for AO solutions.,14,12.3,3.3
+12.3.7,IoT Initiative,"It measures how effectively and efficiently the system is connected with device manufacturers, IoT platform and solution providers in order to create and deliver vertical services over AO.",14,12.3,3.3
+12.4.1,Requirement Definition,"Measure how effectively and efficiently Business Requirements (Business Architecture) are translated into AO functional and technical capabilities (Technology Architecture).
+It also measures how effectively the AO initiative requirements and specifications (products, services, processes, capabilities) are defined according to AO strategic objectives.",25,12.4,3.4
+12.4.2,Design and Development,"It evaluates how Design and Development of the AO initiative, and the related SW and HW components (apps, data, AI/ML models, infrastructure) as well as the required capacity and integrations, is implemented",25,12.4,3.4
+12.4.3,Deployment,It evaluates how mature is the process of operationalizing and deploying relevant and business-critical autonomous systems and operations following priciples of CI/CD,25,12.4,3.4
+12.4.4,Maintenance,"Effective maintenance of AO projects with respect to Perfromance, Change Management and Availability.",25,12.4,3.4
+10.3.1,Identify Problem related to customer complaint,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.3,4.3
+10.3.2,Analyse customer complaint and network problem,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.3,4.3
+10.3.3,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,20,10.3,4.3
+10.3.4,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",20,10.3,4.3
+10.3.5,Evaluate results and summerize,"Using data from OSS, drive test, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",20,10.3,4.2
+10.4.1,Identify Problem related to customer complaint,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.4,4.3
+10.4.2,Analyse customer complaint and network problem,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.4,4.3
+10.4.3,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,20,10.4,4.3
+10.4.4,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",20,10.4,4.3
+10.4.5,Evaluate results and summerize,"Using data from OSS, drive test, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",20,10.4,4.2
+10.5.1,Identify Problem related to customer complaint,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.5,4.3
+10.5.2,Analyse customer complaint and network problem,"Collect statistics data from OSS, drive test reports and results of prior actions. Analyse to identify the problem and optimization steps.",20,10.5,4.3
+10.5.3,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,20,10.5,4.3
+10.5.4,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",20,10.5,4.3
+10.5.5,Evaluate results and summerize,"Using data from OSS, drive test, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",20,10.5,4.2
+10.7.1,Analyse and Identify Problem in IP network,"Collect statistics data from OSS, probe reports and results of prior actions. Analyse to identify the problem and optimization steps.",25,10.7,4.3
+10.7.2,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,25,10.7,4.3
+10.7.3,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",25,10.7,4.3
+10.7.4,Evaluate results and summerize,"Using data from OSS, probe reports, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",25,10.7,4.2
+10.8.1,Analyse and Identify Problem related to QoE and app experience,"Collect statistics data from probe reports, user plane and control plane in real time. Analyse to identify the problem and optimization steps.",25,10.8,4.3
+10.8.2,Optimization solution,Evaluate best solution for improvement and the potential impact when applying the optimization solution.,25,10.8,4.3
+10.8.3,Solution Implementation,"Make optimization plan details about actions to be taken, solution implementation and verifications steps that improvement has happened.",25,10.8,4.3
+10.8.4,Evaluate results and summerize,"Using data from probe reports, user plane and control plane, compare and make detailed report of performance KPI before and after applying the solution. Summerize problem and solution in detail to prevent problem from happening again.",25,10.8,4.2
+11.20.1,Product Performance Measurement,"The Product Performance Measurement Function enables Product functioning to be measured (in real-time or not).
+
+It includes:
+ filtering, aggregation of the collected information
+ analysis of
+      different types of information
+      results of tests or historic of tests
+      product usage
+      traffic degradations.
+ enrich or calculate product quality and performance indicators (includes KQI, KPI)
+      Examples of KQI: time to repair warranty, availability percentage on a time slot, percentage of correct vocal quality communications.",50,11.20,4.2
+11.20.2,Product Performance Supervision,"The Product Performance Supervision Function enables Product to be supervised, in order to prevent the product quality and performance degradation, with an on-the-fly analysis.
+
+It includes:
+ analysis and evaluation of product performance indicators evolution
+ it compares these information and indicators with expected values or pre-established limits
+      when there is a great augmentation of product use and traffic congestion it can trigger a trouble ticket that will be handled via problem management.",50,11.20,4.2
+11.30.2,Product Performance Analysis,"Product Performance Analysis Function comprises off-line analysis of product performance and forecasts concerning the product performance indicators, depending on rules and indicators defined through Product Supervision Strategy and Policy Management.
+
+It calculates product quality and performance indicators (aggregated or not) and produces statistics and forecasts concerning the product quality and performance indicators, based on the following information:
+ indicators already calculated by the Product Quality and Performance Supervision function
+ aggregated product usages
+ historic of product test
+ product trouble ticket
+
+The information produced can also be used to improve the rules and indicators definition of Product Supervision Strategy and Policy Management.",50,11.30,4.4
+12.5.1,AO Innovation Mindset,Innovation spirit and AO Mindset from start.,25,12.5,5.1
+12.5.2,AO Innovation Investment,"Investment in own organization - people, process and budget.",25,12.5,5.1
+12.5.3,Foster AO Innovation,Actively foster AO Innovation from within.,25,12.5,5.1
+12.5.4,AO Innovation Transparency,Transparently share and promote innovation and related practices.,25,12.5,5.1
+12.6.1,AO Quality Excellence,Management of AO Quality and Excellence,25,12.6,5.2
+12.6.2,AO Defect Reduction,Reduce risk and solution/delivery defect - Zero Defect.,25,12.6,5.2
+12.6.3,AO Delivery - First Time Right,Measure First time right delivery,25,12.6,5.2
+12.6.4,Long Term AO skill Development,"AO skill development (learning, training, practicing and measurement)",25,12.6,5.2
+12.7.1,Leadership,Measure how is Leadership promoting and driving an AO culture,34,12.7,5.3
+12.7.2,AO Mindset,Focus on AO first in all processes.,33,12.7,5.3
+12.7.3,Setting & Embedding Business Values,"Measure how AO is one of the most important topic that focuses to shape organizational culture, behaviors and mindsets.",33,12.7,5.3
+12.8.1,Organization Vision Alignment,The process of creating unity between the companys AO vision of success and the way leaders and individual contributors drive business results.,34,12.8,5.4
+12.8.2,Customer Centricity,The organisation\'s shared AO value and Zero-X initiatives are aligned to deliver an optimal customer experience.,33,12.8,5.4
+12.8.3,Organization Framework & Methodologies,The organisation has the ability to choose the right frameworks and methodologies (including reward and performance review) which supports the AO vision. And align across the company culture and vision.,33,12.8,5.4
+12.9.1,Working Environment,The condition or space that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality.,20,12.9,5.5
+12.9.2,Supporting Tools,A piece of equipment or a system or a software application that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality.,20,12.9,5.5
+12.9.3,Corporate Policies,"The set principles, guidelines, performance and reward system that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality.",20,12.9,5.5
+12.9.4,Knowledge Capturing,The method to record and retrieve 'understanding or skill gained by experience,20,12.9,5.5
+12.9.5,Knowledge Sharing,Purposely pass to others on 'Understanding or skill gained by experience,20,12.9,5.5
+3.10.1,Stock Item Availability Check,"Stock Item Availability Check Function allows one to:
+
+
+    Check the availability of tangible products in warehouses
+    Get the delivery duration ",100,3.10,4.6
+5.10.1,Service Problem Diagnostic Design,"Service Problem Diagnose Design Function defines diagnostic actions to identify the service problem cause. It includes:
+
+Diagnostic actions and rules to identify the service trouble
+
+   - For example: simple Service test or Service test scenario, inventories consultation to identify installed service and associated installed resources, test historic consultation, etc.
+
+Diagnostic actions and rules to identify the service trouble cause(s) and the possible root cause
+
+   - For example: Plan workforce intervention to check an equipment, launch test scenario, query QoS historic, followed by service test launch if the installed service has a decreasing QoS, query service usage historic, service platforms logs, equipment\'s logs, anomaly historic, etc.",20,5.10,3.1
+5.10.2,Service Problem Resolution Design,"Service Problem Resolution Design Function defines resolution actions according to diagnostic results. It includes:
+
+Definition of the logic of interpretation of the results of these diagnostic actions, to identify resolution actions. These resolution actions can be temporary or palliative, to quickly stop the trouble, and followed by other actions which will definitely treat the trouble cause.
+
+   - Example: to immediately solve an internet access break, we can provide the customer with a specific equipment which permits wireless connection on 3G/4G network so he can wait for its internet access repair.
+
+Definition of notification action, depending on the trouble or the trouble cause identified, for example display a message on the CSP web site, or broadcast a vocal message on IVR in case of collective trouble.",20,5.10,3.1
+5.10.3,Service Problem Types and Rules Design,"Service Problem Types and Rules Design Function allows to manage the service problem typology describing all the types of known troubles related to a service type.
+It is also possible to define rules to manage Service Trouble Tickets and Service Trouble priorities, depending on SLA products subscribed (or assigned by regulatory authorities, to hospitals, strategic installations, etc.).",20,5.10,3.1
+6.10.1,CN Fault Assurance Metrics Generation,Fault Analytics & Metrics Generation function collects necessary data to generate fault metrics to support various assurance metrics.,34,6.10,4.1
+6.10.2,Core Network Fault Reporting,"The Network Fault Reporting function provides the necessary functionality to provide reports about the various faults within the service provider\'s network, including the archival of these reports. This can include standard periodic operational reports as part of running the network to special reports requested by Root Cause Analysis.",33,6.10,4.1
+6.10.3,CN Operational Status Monitoring,Operational Status Monitoring is responsible for displaying the operational status of Networks in either a tabular or graphical representation or both. The function is responsible for collecting the status messages and correlating them to Network topology.,33,6.10,4.1
+6.11.1,CN Alarm Correlation,"Alarm Correlation includes Alarm de-duplication, Alarm auto-clearing, Alarm thresholding and Alarm Correlation that is alarm element and element topology aware for enrichment, filtering and consolidation of alarms.",100,6.11,4.1
+6.12.1,Core Network Performance Data Analyzing,"Network Performance Data Analyzing functions provide the necessary functionality to analyze the performance of the various service provider\'s Networks.  This includes:
+
+
+    Analyzing performance data received from Network Performance Monitoring and historic performance data or system environment data
+    Notify operations applications for automatic or manual action in case of alarming analysis results
+    Determining the root causes of Network performance degradations.",12.5,6.12,4.2
+6.12.2,Core Network Performance Event Filtering,Network Performance Event Filtering provides performance event filtering in Network performance monitoring.,12.5,6.12,4.2
+6.12.3,Core Network Performance Data Aggregation and Trend Analyzing,Network Performance Data Aggregation and Trend Analyzing provides data aggregation and trend analysis in Network performance monitoring.,12.5,6.12,4.2
+6.12.4,Core Network Performance Event Correlation,Network Performance Event Correlation provides performance event correlation in Network performance monitoring.,12.5,6.12,4.2
+6.12.5,Core Network Performance Data Accumulation,"Network Performance Data Accumulation provides performance data accumulation for Network performance monitoring, including real time monitoring data.",12.5,6.12,4.2
+6.12.6,CN Vulnerability Assessment Planning,Vulnerability Assessment Planning function for Assessing networks and systems for vulnerabilities and taking proactive action to reduce the vulnerabilities or limit the impacts if they are exploited.,12.5,6.12,2.4
+6.12.7,CN Anomaly Monitoring,"System and network monitoring activity, determining whether it is normal or anomalous, based on rules, signatures or heuristics.",12.5,6.12,4.1
+6.12.8,CN Anomaly Monitoring Data Analyzing,Anomaly Monitoring Data Analyzing function is analyzing monitoring Data Events by Log Correlation and Intrusion Detection Systems analysis.,12.5,6.12,4.1
+6.13.1,Core Network Trouble Ticket Reporting,Network Trouble Ticket Reporting Function reports Network Trouble Tickets progress.,20,6.13,4.2
+6.13.2,Core Network Trouble Ticket Repository Management,"Network Trouble Ticket Repository Management Function records Network Trouble Tickets and manages its lifecycle.
+It also manages corresponding registered Network Troubles and relationships between Network Troubles.",20,6.13,4.2
+6.13.3,Core Network Performance Reporting,Network Performance Reporting provides the functionality required to generate reports about the performance of the service provider\'s Networks.,20,6.13,3.4
+6.13.4,Core Network Trouble Grouping,"The Network Trouble Grouping Function groups Network Troubles with the same trouble cause (for example: in case of power failure).
+It correlates also Network Trouble Ticket, if needed: when Network Troubles with the same cause are grouped, the associated Network Trouble Tickets must also be grouped.",20,6.13,3.4
+6.13.5,Core Network Trouble Lifecycle Management,Network Trouble Lifecycle Management Function tracks and manages the events and the lifecycle related to the Network Trouble (for example when the resolution is ended) and Trouble Ticket,20,6.13,3.4
+6.14.1,Core Network Fault Correction & Restoration Support,Network Fault Correction & Restoration Support functions are used during repair or replacement of faulty Networks.,100,6.14,3.4
+6.15.1,Core Network Trouble Identification,"Network Trouble Identification Function identifies and triggers diagnostic actions relevant to identify the Network trouble, depending on the Network type and rules defined by the Network Problem Policy Management function.",20,6.15,3.4
+6.15.2,Core Network Trouble Ticket Escalation Management,Network Trouble Ticket Escalation Management Function identifies if an escalation has to be triggered and find corresponding actions when relevant.,20,6.15,3.4
+6.15.3,Core Network Trouble Assignment Coordination,"The Network Trouble Assignment Coordination Function assures that Network troubles are assigned, coordinated, restored efficiently, and escalating as needed.",20,6.15,3.4
+6.15.4,Core Network Problem Reception,"Network Problem Reception function receives reports or alerts of problems that are perceived to be either Network-caused or Network-affecting, and is responsible for executing policy to initiate Trouble Tickets where appropriate.",20,6.15,3.4
+6.15.5,Core Network Problem Tracking and Management,Network Problem Tracking and Management function monitors Network problem diagnostic and resolution efforts and ensures that Network problems are remedied as efficiently as possible (including escalation).,20,6.15,4.2
+6.16.1,Core Network Trouble Cause Identification,"Network Trouble Cause Identification Function supports the trouble causes identification, that is to say the reasons why the installed Network is in trouble and among these reasons the root cause of the Network trouble.
+It implements Network Problem Policy composed of diagnostic actions (Test, inventories and historic consultation, workforce intervention, etc.)",100,6.16,4.2
+6.17.1,IP and BH Fault Assurance Metrics Generation,Fault Analytics & Metrics Generation function collects necessary data to generate fault metrics to support various assurance metrics.,34,6.17,4.1
+6.17.2,IP and BH Network Fault Reporting,"The Network Fault Reporting function provides the necessary functionality to provide reports about the various faults within the service provider\'s network, including the archival of these reports. This can include standard periodic operational reports as part of running the network to special reports requested by Root Cause Analysis.",33,6.17,4.1
+6.17.3,IP and BH Operational Status Monitoring,Operational Status Monitoring is responsible for displaying the operational status of Networks in either a tabular or graphical representation or both. The function is responsible for collecting the status messages and correlating them to Network topology.,33,6.17,4.1
+6.18.1,IP and BH Network Alarm Correlation,"Alarm Correlation includes Alarm de-duplication, Alarm auto-clearing, Alarm thresholding and Alarm Correlation that is alarm element and element topology aware for enrichment, filtering and consolidation of alarms.",100,6.18,4.1
+6.19.1,IP and BH Network Performance Data Analyzing,"Network Performance Data Analyzing functions provide the necessary functionality to analyze the performance of the various service provider\'s Networks.  This includes:
+
+
+    Analyzing performance data received from Network Performance Monitoring and historic performance data or system environment data
+    Notify operations applications for automatic or manual action in case of alarming analysis results
+    Determining the root causes of Network performance degradations.",12.5,6.19,4.2
+6.19.2,IP and BH Network Performance Event Filtering,Network Performance Event Filtering provides performance event filtering in Network performance monitoring.,12.5,6.19,4.2
+6.19.3,IP and BH Network Performance Data Aggregation and Trend Analyzing,Network Performance Data Aggregation and Trend Analyzing provides data aggregation and trend analysis in Network performance monitoring.,12.5,6.19,4.2
+6.19.4,IP and BH Network Performance Event Correlation,Network Performance Event Correlation provides performance event correlation in Network performance monitoring.,12.5,6.19,4.2
+6.19.5,IP and BH Network Performance Data Accumulation,"Network Performance Data Accumulation provides performance data accumulation for Network performance monitoring, including real time monitoring data.",12.5,6.19,4.2
+6.19.6,IP and BH Network Vulnerability Assessment Planning,Vulnerability Assessment Planning function for Assessing networks and systems for vulnerabilities and taking proactive action to reduce the vulnerabilities or limit the impacts if they are exploited.,12.5,6.19,2.4
+6.19.7,IP and BH Network Anomaly Monitoring,"System and network monitoring activity, determining whether it is normal or anomalous, based on rules, signatures or heuristics.",12.5,6.19,4.1
+6.19.8,IP and BH Network Anomaly Monitoring Data Analyzing,Anomaly Monitoring Data Analyzing function is analyzing monitoring Data Events by Log Correlation and Intrusion Detection Systems analysis.,12.5,6.19,4.1
+6.20.1,IP and BH Network Trouble Ticket Reporting,Network Trouble Ticket Reporting Function reports Network Trouble Tickets progress.,20,6.20,4.2
+6.20.2,IP and BH Network Trouble Ticket Repository Management,"Network Trouble Ticket Repository Management Function records Network Trouble Tickets and manages its lifecycle.
+It also manages corresponding registered Network Troubles and relationships between Network Troubles.",20,6.20,4.2
+6.20.3,IP and BH Network Performance Reporting,Network Performance Reporting provides the functionality required to generate reports about the performance of the service provider\'s Networks.,20,6.20,3.4
+6.20.4,IP and BH Network Trouble Grouping,"The Network Trouble Grouping Function groups Network Troubles with the same trouble cause (for example: in case of power failure).
+It correlates also Network Trouble Ticket, if needed: when Network Troubles with the same cause are grouped, the associated Network Trouble Tickets must also be grouped.",20,6.20,3.4
+6.20.5,IP and BH Network Trouble Lifecycle Management,Network Trouble Lifecycle Management Function tracks and manages the events and the lifecycle related to the Network Trouble (for example when the resolution is ended) and Trouble Ticket,20,6.20,3.4
+6.21.1,IP and BH Network Fault Correction & Restoration Support,Network Fault Correction & Restoration Support functions are used during repair or replacement of faulty Networks.,100,6.21,3.4
+6.22.1,IP and BH Network Trouble Identification,"Network Trouble Identification Function identifies and triggers diagnostic actions relevant to identify the Network trouble, depending on the Network type and rules defined by the Network Problem Policy Management function.",20,6.22,3.4
+6.22.2,IP and BH Network Trouble Ticket Escalation Management,Network Trouble Ticket Escalation Management Function identifies if an escalation has to be triggered and find corresponding actions when relevant.,20,6.22,3.4
+6.22.3,IP and BH Network Trouble Assignment Coordination,"The Network Trouble Assignment Coordination Function assures that Network troubles are assigned, coordinated, restored efficiently, and escalating as needed.",20,6.22,3.4
+6.22.4,IP and BH Network Problem Reception,"Network Problem Reception function receives reports or alerts of problems that are perceived to be either Network-caused or Network-affecting, and is responsible for executing policy to initiate Trouble Tickets where appropriate.",20,6.22,3.4
+6.22.5,IP and BH Network Problem Tracking and Management,Network Problem Tracking and Management function monitors Network problem diagnostic and resolution efforts and ensures that Network problems are remedied as efficiently as possible (including escalation).,20,6.22,4.2
+6.23.1,IP and BH Network Trouble Cause Identification,"Network Trouble Cause Identification Function supports the trouble causes identification, that is to say the reasons why the installed Network is in trouble and among these reasons the root cause of the Network trouble.
+It implements Network Problem Policy composed of diagnostic actions (Test, inventories and historic consultation, workforce intervention, etc.)",100,6.23,4.2
+6.24.1,Network End-To-End Performance Monitoring,Network End-To-End Performance Supervision provides integration with ERP applications for End  End supervising the Network performance.,100,6.24,4.2
+11.15.1,Service Specification & Offering Simulation,Service Specification & Offering Simulation Function simulates Service Specification configuration and Service Offerings on the real traffic of the customer thanks to Tariff Calculation and Rating.,50,11.15,4.4
+11.15.2,Pushed Offer Identification,"Pushed Offer Identification Function identifies offers adapted to the customer needs including personalized offers. Based on a customer\'s individualized knowledge (Marketing one to one), the aim is to elaborate for each customer
+according to his needs and recent actions
+individualized Service Specifications & Offerings.",50,11.15,4.4

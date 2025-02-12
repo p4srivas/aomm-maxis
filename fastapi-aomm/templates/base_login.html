@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AOMM Assessment{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/static/fonts/roboto/font.css">
+    <link rel="stylesheet" href="/static/fonts/anonymous-pro/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #fafafb;
+            color: #333;
+        }
+        .top-bar-heading a {
+            background-color: #092e63;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Verdana, sans-serif;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .top-bar {
+            background-color: #092e63;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Verdana, sans-serif;
+        }
+        .top-bar nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .top-bar nav li {
+            margin-right: 20px;
+        }
+        .top-bar nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .top-bar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .top-bar .icons i {
+            margin-left: 10px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 50px;
+            background-color: #535558;
+            color: #ffffff;
+            padding: 20px 0;
+            transition: width 0.3s ease-in-out;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .sidebar.open {
+            width: 200px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            position: relative;
+        }
+        .sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar a i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .sidebar .dropdown-menu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: #092e63;
+            padding: 10px;
+            list-style-type: none;
+            z-index: 1;
+        }
+        .sidebar .dropdown-menu li {
+            margin-bottom: 5px;
+            padding: 0;
+        }
+        .sidebar .dropdown-menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .sidebar li:hover > .dropdown-menu {
+            display: block;
+        }
+        .main-content {
+            flex: 1;            
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            height: 980;
+            overflow-y: auto;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .main-content:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        .main-content h2 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333333;
+            margin-top: 0;
+        }
+        .main-content table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .main-content td {
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+        }
+        .main-content th {
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+            border: none;
+            color: #1f56e0;            
+            background-color: #f5f5f5;
+            font-weight: 500;
+        }
+        form label {
+            margin-right: 10px;
+            font-weight: 500;
+        }
+        #time-series-graph {
+            margin-top: 20px;
+        }
+        form select, 
+        form input[type="date"] {
+            margin-right: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            color: #333;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        form select:focus, 
+        form input[type="date"]:focus {
+            border-color: #092e63;
+            box-shadow: 0 0 5px rgba(9, 46, 99, 0.5);
+        }
+        form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #092e63;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        form button:hover {
+            background-color: #07408d;
+            box-shadow: 0 0 10px rgba(7, 64, 141, 0.5);
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #092e63;
+            margin-bottom: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Anonymous Pro', monospace;
+        }
+        form label {
+            font-family: 'Anonymous Pro', monospace;
+            font-size: 14px;
+            color: #333333;
+            margin-right: 5px;
+        }
+         /* Tooltip container */
+        .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+
+        /* Position the tooltip text */
+        position: absolute;
+        z-index: 1;
+        bottom: 25%;
+        left: 10%;
+        margin-left: -80px;
+
+        /* Fade in tooltip */
+        opacity: 0;
+        transition: opacity 0.3s;
+        }
+
+        /* Tooltip arrow */
+        .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+        } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top-bar">
+            <div class="logo">  <img src="/static/images/logo.svg" alt="Nokia" width="111" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/static/images/AOMMAT.png" alt="AOMM" width="385" height="43"></div>
+            <div class="top-bar-heading"><a href="https://www.tmforum.org/resources/guidebook/gb1042a-autonomous-operations-maturity-model-aomm-v1-3-0/">Reference: TM Forum GB1042A v1.3 AOMM Guidelines</a></div>
+            <!--
+            <nav>
+                <ul>
+                    <li class='fa fa-arrow-left' style='font-size:24px;color:white'><a href="/index">&nbsp;&nbsp;</a></li>
+                    <li><a href="javascript:history.back()">FAQ</a></li>
+                </ul>
+            </nav>-->
+            <div class="icons">
+                Version 1.12 Nokia 2024
+                <!--
+                <div class="tooltip"><a href="/logout?session_id={{ session_id }}"><i class="fas fa-sign-out-alt"></i></a>
+                    <span class="tooltiptext">Logout</span>
+                </div>
+                <div class="tooltip"><a href="/signup?access_token={{ access_token }}&session_id={{ session_id }}"><i class="fas fa-user"></i></a>
+                    <span class="tooltiptext">Change password</span>
+                </div>
+                -->
+            </div>
+        </header>
+        <div class="content">
+            <main class="main-content">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+    {% block scripts %}
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <!--<script src="/static/js/plotly-2.31.1.min.js" charset="utf-8"></script>-->
+    <script>
+        $(document).ready(function() {
+            $('.display').DataTable({
+                "scrollY": "260px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+    {% endblock %}
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 NOKIA CCS MAS. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

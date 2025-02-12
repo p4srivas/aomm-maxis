@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}SMIA Observability - Co-pilot{% endblock %}
+{% block content %}
+            <main class="main-content">
+                <div style="font-size:24px;font-family:verdana;color:blue;text-align:center"></div>
+                {% if error %}
+                <div class="error-message">
+                    Error fetching data for service problem. It is closed/not available OR the configuration data has error.
+                </div>
+                {% else %}
+                <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 4px;">
+                    <div class="quadrant">
+                        <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left">
+                            {{ sample_data_table | safe }}
+                        </div>
+                    </div>
+                    <div class="quadrant">
+                        <p style="font-size:16px;font-family:verdana;color:#0080FF;text-align:left"><b>Map View</b></p>
+                        {{ map_html | safe }}
+                    </div>
+                    {% for fig_radar in fig_radar_list %}
+                    <div class="quadrant">
+                        {% if loop.first %}
+                        <p style="font-size:16px;font-family:verdana;color:#0080FF;text-align:left"><b>Radar chart (compare current hour, last day and last week averages)</b></p>
+                        {% else %}
+                        <p style="font-size:16px;font-family:verdana;color:#0080FF;text-align:left"><b>Radar chart (compare neighbour sites/cells averages)</b></p>
+                        {% endif %}
+                        <div class="inner-quadrant" >
+                            {{ fig_radar | safe }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="quadrant">
+                        <p style="font-size:16px;font-family:verdana;color:#0080FF;text-align:left"><b>Box Plot (analyse anomalies and outliers)</b></p>
+                        <img>{{ fig_box | safe }}</img>
+                    </div>
+                    {% if fig_ts_html %}
+                    <div class="quadrant">
+                        <p style="font-size:16px;font-family:verdana;color:#0080FF;text-align:left"><b>Time Series Plot</b></p>
+                        <div class="inner-quadrant">
+                            {{ fig_ts_html | safe }}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </main>
+{% endblock %}
+
+{% block scripts %}
+
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.display').DataTable({
+                "scrollY": "260px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+{% endblock %}    

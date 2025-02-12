@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Error{% endblock %}
+{% block content %}
+<main class="main-content">
+    <div class="container mt-4">
+        <h2 class="text-primary">Error</h2>
+        
+        <br/><br/>
+        <div style="font-size:14px;font-family:verdana;color:#e0391f;text-align:left">{{ error_message }}</div>
+        <br/><br/>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Include DataTables -->
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.user_table').DataTable({
+                "scrollY": "960px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+    <style>
+        .filter-section select {
+            font-size: 0.85rem;
+            padding: 0.2rem 0.5rem;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        } 
+        input[type=text], input[type=password] {
+            width: 400px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }               
+    </style>
+{% endblock %}

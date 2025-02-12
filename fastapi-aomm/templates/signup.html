@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% block title %}Sign up (New user){% endblock %}
+{% block content %}
+<main class="main-content">
+    <div class="container mt-4">
+        <form class="container mt-4" action="/signup" method="post" id="theForm">        
+            <input type="hidden" name="access_token" id="access_token" value="{{ access_token }}">
+            <input type="hidden" name="session_id" id="session_id" value="{{ session_id }}">
+            <input type="hidden" name="user_ops_map" id="user_ops_map" value="">            
+            <h2 class="text-primary">Sign up</h2>
+            
+            <br/><br/>
+            <!-- Filter Section -->
+            <div class="filter-section my-4 d-flex justify-content-center align-items-center gap-3">
+                <div style="font-size:14px;font-family:verdana;color:#e0391f;text-align:left">
+                    <!-- Display error message if present -->
+                    {% if error_message %}
+                        Error: {{ error_message }}
+                    {% endif %}                
+                </div>
+                <div style="font-size:14px;font-family:verdana;color:#15e05cfb;text-align:left">
+                <!-- Display success message if present -->
+                    {% if success_message %}
+                        {{ success_message }}
+                    {% endif %}
+                </div>
+                <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left">Role:
+                    <select name="role" id="role" class="form-select form-select-sm">
+                        <!--<option value="" disabled selected>Select Service</option>-->
+                        <option value="admin">Administrator</option>
+                        <option value="user" selected>General</option>
+                        <!--
+                        <option value="audit">Data Audit</option>
+                        <option value="report">Report Generation</option>-->
+                    </select>
+                </div>
+            </div>
+            <br/><br/>
+            <!-- Table Section -->
+            <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left;">  
+                <table id="signupTable" style="font-size:1.0em; width:80%;">
+                    <tbody class="table-primary">
+                        <tr>
+                            <th>First Name : </th><td style="vertical-align: top; text-align: left;"><input type="text" name="fname" id="fname" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>Last Name : </th><td style="vertical-align: top; text-align: left;"><input type="text" name="lname" id="lname" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>Email : </th><td style="vertical-align: top; text-align: left;"><input type="text" name="email" id="email" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>Password : <input type="text" id="caps" disabled value="Caps is ON" style="font-size:0.95em; color:#ff0000; border:0; display:none; width:75px; padding:0px;"></th>
+                            <td style="vertical-align: top; text-align: left;"><input type="password" name="hashed_password" id="hashed_password" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>Confirm Password : </th><td style="vertical-align: top; text-align: left;"><input type="password" name="confirm_hashed_password" id="confirm_hashed_password" value=""></td>
+                        </tr>
+                        <tr>
+                            <th>Assign Operation domains for Assessment</th><td style="vertical-align: top; text-align: left;"></td>
+                        </tr>
+                        <tr>
+                            <th style="vertical-align: center;">
+                                <table style="width: 30.0em"><tr><td>
+                                <select id="select1" size="10" style="width: 25.0em" multiple>
+                                    <option value="OP_TM">Network Planning and Topology Management</option>
+                                    <option value="OP_NOC" selected>Network Operations Center</option>
+                                    <option value="OP_NA">Service Operations Center</option>
+                                    <option value="OP_FO">Field Operations</option>
+                                    <option value="OP_IM">Inventory Management</option>
+                                    <option value="OP_SO">Products and Services</option>
+                                    <option value="OP_CX">Customer Experience</option>
+                                    <option value="OP_NO">Network Optimization</option>
+                                    <!--<option value="OP_AO">Autonomous Operations</option>-->
+                                    <option value="OP_OT">Other Topics</option>
+                                </select></td>
+                                <td style="display: block; margin-left: 0; margin-right: 0;">
+                                <button type="button" onclick="move1()">&gt;&gt;</button><br><br>
+                                <button type="button" onclick="move2()">&lt;&lt;</button>
+                                </td></tr></table>
+                            </th>
+                            <td>
+                                <select id="select2" size="10" style="width: 25.0em"></select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th><td style="vertical-align: top; text-align: left;">
+                                        <input type="button" id="saveBtn" name="saveBtn" value="Save">
+                                    </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="font-size:12px;font-family:verdana;color:#1f56e0;text-align:left;vertical-align: top;">              
+                {% if user_table %}
+                    {{ user_table | safe }}
+                {% endif %}
+            </div>
+        </form>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Include DataTables -->
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.display').DataTable({
+                "scrollY": "760px",
+                "scrollCollapse": true,
+                "paging": true,
+                "pageLength": 5,
+                lengthMenu: [5, 10, 20],                
+                searching: true                
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+
+        function move1() {
+            const select_1 = document.getElementById("select1");
+            const select_2 = document.getElementById("select2");
+            
+            if(select_1.selectedIndex !== -1) {
+                const selected_option = select_1.options[select_1.selectedIndex];
+                
+                let new_option = document.createElement('option');
+                new_option.value = selected_option.value
+                new_option.innerHTML = selected_option.innerHTML;
+                select_2.appendChild(new_option);
+                
+                select_1.options.remove(select_1.selectedIndex)
+            }
+
+        }
+
+        function move2(){
+            const select_1 = document.getElementById("select1");
+            const select_2 = document.getElementById("select2");
+            
+            if(select_2.selectedIndex !== -1) {
+                const selected_option = select_2.options[select_2.selectedIndex];
+                
+                let new_option = document.createElement('option');
+                new_option.value = selected_option.value
+                new_option.innerHTML = selected_option.innerHTML;
+                select_1.appendChild(new_option);
+                
+                select_2.options.remove(select_2.selectedIndex)
+            }   
+        }
+
+        $('#saveBtn').on('click', function () {
+                // Update the hidden input with user selection
+                const select_2 = document.getElementById('select2');
+                var numOfOptions = select_2.options.length;
+                var n=0;
+                operations = "operations,";
+                for (n=0; n<numOfOptions; n++) {
+                    operations+= select_2.options[n].value + ",";
+                }
+                if (document.getElementById('hashed_password').value == "" || document.getElementById('confirm_hashed_password').value == "") {
+                    document.getElementById('hashed_password').value = "Hello123"
+                    document.getElementById('confirm_hashed_password').value = "Hello123"
+                }
+
+                if (document.getElementById('lname').value == "") {
+                    document.getElementById('lname').value = document.getElementById('fname').value
+                }
+
+                document.getElementById('user_ops_map').value = operations;
+                if (document.getElementById('email').value != "") {
+                    $('#theForm').submit();
+                }  
+            });
+
+            // Get the input field
+            var input = document.getElementById("hashed_password");
+            // Get the warning text
+            var text = document.getElementById("caps");
+
+            // When the user presses any key on the keyboard, run the function
+            input.addEventListener("keyup", function(event) {
+
+                // If "caps lock" is pressed, display the warning text
+                if (event.getModifierState("CapsLock")) {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none"
+                }
+            }); 
+    </script>
+    <style>
+        .filter-section select {
+            font-size: 0.85rem;
+            padding: 0.2rem 0.5rem;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        } 
+        input[type=text], input[type=password] {
+            width: 400px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }               
+    </style>
+{% endblock %}

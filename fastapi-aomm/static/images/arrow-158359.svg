@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 744.09448819 1052.3622047" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="d">
+   <feGaussianBlur stdDeviation="5.4"/>
+  </filter>
+  <linearGradient id="c" x1="458.57" x2="258.57" y1="649.5" y2="439.5" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00b400" offset="0"/>
+   <stop stop-color="#4bff4b" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="244.45" x2="512.71" y1="439.5" y2="716.65" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#e4e4e4" offset="1"/>
+  </linearGradient>
+  <linearGradient id="a" x1="220" x2="537.97" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".1504" offset="0"/>
+   <stop stop-color="#fff" stop-opacity=".292" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path transform="matrix(1.0512 0 0 1.0512 -17.734 -27.429)" d="m565.71 575.22a180 180 0 1 1 -360 0 180 180 0 1 1 360 0z" filter="url(#d)" stroke="#fff" stroke-linejoin="round" stroke-width="5"/>
+ <path d="m557.14 575.22c0 94.677-76.751 171.43-171.43 171.43s-171.43-76.751-171.43-171.43 76.751-171.43 171.43-171.43 171.43 76.751 171.43 171.43z" fill="url(#c)"/>
+ <path d="m385.72 385.38c-104.73 0-189.84 85.109-189.84 189.84s85.109 189.84 189.84 189.84 189.84-85.109 189.84-189.84-85.109-189.84-189.84-189.84zm0 19.688c94.088 0 170.16 76.068 170.16 170.16s-76.068 170.16-170.16 170.16-170.16-76.068-170.16-170.16 76.068-170.16 170.16-170.16zm-30.562 44.531v106.75h-48.094l78.656 75.094 78.656-75.094h-48.094v-106.75h-61.125zm-60.75 185.38v55.656h182.59v-55.656h-29.438v29.344h-123.66v-29.344h-29.5z" fill="url(#b)"/>
+ <path d="m385.72 409.5c-91.521 0-165.72 74.197-165.72 165.72 0 62.637 34.757 117.14 86.031 145.31 6.1568-117.57 103.42-211.03 222.53-211.03 3.1525 0 6.2856 0.05787 9.4062 0.1875-25.399-58.928-84.006-100.19-152.25-100.19z" fill="url(#a)"/>
+</svg>

@@ -1,0 +1,686 @@
+attribute_id,attribute_id_level1,attribute_level1,attribute_id_level2,attribute_level2,attribute_id_level3,attribute_level3,attribute_id_level4,attribute_level4,attribute_id_level5,attribute_level5,criteria_id
+1.1.1,1.1.1.1,Some marketing campaigns are targeted. Marketing campaigns target (filtering criteria applicable to the customer base) is manually defined.,1.1.1.2,Most marketing campaigns are targeted. Marketing campaigns target is based on static customer criteria (such as marketing segment or subscriber profile). ,1.1.1.3,"Most marketing campaigns are targeted and relevant. Marketing campaigns target is based on dynamic customer criteria (such as monthly usage, mobility habits, spending etc.).",1.1.1.4,"All marketing campaigns are targeted and relevant. Marketing campaign target is defined with AI/ML-assistance, with continuous learning.",1.1.1.5,Marketing campaigns target is based on AI/ML-assisted and predictive criteria defining the best customer selection for a given campaign.,1.1.1
+1.1.2,1.1.2.1,"Product, service, bundle or discount offers are slightly (or not) personalized. They are   manually customizable based on customer profile.",1.1.2.2,"Some aspects of product, service, bundle or discount offers are personalized based on collected customer insights (static customization rules based on customer profile).",1.1.2.3,"Personalized product, service, bundle or discount/offers are available based on customer profile and context (past digital navigations, history and interactions with the organization). Dynamic rules and policy-driven automation is in place.",1.1.2.4,"Personalized product, service, bundle or discount/offers are automatically computed with AI/ML-driven rules applying to customer profile and context insights. Learning from previous campaign adoption is manually integrated when pushing offers to customers. ",1.1.2.5,"Personalized Product, service, bundle or discount. Offers are automatically pushed based on customer profile and context insights (past digital navigations, history and interactions with the organization) and previous campaign success rate.",1.1.2
+1.1.3,1.1.3.1,Customer has limited capability to self-customize services and products.,1.1.3.2,"Some self-customization capabilities are available on some services and products. For example, a self-customization portal is limited to a choice among multiple predefined options for services and products.",1.1.3.3,"Self-customization portal is limited to a choice among multiple options, for services and products, dynamically defined based on customer profile.",1.1.3.4,"Customer is guided by AI in the self-customization of services and products, through multiple scenarios based on his preferences.",1.1.3.5,"Self-customization possibilities are automatically proposed by AI based on customer preferences, customer profile and context insights.",1.1.3
+1.1.4,1.1.4.1,Some legacy ways of working with negative impacts on the service usability are in place and the organization is committed to change it.,1.1.4.2,"The organization has defined initiatives to enhance usability of service, product, self-service portal or app etc. ",1.1.4.3,"The organization has deployed advanced capabilities to optimize usability of service, product, self-service portal or app etc.",1.1.4.4,Advanced self-service capabilities are offered to ease usability and they are well adopted by customers.,1.1.4.5,Service is made easy to use with AI-enabled features (Zero effort).,1.1.4
+1.1.5,1.1.5.1,"Customer feedback is automatically captured on every interaction (care, service use or purchase). It is used to qualify the customer satisfaction for future interactions.",1.1.5.2,Every customer interaction (purchase or service use) is automatically followed up with useful information. This anticipates the customer's need for support and engagement.,1.1.5.3,"Customer behavior is automatically captured and qualified on every interaction path (support, service use or purchase). It is used to guide the customer to the next best offer.",1.1.5.4,Customer sentiment or tone is automatically captured by AI from his recent interaction or conversation (with agent or machine). It is used to adjust the agent or machine behavior in customer handling.,1.1.5.5,"The organization knows what customers love about their product, their indifferences, and what they dislike. This is automatically captured by AI from every customer interaction. It is used to predict what could be the next best experience for the customer.",1.1.5
+1.1.6,1.1.6.1,Available digital channels are limited to legacy web portal and the organization is committed to change it.,1.1.6.2,The organization has defined initiatives to enhance digital interactions with main social media being available. ,1.1.6.3,The organization has deployed advanced interactions capabilities from its web portal towards main social media.,1.1.6.4,Some digital channels are AI-driven (e.g. chatbot available from organization web portal and some social media).,1.1.6.5,All digital channels are enabled by autonomous operations (AI/ML assisted automation).,1.1.6
+1.1.7,1.1.7.1,Preferred channel for support is agent-assisted care (call center) and the interaction is poorly automated.,1.1.7.2,Self-care is offered as an alternative to call center agent interaction. Session is transferred to an agent if self-service fails.,1.1.7.3,"Self-care is offered as an alternative to call center agent interaction. When session has to be transferred to an agent, full context is automatically passed to resume the interaction where it failed.",1.1.7.4,"Self-care is primary channel for support, offering some capabilities equivalent to the agent-led interaction, enabled by intelligent automation.",1.1.7.5,"Self-care is primary channel for support, offering advanced capabilities enabled by intelligent automation.",1.1.7
+1.1.8,1.1.8.1,Loyalty offers are manually defined per customer.,1.1.8.2,Loyalty offers are built upon generic criteria for the full customer base.,1.1.8.3,Loyalty offers are personalized based on specific criteria for one customer segment.,1.1.8.4,Loyalty offers are personalized based on customer persona (with AI/ML-driven definition of the digital personas).,1.1.8.5,Loyalty offers are automatically personalized based on customer persona and preferences (with AI/ML-assisted automation).,1.1.8
+1.2.1,1.2.1.1,"Customer experience is modelled to give a qualitative indication of the quality of experience e.g. bad, average, good, excellent - based on customer feedback.",1.2.1.2,Customer experience is modelled to give a quantitative indication of the quality of experience with the delivered service e.g. single index from 1 to 100 - based on a calculated CEI.,1.2.1.3,Customer experience model combines multiple indicators from customer satisfaction survey and QoS insights (e.g. service and network level KPIs).,1.2.1.4,Customer experience model is regularly adjusted to the context of the organization via a calibration activity. e.g. verifying model reality with survey results correlation.,1.2.1.5,Customer experience model is automatically adjusted to the changing context of the organization via a closed loop.,1.2.1
+1.2.2,1.2.2.1,CX is being captured on ad hoc basis (for every transaction) based on customer feedback.,1.2.2.2,CX is being captured on a regular basis via a calculated index (CEI).,1.2.2.3,CX is being captured automatically via a calculated index (CEI) which combines customer feedback and QoS insights.,1.2.2.4,CX is automatically adjusted from QoE for any recent interaction with the organization via this single index (CEI) update.,1.2.2.5,CX monitoring via this single index (CEI) trend analysis is helping the organization to continuously improve with proactive engagement.,1.2.2
+1.2.3,1.2.3.1,Customer behavior is being tracked and analyzed on ad hoc basis.,1.2.3.2,Customer behavior is regularly tracked and analyzed to understand its expectations,1.2.3.3,Any customer-initiated change is being captured and automatically analyzed in its particular context.,1.2.3.4,Customer behavior cohort is being analyzed by AI/ML to help optimize customer experience and make smarter product bets.,1.2.3.5,Customer behavior monitoring is helping the organization to continuously improve with proactive engagement.,1.2.3
+1.2.4,1.2.4.1,Customer onboarding is manually assisted by an agent.,1.2.4.2,Customer onboarding is partially automated via self-service.,1.2.4.3,Customer onboarding is workflow-driven (via agent or self-service).,1.2.4.4,Customer onboarding is AI/ML-driven with best available options offered as priority choice.,1.2.4.5,Customer onboarding is fully automated (seamless experience for the customer).,1.2.4
+1.2.5,1.2.5.1,Main channel is agent-assisted and the interaction is poorly automated.,1.2.5.2,"Self-care is offered as an alternative to agent interaction. Session is transferred to an agent on customer demand, only if self-service fails.",1.2.5.3,"Self-service is offered as an alternative to agent interaction. When session has to be transferred to an agent, full context is automatically passed to resume the interaction where it failed.",1.2.5.4,"Self-service is primary channel, offering some capabilities equivalent to the agent-led interaction, enabled by intelligent automation.",1.2.5.5,"Self-care is primary channel, offering all capabilities enabled by intelligent automation.",1.2.5
+1.2.6,1.2.6.1,Customer journey is initially designed to address main use cases.,1.2.6.2,In-depth look into the customers’ journey does help establish patterns and understand behavior. This is done on a ad hoc basis.,1.2.6.3,"In-depth look into the customers’ journey is done on a regular basis. If issue is identified, redesign is recommended.",1.2.6.4,Customer journey of a cohort is being analyzed by AI/ML to help optimizing its redesign for a better user experience.,1.2.6.5,Customer journey is automatically optimized based on the measured CX / QoE.,1.2.6
+1.3.1,1.3.1.1,Customer segments are initially defined to address marketing purposes.,1.3.1.2,Customer profiling is made on usage patterns. This is done on ad hoc basis.,1.3.1.3,Customer profiling is made on usage patterns. This is done on a regular basis. Customer portrait is used by customer operations to better engage.,1.3.1.4,Customer portrait or profiling of a cohort is being performed by AI/ML to help customer operations understand customer expectations.,1.3.1.5,Customer digital personas are automatically identified by AI/ML and available for customer operations to proactively engage.,1.3.1
+1.3.2,1.3.2.1,Customer scoring is initially calculated for marketing purposes.,1.3.2.2,"Customer scoring is combining multiple inputs such as: credit worthiness, lifetime value etc.. This is done on ad hoc basis.",1.3.2.3,Customer scoring is calculated as a combination of multiple inputs. This is done on a regular basis. It is used by customer operations to better engage.,1.3.2.4,Customer scoring is automatically calculated based on complex rules for a cohort to help customer operations understand how to better engage.,1.3.2.5,Customer scoring is automatically updated by AI/ML and available for customer operations to proactively engage.,1.3.2
+1.3.3,1.3.3.1,Every touchpoint of the customer journey is providing customer insights to be collected and analyzed.,1.3.3.2,In-depth look into the customers’ journey at every touchpoint does help establish patterns and understand behavior. This is done on a ad hoc basis.,1.3.3.3,In-depth look into the customers’ journey at every touchpoint is done on a regular basis. Insights are used by customer operations to better engage.,1.3.3.4,Insights from every touchpoint of the customer journey of a cohort are being analyzed by AI/ML to help customer operations understand how to better engage.,1.3.3.5,Insights from every touchpoint of the customer journey are automatically computed by AI/ML and available for customer operations to proactively engage.,1.3.3
+1.3.4,1.3.4.1,Customer insights are collected manually and available in CRM system.,1.3.4.2,Customer insights are collected automatically from multiple data sources and available in a single pane of glass.,1.3.4.3,Customer insights (automatically collected) are extended to historical data and KPIs based on customer-based quality indicators.,1.3.4.4,Customer insights are extended to recommendations automatically generated based on collected data from customer.,1.3.4.5,Customer insights includes recommendations automatically generated by AI based on collected data and intelligently presented to customer operations for their purposes.,1.3.4
+1.3.5,1.3.5.1,"Customer feedback is manually collected, and analyzed on ad hoc basis for specific performance analysis campaigns.",1.3.5.2,Customer feedback is automatically captured and qualified on every interaction. It is used to guide the customer operations handling process.,1.3.5.3,Customer complaint is automatically analyzed - including tone in use during conversation (with agent or machine). It is used to adjust the response to customer request.,1.3.5.4,Customer sentiment is automatically captured by AI from his recent interaction. It is used to adjust the agent or machine behavior in customer handling.,1.3.5.5,Customer feedback is automatically captured by AI from customer recent interaction. It is used to predict what could be the next best experience for the customer.,1.3.5
+1.3.6,1.3.6.1,Customer intent is manually captured at interaction initiation. Shifts from asking “what” customers are doing to “why” they are doing it.,1.3.6.2,Customer intent is captured and this triggers recommended path for customer operations.,1.3.6.3,Customer intent is captured and next best action is recommended by AI  for customer operations.,1.3.6.4,Customer intent is predicted by AI and available for customer operations.,1.3.6.5,Customer intent is predicted by AI which elaborates a recommendation for the next best action.,1.3.6
+1.4.1,1.4.1.1,"Intelligent automation enables simplified assisted care, and enables personalized care to build customer trust when searching for support.",1.4.1.2,Intelligent automation enables to anticipate and resolve customer issues before they escalate or before a customer realizes a problem exists. (Proactive care),1.4.1.3,Intelligent automation enables identify and address potential impacting issues (as opposed to waiting for customers to reach out and ask for help). (Preventive care),1.4.1.4,Intelligent automation enables predicting which customers will contact support for issues (Predictive care),1.4.1.5,Intelligent automation enables using data to implement all the possible actions to prevent contacts from happening (e.g. with a proactive campaign to notify customers) or to deflect them to a click-button solution (e.g. proactively push to self-service via a SMS providing automated resolution).(Preemptive care),1.4.1
+1.4.2,1.4.2.1,"The verification for the customer that the promise is kept (based on commitment for certain service levels for example) is made on an ad hoc basis.
+This is used to comply with regulation or if customer complains.",1.4.2.2,"Proactive checks are made on certain service levels according to agreed metrics or KPIs on a regular basis. 
+This is one-shot verification at individual customer level, used by care agent for commercial gesture when customer complains.",1.4.2.3,"Proactive checks are automated for SLA verification on a certain customer segment initially (e.g. VIPs).
+This information (and historical trends associated) is used by customer operations for commercial gesture.",1.4.2.4,"Intelligent automation enables continuous monitoring of agreed metrics or KPIs for SLA verification on particular customers under surveillance (e.g. VIPs).
+This information is transparently shared with those customers.",1.4.2.5,"Intelligent automation enables continuous monitoring of agreed metrics or KPIs for verification of SLA commitments for all customers.
+This information is transparently shared with customers.",1.4.2
+1.4.3,1.4.3.1,"Privacy and ethical use of customer data is a commitment from the organization, based on regulatory rules.",1.4.3.2,Security of customer data is defined as a  priority for the organization. Cybersecurity is driving key transformation initiatives.,1.4.3.3,"Monitoring and control of privacy and ethical use of customer data is ensured by the organization.
+Security breach or customer info leakage is not reported to the customer.",1.4.3.4,"Automated monitoring and control of privacy and ethical use of customer data is ensured by the organization.
+Security breach or customer info leakage is reported to the customer with a fix proposal (on ad hoc basis).",1.4.3.5,"Automated monitoring and control of privacy and ethical use of customer data is ensured by the organization.
+Any security breach or customer info leakage is consistently reported to the customer with a fix proposal.",1.4.3
+1.5.1,1.5.1.1,Onboarding of a new B2B2X partner is fully manual via an agent.,1.5.1.2,Onboarding of a new B2B2X partner is manual from a self-service portal or via an agent.,1.5.1.3,Onboarding of a new B2B2X partner is partially automated from a guided self-service portal.,1.5.1.4,Onboarding of a new B2B2X partner is partially automated from a guided self-service portal or app.,1.5.1.5,Onboarding of a new B2B2X partner is fully automated (e.g. self-service portal or app with guided workflow for onboarding process).,1.5.1
+1.5.2,1.5.2.1,Fulfilment for a new B2B2X partner is fully manual via an agent.,1.5.2.2,Fulfilment for a new B2B2X partner is available from a self-service portal or via an agent.,1.5.2.3,Fulfilment for a new B2B2X partner is partially automated from a guided self-service portal.,1.5.2.4,Fulfilment for a new B2B2X partner is partially automated from a guided self-service portal or app.,1.5.2.5,Fulfilment for a new B2B2X partner is fully automated (e.g. Telco-As-A-Platform experience).,1.5.2
+1.5.3,1.5.3.1,Support offered to B2B2X partner is via agent-based assisted care only (one channel).,1.5.3.2,Support offered to B2B2X partner is available via self-portal or agent-based.,1.5.3.3,"Support offered to B2B2X partner is available from self-service app, self-portal or agent-based.",1.5.3.4,Support offered to B2B2X partner is available from various channels and some cases are proactively taken care of.,1.5.3.5,Proactive care is operational for B2B2X partner (e.g. preventive maintenance in place).,1.5.3
+1.5.4,1.5.4.1,B2B2X partner satisfaction is manually collected and analyzed on ad hoc basis.,1.5.4.2,B2B2X partner satisfaction is automatically collected and analyzed on a regular basis.,1.5.4.3,B2B2X partner satisfaction trends are analyzed and information is shared with partner on ad hoc basis.,1.5.4.4,B2B2X partner satisfaction trends are automatically analyzed and information is shared with partner on regular basis.,1.5.4.5,B2B2X partner satisfaction is automatically collected and used for continuous improvement.,1.5.4
+1.5.5,1.5.5.1,B2B2X partner is given value analysis on ad hoc basis.,1.5.5.2,B2B2X partner value is automatically computed on a regular basis.,1.5.5.3,B2B2X partner value trends are analyzed and information is shared with partner on ad hoc basis.,1.5.5.4,B2B2X partner value trends are automatically analyzed and information is shared with partner on regular basis.,1.5.5.5,B2B2X partner value is automatically computed and used for continuous improvement.,1.5.5
+1.6.1,1.6.1.1,Enhanced security is implemented on an ad-hoc basis.,1.6.1.2,Enhanced security is implemented by autonomous operations in some functions.,1.6.1.3,Enhanced security is implemented by autonomous operations in most functions.,1.6.1.4,Enhanced security is implemented by autonomous operations within the organization,1.6.1.5,Enhanced security is implemented by autonomous operations within the organization and its ecosystem.,1.6.1
+1.6.2,1.6.2.1,Party ability to upgrade skills is available on an ad-hoc basis.,1.6.2.2,Party ability to upgrade skills is available in some functions.,1.6.2.3,Party ability to upgrade skills is available in most functions.,1.6.2.4,Party ability to upgrade skills is available within the organization.,1.6.2.5,Party ability to upgrade skills is available within the organization and its ecosystem.,1.6.2
+1.6.3,1.6.3.1,The Party still perform some monotonous and repetitive tasks on ad hoc basis. Job satisfaction is achieved on an ad-hoc basis.,1.6.3.2,Job satisfaction is achieved in some functions.,1.6.3.3,Job satisfaction is achieved in most functions.,1.6.3.4,Job satisfaction is achieved within the organization.,1.6.3.5,Job satisfaction is achieved within the organization and its ecosystem.,1.6.3
+1.6.4,1.6.4.1,Very few percentage  of all staff is measuring efficiency gains & productivity improvement.,1.6.4.2,Staff is measuring efficiency gains & productivity improvement in some functions,1.6.4.3,Staff is measuring efficiency gains & productivity improvement in most functions,1.6.4.4,Most of the staff within the organization is measuring efficiency gains & productivity improvement,1.6.4.5,Most of the staff within the organization and its ecosystem is  measuring efficiency gains & productivity improvement,1.6.4
+1.6.5,1.6.5.1,Most of the staff need to adapt job and role redesign is ongoing,1.6.5.2,"Job redesign is required in some functions, job mapping is achieved for some functions",1.6.5.3,Job redesign is achieved in most functions,1.6.5.4,Job redesign is achieved within the organization,1.6.5.5,Job redesign is achieved within the organization and its ecosystem,1.6.5
+1.6.6,1.6.6.1,Very few percentage  of all staff have been onboarded on AO journey (awareness of AO only),1.6.6.2,Staff is experimenting new processes and tools in their current role in some functions,1.6.6.3,Staff does use AO in their current role in most functions,1.6.6.4,Most of the staff within the organization do experience AO empowerment in their current role,1.6.6.5,Most of the staff within the organization and its ecosystem do experience AO empowerment in their current role,1.6.6
+1.6.7,1.6.7.1,Very few percentage  of all staff is working towards innovation and continuous improvement within the organization,1.6.7.2,Staff does work towards innovation and continuous improvement in some functions,1.6.7.3,Staff does work towards innovation and continuous improvement in most functions,1.6.7.4,Most of the staff within the organization do work towards innovation and continuous improvement,1.6.7.5,Most of the staff within the organization and its ecosystem do work towards innovation and continuous improvement,1.6.7
+1.6.8,1.6.8.1,Very few percentage  of all staff works in a collaborative way,1.6.8.2,Staff benefits from a collaborative organization in some functions,1.6.8.3,Staff benefits from a collaborative organization in most functions,1.6.8.4,The organization is highly collaborative across all functions,1.6.8.5,The organization and its ecosystem are highly collaborative across all functions,1.6.8
+1.7.1,1.7.1.1,Self-installation / configuration of Smart Things is implemented on an ad-hoc basis.,1.7.1.2,Self-installation / configuration of Smart Things is implemented by autonomous operations in some functions.,1.7.1.3,Self-installation / configuration of Smart Things is implemented by autonomous operations in most functions,1.7.1.4,Self-installation / configuration of Smart Things is implemented by autonomous operations within the organization,1.7.1.5,Self-installation / configuration of Smart Things is implemented by autonomous operations within the organization and its ecosystem.,1.7.1
+1.7.2,1.7.2.1,Healing enabled by Smart Things integration is implemented on an ad-hoc basis.,1.7.2.2,Healing enabled by Smart Things integration is implemented by autonomous operations in some functions.,1.7.2.3,Healing enabled by Smart Things integration is implemented by autonomous operations in most functions,1.7.2.4,Healing enabled by Smart Things integration is implemented by autonomous operations within the organization,1.7.2.5,Healing enabled by Smart Things integration is implemented by autonomous operations within the organization and its ecosystem.,1.7.2
+1.7.3,1.7.3.1,Dynamic adaptation is implemented on an ad-hoc basis.,1.7.3.2,Dynamic adaptation is implemented by autonomous operations in some functions.,1.7.3.3,Dynamic adaptation is implemented by autonomous operations in most functions.,1.7.3.4,Dynamic adaptation is implemented by autonomous operations within the organization,1.7.3.5,Dynamic adaptation is implemented by autonomous operations within the organization and its ecosystem.,1.7.3
+1.7.4,1.7.4.1,Autonomous communication and learning are implemented on an ad-hoc basis.,1.7.4.2, Autonomous communication and learning are implemented by autonomous operations in some functions.,1.7.4.3,Autonomous communication and learning are implemented by autonomous operations in most functions.,1.7.4.4,Autonomous communication and learning are implemented by autonomous operations within the organization,1.7.4.5,Autonomous communication and learning are implemented by autonomous operations within the organization and its ecosystem.,1.7.4
+1.7.5,1.7.5.1,Safety in machine interactions is implemented on an ad-hoc basis.,1.7.5.2,Safety in machine interactions is implemented by autonomous operations in some functions.,1.7.5.3,Safety in machine interactions is implemented by autonomous operations in most functions.,1.7.5.4,Safety in machine interactions is implemented by autonomous operations within the organization,1.7.5.5,Safety in machine interactions is implemented by autonomous operations within the organization and its ecosystem.,1.7.5
+2.1.1,2.1.1.1,The organization does not have a clear AO strategy,2.1.1.2,The organization has started to develop a formal AO strategy,2.1.1.3,There's an AO strategy  in place whose value is generally understood and formalized across the organization,2.1.1.4,"There's an effective AO strategy in place whose value is fully understood, measured and formalized within the organization",2.1.1.5,"There's an effective AO strategy in place whose value is fully understood, measured and formalized across the organization and its ecosystem partners",2.1.1
+2.1.2,2.1.2.1,"There is no clear  definition of AO initiatives, within the organization",2.1.2.2,The organization has started to define one or more AO initiatives,2.1.2.3,The organization has most or all of its AO initatives defined,2.1.2.4,The organization has all of its AO initatives optimally defined and modelled as value chains,2.1.2.5,The organization and its ecosystem partners have all their AO initiatives  optimally  defined and modelled as value chains,2.1.2
+2.1.3,2.1.3.1,The organization has not embraced any Value Modelling & Design processes,2.1.3.2,The organization has started to adopt Value Modelling & Design processes,2.1.3.3,The organization is applying Value Modelling & Design processes across most functions,2.1.3.4,The organization fully applies Value Modelling & Design processes,2.1.3.5,The organization proactively  applies Value Modelling & Design processes in collaboration with its ecosystem partners,2.1.3
+2.1.4,2.1.4.1,The organization does not have a clear business case to justify any AO initiatives,2.1.4.2,The organization has started working on a business case to justify one or more AO initiatives,2.1.4.3,The organization has a business case in place associated with one or more AO initiatives,2.1.4.4,The organization has developed and relies on a business case to drive all AO related initiatives,2.1.4.5,"The organization in collaboration with its ecosystem partners, has developed and relies on a business case to drive all AO related initiatives",2.1.4
+2.1.5,2.1.5.1,"The organization has no clear  definition of AO initiatives, within the organization, therefore target value is irrelevant",2.1.5.2,"The organization has started to define one or more AO initiatives within the organization, therefore some target value is already achieved",2.1.5.3,"The organization has defined and implemented most of its AO initatives, therefore the expected value is being realized",2.1.5.4,The organization is achieving its target value realization through an AO enabled operations environment,2.1.5.5,The organization and its ecosystem partners are achieving their target value realization through an AO enabled operations environment,2.1.5
+2.1.6,2.1.6.1,The organization does not have any Value Improvement process in place,2.1.6.2,The organization has started to define and implement a Value Improvement process,2.1.6.3,The organization has already a Value Improvement process in place as an approach to manage the performance of its AO strategies,2.1.6.4,The organization has put in place and leverages a continuous value  improvement process to ensure optimal performance of its AO strategies,2.1.6.5,The organization and its ecosystem partners have put in place and leverage a continuous value  improvement process to ensure optimal performance of the organization's AO strategies,2.1.6
+2.2.1,2.2.1.1,The organization does not have a Business Architecture Vision in place related to any potential AO initiatives,2.2.1.2,The organization has already started to define a Business Architecture Vision related to one or more AO initiatives,2.2.1.3,The organization has a Business Architecture Vision in place related to one or more AO initiatives,2.2.1.4,The organization has developed and relies on a Business Architecture Vision for AO which guides requirements and specifications for all architecture projects linked to AO strategic objectives,2.2.1.5,"The organization, in collaboration with its ecosystem partners, has developed and relies on a Business Architecture Vision for AO which guides requirements and specifications for all architecture projects linked to AO strategic objectives",2.2.1
+2.2.2,2.2.2.1,The organization does not have a Transformation Roadmap in place related to any potential AO initiatives,2.2.2.2,The organization has already started to define a Transformation Roadmap related to one or more AO initiatives,2.2.2.3,The organization has a Transformation Roadmap in place related to one or more AO initiatives,2.2.2.4,The organization has developed and relies on a Transformation Roadmap  to lay out and manage on a time scale any work packages associated with AO initiatives and their business value,2.2.2.5,"The organization, in collaboration with its ecosystem partners, has developed and relies on a Transformation Roadmap to lay out and manage on a time scale any work packages associated with AO initiatives and their business value",2.2.2
+2.2.3,2.2.3.1,"The organization has no established operating model for AO, with no clear understanding of the roles, responsibilities, and governance to enable agile design and deployment of use cases for AO.",2.2.3.2,"The organization has an initial AO operating model implemented in silo mode, and developed some processes to leverage AO capabilities.
+
+Some roles and responsibilities have been defined but they are not consistently applied across involved functions.",2.2.3.3,"The organization has a well-defined AO operating model, with clear roles, responsibilities, and interfaces between ecosystem partners.
+The AO operating model is consistently applied across most functions.
+There is a formal process for managing the AO lifecycle.",2.2.3.4,"The organization has an advanced AO operating model, with well-established processes and closed-loop automation capability for agile design and deployment of use cases.
+
+The AO operating model is continuously optimized based on feedback from its ecosystem and data-driven insights.
+The organization has a dedicated team responsible for managing AO.",2.2.3.5,"The organization has an optimized AO operating model that is continuously improving and adapting to changing business needs and stakeholder feedback.
+Data analytics and AI/ML capabilities are fully applied in the operations of the organization and its ecosystem partners.
+AO is seamlessly embedded into overall organizational strategy and continuously optimizing AI/ML. Use case initiatives with feedback loops to ensure continuous operation of AO.",2.2.3
+2.2.4,2.2.4.1,"There is no clear  definition of AO initiatives, within the organization, therefore Stakeholder Management techniques are not applied in that context",2.2.4.2,"The organization has started to define one or more AO initiatives, and some Stakeholder Management techniques are being considered",2.2.4.3,The organization is applying Stakeholder Management techniques in most or all AO initatives,2.2.4.4,"The organization makes extensive use of Stakeholder Management techniques as a critical success factor to achieve successful delivery of any project, programme or activity that contributes to AO",2.2.4.5,"The organization in collaboration with its ecosystem partners makes extensive use of Stakeholder Management techniques as a critical success factor to achieve successful delivery of any project, programme or activity that contributes to AO",2.2.4
+2.3.1,2.3.1.1,The organization does not have any investment plan related to AO initiatives,2.3.1.2,The organization has started working on the development of an investment plan related to one or more AO initiatives,2.3.1.3,The organization has already  developed and agreed on an investment plan related to one or more AO initiatives,2.3.1.4,The organization has developed and agreed on an Investment Plan to ensure a rational deployment of financial resources in support of all of its AO initiatives,2.3.1.5,The organization in collaboration with its ecosystem partners has developed and agreed on an Investment Plan to ensure a rational deployment of financial resources in support of all of its AO initiatives,2.3.1
+2.3.2,2.3.2.1,"The organization does not have a formal process for funding AO innovation. Funding decisions are made on an ad-hoc basis, and there is no centralized budget or designated team responsible for managing AO innovation.",2.3.2.2,"The organization has an informal process for funding AO innovation. There may be a designated team responsible for managing AO innovation, but funding decisions are still made on an ad-hoc basis. The focus is on identifying opportunities for AO innovation and securing funding on a case-by-case basis.",2.3.2.3,"The organization has a structured process for funding AO innovation. The process includes a centralized budget, designated team responsible for managing AO innovation, and clearly defined criteria for evaluating and prioritizing AO initiatives. Funding decisions are made through a formal review process, and projects are selected based on strategic alignment and potential impact.",2.3.2.4,"The process for funding AO innovation is integrated into the organization's overall innovation strategy. AO innovation is not considered in isolation but as part of a broader innovation portfolio. The organization has a dedicated team responsible for managing the innovation portfolio, and funding decisions are made based on the potential impact on the organization's overall strategic goals.",2.3.2.5,"The organization continuously evaluates and improves its process for funding AO innovation. The process is flexible and adaptable to changing business needs and emerging technologies. The organization has a culture of experimentation and continuous learning, and feedback is regularly solicited from all stakeholders to inform future funding decisions. The focus is on optimizing the process to achieve the best possible outcomes for the organization.",2.3.2
+2.3.3,2.3.3.1,"There is no clear  definition of AO initiatives, within the organization, therefore evaluating investments related to AO initiatives is out of scope at present",2.3.3.2,The organization has started evaluating investments for one or more AO initiatives,2.3.3.3,"The organization is applying investments evaluation methods for most or all AO initatives	",2.3.3.4,"The organization applies one or more investment evaluation methods to assess critical factors such as ROI, risk, liquidity, tax benefits and convenience, to ensure AO related investments are aligned with agreed goals and business performance levels",2.3.3.5,"The organization, in collaboration with its ecosystem partners applies one or more investment evaluation methods to assess critical factors such as ROI, risk, liquidity, tax benefits and convenience, to ensure AO related investments are aligned with agreed goals and business performance levels",2.3.3
+2.4.1,2.4.1.1,The organization does not have a performance measurement methodology in place. AO Performance measurement is therefore ad-hoc.,2.4.1.2,"The organization is currently developing or adopting a performance measurement methodology, and has started to apply some performance measures for AO.	",2.4.1.3,"The organization has already developed or adopted a primary performance measurement methodology, which it applies to measure most aspects of its AO.",2.4.1.4,"The organization has a solid autonomous operations Performance Measurement methodology in place, to ensure that AO meets contractual performance requirements.",2.4.1.5,"The organization in collaboration with its ecosystem partners, has a solid autonomous operations Performance Measurement methodology in place, to ensure that AO meets contractual performance  requirements.",2.4.1
+2.4.2,2.4.2.1,The organization does not have a program governance in place related to any potential AO initiatives,2.4.2.2,The organization has started to put some Program Governance in place related to one or more AO initiatives,2.4.2.3,"The organization has established a primary AO Program Governance in place, related to most AO initiatives",2.4.2.4,"AO Program Governance is well represented in the organization as part of the broader Corporate Governance, it is headed by executives and representatives of the AO function.",2.4.2.5,"AO Program Governance is well represented in the organization as well as all of its ecosystem partners, as part of the broader Corporate Governance, it is headed by executives and representatives of the AO function.",2.4.2
+2.4.3,2.4.3.1,Operational Continuity applied to AO is ad-hoc or non-existent,2.4.3.2,Some Operational Continuity processes for AO have been developed and applied,2.4.3.3,A wide range of Operational Continuity processes for AO have been developed and applied,2.4.3.4,"The organization has developed, controls and ensures continuous  (autonomous) operations in the event of external or internal disrupting events occurring",2.4.3.5,"The organization in collaboration with its ecosystem partners has developed, controls and ensures continuous  (autonomous) operations in the event of external or internal disrupting events occurring",2.4.3
+2.4.4,2.4.4.1,Regulatory compliance for Autonomous Operations is ad-hoc,2.4.4.2,Regulatory compliance measures for Autonomous Operations are inconsistently applied,2.4.4.3,A wide range of regulatory compliance measures for Autonomous Operations are generally applied,2.4.4.4,The organization has a regulations compliance strategy in place as part of its Governance Framework as it applies to Autonomous Operations.,2.4.4.5,The organization in collaboration with its ecosystem partners has a regulations compliance strategy in place as part of its Governance Framework as it applies to Autonomous Operations.,2.4.4
+2.4.5,2.4.5.1,Security & Risk management processes for AO are ad-hoc and rely on individual initiatives and corrective actions,2.4.5.2,Some basic Security & Risk management processes for AO have been developed and are implemented. ,2.4.5.3,"A Security & Risk Management framework, with processes and policies has been adopted or developed, and applied across the  organization but with minimal verification, monitoring or improvement policies.",2.4.5.4,The organization has a Security & Risk Management strategy for AO in place as part of its Governance Framework. Security & Risk Management is well managed with active monitoring and synchronization of applications and systems enabled by information and technology architecture.,2.4.5.5,"The organization in collaboration with its ecosystem partners has a Security & Risk Management strategy for AO in place as part of its Governance Framework. 
+The organization adjusts promptly to new security requirements and risks, resolving security risk management challenges.
+
+Feedback from Security & Risk Management processes, KPIs and metrics are leveraged to drive security and risk performance improvements.",2.4.5
+2.4.6,2.4.6.1,Adoption of best practices is ad-hoc,2.4.6.2,Some best practices for AO have been identified and applied,2.4.6.3,A wide range of best practices for AO have been identified and are being applied,2.4.6.4,The organization actively investigates and encourages the use of best practices for AO ,2.4.6.5,The organization and its ecosystem partners actively investigate and encourage the use of best practices for AO,2.4.6
+2.5.1,2.5.1.1,"Sustainable Value Generation through AO has not yet been considered within the organization	",2.5.1.2,The organization has started to achieve some ad-hoc sustainable value generation through AO,2.5.1.3,The organization ensures that most of the value generated through AO is sustainable,2.5.1.4,The organization is generating sustainable value through AO by going beyond regulatory compliance and energy conservation,2.5.1.5,The organization in collaboration with its ecosystem partners is generating sustainable value through AO by going beyond regulatory compliance and energy conservation,2.5.1
+2.5.2,2.5.2.1,Sustainable Development has not  been considered within the organization,2.5.2.2,The organization has started to commit some ad-hoc sustainable investments,2.5.2.3,The organization ensures that most investments it commits to are sustainable,2.5.2.4,"The organization assesses current and potential impacts and opportunities of AO with regard to sustainable development, and adapts its investing policies and allocation of financial resources accordingly.",2.5.2.5,"The organization in collaboration with its ecosystem partners assesses current and potential impacts and opportunities of AO with regard to sustainable development, and adapts its investing policies and allocation of financial resources accordingly.",2.5.2
+2.5.3,2.5.3.1,There is little to no formalized approach to incorporating ecological and social awareness into the development and implementation of AO-based solutions for the organization,2.5.3.2,Ecological and social awareness are being considered and integrated into some aspects of the development and implementation of AO-based solutions.,2.5.3.3,There is a clear and defined approach to incorporating ecological and social awareness into the development and implementation of AO-based solutions for the organization.,2.5.3.4,"The impact of incorporating ecological and social awareness into the development and implementation of AO-based solutions is being measured and tracked, allowing for continuous improvement.",2.5.3.5,"Ecological and social awareness are fully integrated into all aspects of the development and implementation of AO-based solutions, and there is a clear understanding of the environmental and social impact of these solutions on the organization and its stakeholders.",2.5.3
+3.1.1,3.1.1.1,"The organization is making some efforts in adopting autonomous intelligent systems.
+
+It recognizes the existence of an early stage formulation of autonomously intelligent systems and operations' capabilities.",3.1.1.2,"There are some isolated cases of autonomously intelligent systems and processes implemented.
+
+The organization identifies the improvements required and conceives the plans to realize such improvements.",3.1.1.3,"There is a coordinated approach towards adopting autonomous intelligence in systems and operations.
+
+This approach is executed across multiple parts/areas/groups/functions of the enterprise",3.1.1.4,"There is a coherent organization-wide implementation of autonomous intelligence technology across the enterprise.
+
+The organization is using this technology to achieve competitive advantage.",3.1.1.5,"Autonomous intelligence is used across the organization and its ecosystem.
+
+Best practices, standards and advancement of autonomous operations adoptions is achieved.
+
+Intelligence is human-like, e.g. systems are capable of defining new processes while the operational flow is adjusted accordingly.",3.1.1
+3.1.2,3.1.2.1,"Manual and ad-hoc processes defined for data preparation, model development, training, evaluation, testing, and deployment.
+
+Supervised learning and data labeling is used.
+
+Some analysts assist features are included in the models.
+
+Basic security practices are followed, e.g., encryption.",3.1.2.2,"There are isolated cases where advanced learning processes are used.
+
+Data streaming is integrated. ML and data modeling processes are defined.
+
+No evaluation is taking place.
+
+A security program is used in some automated functions like response actions and policy enforcement, but the analyst remains engaged due to the prevalence of false positives and negatives.",3.1.2.3,"Outcomes are captured and monitored against the performance (feedback) of the models.
+
+There are clear guidelines for model training, and deployment.
+
+Improved security through high-fidelity security detections, autonomous hunting, triage, investigations and response.
+
+An analyst is a necessity and can take control at any time.",3.1.2.4,"Models are applied on the live data and reflected back in the use case.
+
+They are capable of training themselves based on the outcome.
+
+They are consistent and accurate.
+
+The analyst focuses on defining and controlling security policies that are then enforced by the technolog",3.1.2.5,"The system chooses the right model and predicts the required outcomes.
+
+ML models are continuously optimized (self-healing, self-configuring, etc.).
+
+Technology defines and enforces security policies.
+
+The analyst can override these autonomous policies.",3.1.2
+3.1.3,3.1.3.1,CLA is low state. Discrete task level automation is used.,3.1.3.2,There are isolated cases where activity-level workflows are used.,3.1.3.3,"There is a coordinated approach towards automating end-to-end processes across multiple parts/areas/groups of the enterprise.
+
+This level of automation takes into account the value stream of value-realizing stakeholder e.g. a complete functional process that takes into account value delivered to a customer.",3.1.3.4,"There is a coherent organization-wide adoption of implementing automated end-to-end processes across the enterprise.
+
+This level of automation takes into account the value chain of the enterprise with cross-functional end-points integrated for stakeholder value delivery, e.g. a cross-functional process that supports a customer based on operational journeys.",3.1.3.5,"Automation of end-to-end process groups is implemented across the enterprise and its ecosystem.
+
+This level of automation takes into account the value fabric, which may span multiple organizations working together to create an ecosystem.",3.1.3
+3.1.4,3.1.4.1,Intent Management technologies and information objects are poorly established and processing is reactive.,3.1.4.2,"Intent Management automation technologies are used in isolated cases.
+
+Intent Management technologies and information management objects are characterized by domains.",3.1.4.3,"There is a coordinated approach towards Intent Management automation across multiple parts/areas/groups/functions of the enterprise.
+
+Intent Management technologies and information management objects are characterized for the organization with reactive learning and improvement.",3.1.4.4,"There is a coherent organization-wide adoption of implementing intent across the enterprise.
+
+Intent Management automation technologies and information management objects are measured and controlled.
+
+Preemptive learning and improvement is used.",3.1.4.5,"Intent Management automation is implemented across the enterprise and its ecosystem.
+
+Intent Management technologies and information management objects focus on continuous improvement with self-adaptation and self-learning for improvement.",3.1.4
+3.1.5,3.1.5.1,"Functions and systems are poorly integrated.  Integration appears ad-hoc or local without use of standardised communication.
+
+Silo level. No formal integration strategy. Vendor-specific APIs to enable integration from system A to system B to support department-specific requirements.",3.1.5.2,"Functions or domains/business units have begun to support open and standardised integration technology. AO initiatives are still applied locally.
+
+Information and processes are still fragmented.",3.1.5.3,"he organization mandates the use of open and standardised integration technology. AO initiatives are applied across functions or business units e.g. order-to-activation, bill-to-payment, service delivery and assurance.
+
+Managed integration and orchestration is used.
+
+Functionalities of the integrated systems are reusable and provided as a service when needed.
+
+The organization uses modern integration platforms, APIs, standard interfaces, and best practices",3.1.5.4,"Standardised integration technology is used globally within the organization covering AO value streams end-to-end.
+
+The organization is using metrics to measure AO interoperability and integration.
+
+AI-driven integration capabilities are used.",3.1.5.5,"The organization and its partners mandate the use of open and standardised integration technology. AO value streams are defined and deployed across the ecosystem, successfully.
+
+Integration is a strategic differentiator and core competency of the organization.
+
+There is continuously optimized organization-wide integration strategy with rapid adoption of emerging integration technologies and continuous experimentation.",3.1.5
+3.1.6,3.1.6.1,"Simulation management is at experimental stage, e.g. DT4DI, and not fully developed.",3.1.6.2,"Simulation management is domain specific, e.g. DT4DI, and developed producing some concrete results.",3.1.6.3,Simulation management is crossing multiple domains or functions and it is supported organizationally-wide.,3.1.6.4,"Simulation management is supporting an AO process, end-to-end.",3.1.6.5,Simulation management is supporting a process across the ecosystem.,3.1.6
+3.2.1,3.2.1.1,"AO solution design approach is mainly reactive, managed ad-hoc on a project basis.
+
+Business engagement processes exist, although still manual and poorly integrated into the solution delivery life cycle.",3.2.1.2,Solution Architecture is well-defined but still needs more structure as well as a systematic approach.,3.2.1.3,"The organization has a coordinated approach in building the Solution Architecture using a dedicated team, structure, and the required processes for managing business engagement for the AO initiative.",3.2.1.4,"The organization has established a Solution Architecture practice at the corporate level that can align AO initiative to business strategy, objectives, and constraints (e.g., costs) by continuously monitoring and improving AO initiative(s).
+",3.2.1.5,"The organization is capable of applying its Solution Architecture practices across its ecosystem.
+
+It is capable of implementing a Solution Architecture in accordance to best practices, leading to improved efficiency and valued outcomes.",3.2.1
+3.2.2,3.2.2.1,"Use of open and standardized integration technology is ad-hoc.
+
+Vendor specific APIs are used to enable integration between systems, supporting department specific requirements with no integration of processes, or technologies.
+
+Manual and time-consuming custom development is used.",3.2.2.2,"Some functions or domains/business units have begun to support open and standardized integration technology.
+
+Some systems are being implemented and integrated following the SOA principles.
+
+However, information exchange is not automated. Information and processes are fragemented.",3.2.2.3,"The organization mandates the use of open and standardized integration technology for its AO across functions or business units e.g. order-to-activation, bill-to-payment,  service delivery and assurance.
+
+SOA is used to enable multiple systems integration.
+
+Functionalities of integrated systems are provided as services. Such services interoperate across multiple functions, domains or business units.",3.2.2.4,The organization is continuously monitoring and improving its Integration Architecture and service design processes by synchronizing applications and systems.,3.2.2.5,"The organization and its partners mandate the use of open and standardized integration technology for their AO globally.
+
+A continously optimized ecosystem-wide integration framework is enabled based on an agile and dynamic architecture blueprint.",3.2.2
+3.2.3,3.2.3.1,"No formal or centralized approach for approaching performance or scalability related issues, e.g. per project basis.",3.2.3.2,Performance or capacity related issues are managed reactively.,3.2.3.3,"Performance or capacity problems or risks detected are analyzed, reported, and mitigated before they have a negative impact on the operations.
+
+Standardized tools are used proactively to discover usage patterns.
+",3.2.3.4,"Advanced tools and processes are used to predict future needs required to deliver a service including prediction of usage patterns, the impact of growth and changes to the infrastructure or workloads.",3.2.3.5,"The organization is at value stage with intelligent digital mechanisms used to map and improve technology service processes and capabilities in alignment with the overall business objectives. It leverages decision support to provide continous improvement, incrementally scale and evolve infrastructure services in an agile mode.",3.2.3
+3.2.4,3.2.4.1,"The organization lacks a systematic approach towards a security architecture and service design.
+
+No standards are used.",3.2.4.2,The organization has started applying standards in security architecture developments in some parts of the operations.,3.2.4.3,The organization has a well-defined security architecture with structure and standardized processes.,3.2.4.4,"The organization is continuously monitoring and improving its security architecture and adopts changes, best practices, and metrics.",3.2.4.5,The organization has established a security architecture center of excellence. It ensures collaborative security design with responsive development lifecycle management and shared metrics across the ecosystem.,3.2.4
+3.3.1,3.3.1.1,"Skills are limited. For example, people do not have the ability to develop SRE.
+
+In human-machine collaboration, man has the leading role.
+
+Awareness and execution are assisted by system. Actions of awareness, execution and intent/experience can be online recorded and traced.
+
+Part of manpower can be saved, and more manpower can be focused on analysis and decision.",3.3.1.2,"A data-driven process is used for upskilling/recruitement.
+
+Machine takes repetitive tasks, e.g. bots. The system provides simple and repetitive batch processing capabilities for task execution. Execution is automated. Some awareness and analysis functions can be accomplished for certain scenarios based on static (human predefined) rules/policies.
+
+Part of manpower can be saved from simple and repetitive work on data collection, pre-processing and analysis.",3.3.1.3,"There is high degree of specialization.
+
+Machines are fully on-duty. For example, the system dynamically and automatically detects real-time network status, changes, and exceptions, and provides automatic decision-making capability in simple scenarios.
+
+Awareness, execution, and most analysis are automated. Scenario decoupled common rules/policies/AI models which can be dynamically updated.
+
+Some automatic decision-making can be achieved under human predefined rule/policy.
+
+Organizational processes are optimised cross-functionally, along AO value streams, due to performing human-machine collaboration.",3.3.1.4,"Machines are self-adaptable. Based on the intent, the system has the self-adaptive closed-loop processing capability in specific scenarios.
+
+Awareness, analysis, decision, and execution are automated, intent/experience driven closed-loop control can be accomplished for certain scenarios under human supervision in emergency situations.
+
+Most of the manpower can be focused on expert experience, AI model management, and novel or unsupported scenarios.
+
+Metrics are used to measure the degree of automation.
+
+Human-machine collaboration advances across AO value streams.",3.3.1.5,"Machine self-evolution. The system is capable of self-learning and self-evolving for new scenarios, achieving complete autonomy in all scenarios.
+
+Awareness, analysis, decision, execution and intent/experience are autonomous.
+
+The whole autonomy mechanisms including expert experience and model management can be auto-evolved for all scenarios.
+
+Manpower is only needed to generate intent and monitor the system progress and status.
+
+Human and machine efficiently collaborate, creating innovation across the ecosystem.",3.3.1
+3.3.2,3.3.2.1,"Using some basic tools (e.g. AI algorithms, open APIs) to support AO initiatives. Such tools are used in specifc domains and in an ad-hoc manner.
+
+No tools' automation.",3.3.2.2,"Using tools with some automation, but not fully integrated across applications.",3.3.2.3,"There is high degree of automation of tools used for AO initiative(s) support.
+
+The approach is efficient, and projects are delivered faster with higher quality.",3.3.2.4,"Advanced tools with self-X capabilities (automatic design model, automatic parameter adjustment, automatic training, automatic deployment) are used for models creation and application (self-governed tools).
+
+Tools regularly measure and track the effectiveness of the models created.
+",3.3.2.5,"A highly optimised and sophisticated process based on self-X (healing, configuring, etc.) tools for the developement, evaluation and orchestration of models (self-governed tools) is used for automation. The organization regularly innovates and improves this process. They have a strong focus on developing cutting-edge systems for automation.",3.3.2
+3.3.3,3.3.3.1,"The organization is defining connectivity resources which support AO in a limited way.
+
+Routing:Running on the second layer (network layer) of the 7-layer network model?communication only through MAC addressing, but only within the same conflict domain.Technology such as DHCP and shared connections provided by  Windows  is used here.
+
+Wireless: use basic digital voice services and GPRS data to achieve basic digital communication, with voice and SMS as the main services, and can support low-speed data services.",3.3.3.2,"Connectivity resources for AO are in an emerging state.
+
+Routing:Running on the third layer (network layer) of the 7-layer network model.  Data or packet is transmitted through IP addresses and routing protocol. Including Static routing and Dynamic routing protocol(RIP, OSPF, ISIS and other types)
+
+Wireless: support voice services,  high-quality multimedia services(web pages,  images, videos, multimedia )
+",3.3.3.3,"Connectivity resources for AO perform well.
+
+Routing:SDN (software define network),using the openflow protocol , separating the control plane from the forwarding plane,realizing the flexible control of network traffic, making the network more intelligent.
+
+Wireless: realize high-speed data services, video services have been booming.Tiktok, Youtube and other video services have begun to explode;",3.3.3.4,"Connectivity resources for AO are in an advanced state.
+
+Routing: Enhanced SDN,extending existing protocols, balance between centralized control and data forwarding, providing the ability for rapid interaction between the network and upper level applications.
+
+Wireless:   control and bearer separation, massive mimo, small cell, D2D, IOT, and slicing network?entering the era of Internet of Things",3.3.3.5,"Connectivity resources for AO are in a leading state.
+
+Routing:edge computing nodes, cloud computing nodes and various network resources  are deeply integrated together for collaboration, providing customers with overall computing services including computing, storage and connectivity, and providing flexible and schedulable on-demand services according to business objective.
+
+Wireless: deep integration of communication technology, information technology, Big data technology, AI technology and control technology,like a huge distributed neural network, integrating communication, perception, computing and other capabilities, deeply integrating the physical world, biological world, and digital world, truly ushering in a new era of ""Internet of Things"".",3.3.3
+3.3.4,3.3.4.1,"Virtualization technology for AO is at initiating state.
+
+Physical servers move from mainframe to mini, from mini to X86 architecture.",3.3.4.2,"Visrtualization technology for AO is at emerging state.
+
+Through virtualization technology (kvm?Xen?Vmware) and abstract physical machines, provide multiple virtual machines, and adopt SOA application architecture.",3.3.4.3,"Vistualization technology for AO performs well.
+
+Configuration of computing, storage, network, and other resources required for virtual machine startup is performed using virtual machine management software (openstack).",3.3.4.4,"Virtualization technology for AO is at an advanced state.
+
+Containerize, abstracting the OS, and providing multiple application environments. Configure and manage the application environment, and adopt microservices application.",3.3.4.5,"Visrtualization technology for AO is at leading state.
+
+Using serverless architectures, involving developement and running applications without the need to manage underlying resources such as servers.
+
+Independent deployment through fully automated deployment mechanisms.",3.3.4
+3.3.5,3.3.5.1,"AO infrastructure is at initiating stage.
+
+For example, low pressure oil engine, air-cooled air conditioning, traditional Layer 2/3 switches and routers are used in the Data Center.
+
+Basic surveillance of the Power and Environment monitoring is performed.",3.3.5.2,"AO infrastructure is at emerging stage.
+
+For example, high pressure oil engine, water-cooled air conditioning, traditional Layer 2/3 switches and routers are used in the Data Center.
+
+Automated surveillance of the Power and Environment monitoring is used.",3.3.5.3,"AO infrastructure is at advancing stage.
+
+For example, high pressure oil engine and water-cooled air conditioning with natural cooling are used for the Data Center. The machine room includes new air conditioning terminal, high density and high bandwidth data center switches, BA linked with the power and environment monitoring system,  data center visual management.",3.3.5.4,"AO infrastructure is at performing stage.
+
+For example, high voltage direct current supply, high pressure oil engine, water-cooled air conditioning with natural cooling are used.The machine room includes new air conditioning terminal. The CLOS network architecture meets the high traffic east-west interaction between PODs within the data center. The DCIM system has been put into large-scale use.",3.3.5.5,"AO infrastructure is at leading stage.
+
+For example, high voltage direct current supply, high pressure oil engine, indirect evaporative cooling and liquid cooling system. SDN architecture is used. Digital twin technology dynamically displays data operation indicators. The BA system's operation logic is controlled through AI modeling, to minimize PUE parameter.",3.3.5
+3.3.6,3.3.6.1,"Internet connected computers are used.
+
+The entire world is connected.
+
+Computing models such as parallel computing, distributed computing, and grid computing are used.",3.3.6.2,"Computing virtualization technology is introduced.
+
+Enterprise IT applications are decoupled from underlying infrastructure, and resource utilization is improved through virtualization cluster scheduling software. ",3.3.6.3,"Standardized infrastructure services and resource scheduling automation software for cloud resource pool management planes, such as openstack is introduced.
+
+Technologies such as software defined storage and software defined networks are used, trying to achieve one click fully automated resource management services for tenants.",3.3.6.4,"The cloud native concept is introduced along with integration and development of technologies such as containers, service grids, microservices, and DevOps.
+
+Application architecture of enterprise IT applications gradually shifts from vertically scalable application layered architecture to distributed stateless architecture.",3.3.6.5,"The organization is using a combination of cloud computing, edge computing, big data, and artificial intelligence technologies.
+
+Forming a multi-layer and three-dimensional architecture of cloud, edge, and terminal collaboration, a new generation of intelligent computing power networks is introduced.",3.3.6
+3.3.7,3.3.7.1,"Rely on traditional wireless communication technologies, such as Wi Fi and Bluetooth. The communication between devices is mainly point-to-point, and the communication protocol is relatively simple. Focus is on device connectivity and basic data transmission.",3.3.7.2,"Advanced network protocols and technologies are used. New Low-Power-Wide-Area-Network (LPWAN) technologies are widely used, such as LoRa and NB IoT. These technologies have longer communication distances and lower power consumption, making them suitable for large-scale IoT device connections.
+",3.3.7.3,"Both wired and wireless technologies are used. The connection scale has exploded. Edge computing is at emerging state, pushing computing and data processing capabilities to the edge of devices, which can reduce the delay and bandwidth consumption of data transmission, and improve the response speed and efficiency of IoT applications.",3.3.7.4,"Intelligent technologies, such as Software Defined Network (SDN) and Network Function Virtualization (NFV) are used to achieve flexible configuration and management of network resources, higher automation and intelligence capabilities.",3.3.7.5,"Integrated IoT network, edge computing, cloud computing and other network resources.  Flexibly schedule and provide on-demand services and capabilities of connectivity, computing, and storage.	",3.3.7
+3.4.1,3.4.1.1,"Ad-hoc or undefined capability identification (project planning, risk assessment, etc.).
+
+Manual mapping of business requirements to functional/technology/service capacities.
+
+Little or no consistency between AO initiatives.
+
+No AO related Metrics.
+
+Low AO project success rate.
+",3.4.1.2,"The organization is using a primitive form of process for translating validated business requirements into AO use case requirements, functional and technical capabilities.
+
+The process is partially defined and operates in silo leading to inconsistency in the translation of business requirements across the organization.
+
+Business requirements are mapped to technology service capabilities through basic tool sets and processes.
+
+Project planning processes are defined and applied to some critical functions.
+
+Feasibility report or business case development are used only on big AO projects.
+
+Risk assessment is used only on big AO projects.
+",3.4.1.3,"There is a formal/established process for translating validated business requirements into use case roadmap and functional/technical/operational/service requirements.
+
+This process is well-defined and consistently applied across the organization with clear understanding of the potential outcome of the AO use cases within the organization.
+
+AO project management procedures are well-defined and documented.
+
+AO project managers are aware of the project control processes and are able to track cost, timings and overall progress of the AO initiative.
+
+Risk assessment is well-computed.",3.4.1.4,"AO initiative goals and use cases are linked to organizational performance objectives.
+
+An advanced process for managing the evolution of AO value streams in line with business expectations and agreed service levels is used.
+
+The process is continuously optimized based on feedback and data-driven insights.
+
+A dedicated team is responsible for managing the AO service portfolio.
+
+AO project planning process is advanced and standardized across the organization.
+
+Well-defined metrics to track and control AO project performance.
+
+Risk is evaluated in every step of the process.
+
+Dashboards are used in some cases, to gauge AO performance.",3.4.1.5,"AO use case evolution is continuously optimized across the ecosystem.
+
+AO use cases and capability requirements are mapped across the organization and linked to the ecosystem strategy with measurable objectives.
+
+Dedicated testing and evaluation is used to optimize AO use cases.
+
+AO initiative investment is continously optimised across the ecosystem.
+
+The processes are fully integrated and seamless across all parts of the organization and its ecosystem.
+
+AO project planning process takes into account the risks involved, by using feedback from parties in the organization and its ecosystem.
+
+AO project metrics are benchmarked to industry standards.
+
+Consolidated dashboards that allow both push alerts and real-time access to KPIs through various devices are used.",3.4.1
+3.4.2,3.4.2.1,"No clear versioning or best practices are used for the AO initiative project and the related SW and HW components' development.
+
+No formal process for managing AO technology and the respective architecture deployment.
+
+Capacity and integration requirements are managed through stand-alone and siloed, unformal processes.
+
+Ad-hoc methods are used for testing.
+
+Results are not repeatable.
+
+Quality assurance is missing.
+
+Risk management relies on individual initiatives and corrective actions.
+Operationalization of traditional software may be in place, though AO components the process is ad-hoc and partial.
+
+No version control.
+
+Unclear or partially defined roles and responsibilities.
+
+No formalized escalation paths.
+
+Limited capability to assess the impacts of changes on business processes and stakeholders.
+
+Change Management doesn't handle the needs and risks of the AO components, or the process is ad-hoc.
+
+Each deployment is managed individually, leading to inconsistencies and a lack of interoperability.
+
+Different Monitoring & Event Management systems are used, causing difficulty to provide the root of the problem.
+
+No intelligence (AI/ML) is used.
+
+SLAs are addressed reactively.
+
+Basic tools and ad-hoc processes are used to address incidents and problems. No metrics, KPIs, SLAs & OLAs to measure the efficiency, and effectiveness of the AO processes.
+
+Support for problems encountered is provided in an ad-hoc and undocumented manner with multiple and unconsolidated service desks tools.
+
+Risk Management is minimal and reactive.",3.4.2.2,"Version control and code review and artifacts for the AO initiative and the related SW and HW components are used in a continuous improvement strategy.
+
+Business engagement processes are manual and not fully integrated into the solution delivery life cycle.
+
+Capacity management is reactive. The organization is beginning to align capacity management strategy with other technology strategies e.g. data strategy.
+
+Experimentation is performed using basic testing methods and techniques.
+
+Basic governance and risk management processes are implemented. Awareness of regulatory and compliance considerations is limited.
+",3.4.2.3,"A well-defined technology design and development process is in place, including versioning, best practices, and standards. The process is integrated with other SW and HW design and development processes.
+
+Capacity management is proactive.
+
+Performance of the AO initiative, SW and HW components is controled, managed and forecasted using AI.
+
+Proactive risk management is executed but with minimal verification.
+
+Automation of security and compliance checks.
+
+Structured processes ensure trustworthiness and explainability in AI systems. Regular audits are performed to identify and rectify issues.
+",3.4.2.4,"The organization has a mature development capability, with advanced tools for automating and optimizing the design and development process of the AO initiative.
+
+A Configuration Management System (CMS) provides a complete and detailed view of AO initiative sub-components, dependencies, and environments (e.g., ML Training environment).
+
+The compute strategy is well defined.
+
+Predictive capacity planning is used.
+
+Shared metrics are used across the ecosystem. AO components are actively measured and managed with respect to their performance, using data-driven insights and automation to improve processes and capabilities.
+
+Risk management is well managed with active monitoring and synchronization of applications and systems enabled by risk information and technology architecture.
+
+There is continuous monitoring of ML components and services in Production.
+
+Robust compliance and ethical considerations according to best practices are used to ensure trustworthy AO.",3.4.2.5,"The organization operates with a world-class design, development and training capability, with cutting-edge tools and technologies for automating and optimizing design and development processes.
+
+An architecture center of excellence is used.
+
+It continuously innovates and experiments with new techniques and technologies to push the boundaries of what is possible with AO.
+
+It continuously refines AO technology life-cycle management based on feedback and data analysis.
+
+Automated capacity management processes and tools are used for AO infrastructure optimization, availability and performance improvement, scalability, cost savings, and environmental impacts.
+
+Proper ML-based evaluation metrics are selected to provide optimised results, addressing the relevant business needs.
+
+Security problems are addressed effectively by using feedback from risk management process KPIs and metrics.
+
+Transparent and comprehensive reporting on risks is provided to stakeholders.
+
+Internationally recognized certifications and benchmarks are applied.
+
+Systems are trustworthy, explainable, highly adaptable, and ethical, contributing to business success and societal well-being.",3.4.2
+3.4.3,3.4.3.1,"Operationalization of traditional software may be in place, though AO components the process is ad-hoc and partial.
+
+No version control.
+
+Unclear or partially defined roles and responsibilities.
+
+No formalized escalation paths.
+
+Limited capability to assess the impacts of changes on business processes and stakeholders.
+
+Change Management doesn't handle the needs and risks of the AO components, or the process is ad-hoc.
+
+Each deployment is managed individually, leading to inconsistencies and a lack of interoperability.
+
+Different Monitoring & Event Management systems are used, causing difficulty to provide the root of the problem.
+
+No intelligence (AI/ML) is used.
+
+SLAs are addressed reactively.
+
+Basic tools and ad-hoc processes are used to address incidents and problems. No metrics, KPIs, SLAs & OLAs to measure the efficiency, and effectiveness of the AO processes.
+
+Support for problems encountered is provided in an ad-hoc and undocumented manner with multiple and unconsolidated service desks tools.
+
+Risk Management is minimal and reactive.
+
+3.4.3.2	",3.4.3.2,"Configuration Management for AO components is defined, though siloed.
+
+The AO components (algorithms, datasets, training cycles, data pipelines, infrastructure components, etc..) are baselined and stored in Configuration Management (CM) repositories though still decentralised, incomplete and not entirely accurate.
+
+The organization is starting to re-engineer the Change Management process to manage changes at scale.
+
+Limited roles and responsibilities.
+
+Digital intelligence is used to select service design changes. Manual impact assessment of service changes is performed.
+
+Tracking and managing the dynamic and continuous changes to AI/ML models is challenging.
+
+Proactive identification of issues with dedicated monitoring of some systems and components.
+
+Anomaly detection exists but manual root-cause analysis is used by correlating multiple data sets across multiple systems.
+
+There is some structured reaction to problem management (events triggering, recurring incidents, failed change, end-user or process owner complaints) but the process is still reactive.
+
+Support is still on-demand and reactive.
+
+Policies, processes, and standards are defined for risk and security management at a consistent level across some functions.",3.4.3.3,"A clear strategy for continuous improvement and deployment of AO initiatives is followed.
+
+The process is consistently followed across AO projects, and any deviations are documented and reviewed.
+
+There is visibility and classification of events as well as correlation of alerts to identify root causes and recommendations for remediation.
+
+ML is adopted into the workflows.
+
+Identification of root cause of issues occur during AO processes is predictive. Recommendations for faults are available combined with SLA information.
+
+Proactive Problem Management exists based on ML training. Intent-driven interactions may generate incidents and problems to investigate and solve.
+
+Automated Testing of AO processes is used.
+
+Change control and quality control are used in Configuration Management.
+
+There is a digital change governance structure though manual escalation paths.
+
+Roles, and responsibilities are formalized.
+
+Digital intelligence is used to design and simulate AO changes with partially automated impact assessment.
+
+Service Management is proactive. AO process and data asset problems are predicted by analyzing trends and automating repetitive tasks and remedial actions.
+
+Policies and standards are defined for security and risk management and embedded in processes across most functions.",3.4.3.4,"The Depl?yment and Production process is continuously improved based on data-driven feedback, and there is a culture of accountability for meeting standards.
+
+Collaborative use of best practices in AO configuration and  change processes is applied across domains.
+
+Escalation is automated.
+
+Real-time control of the AO components in production environments with high transparency and shared metrics.
+
+Simulation-based monitoring techniques using event corellation are applied to simulate the outcomes of AO systems and components to control and predict their behavior and performance.
+
+Use of AI/ML automation and cognitive technologiesis applied to identify possible root causes before the occurrence of incidents.
+
+A well established AO management strategy and processes is used, in alignment with the business.
+
+Service desk is accessible across multiple channels with a single view of the end user.
+
+Customer experience metrics are tracked along with Service Level Agreements (SLAs) / availability measurements and reporting/dashboard visualization to improve AO service delivery.
+
+Policies and standards are defined for risk and security management and embedded throughout all processes within the organization.",3.4.3.5,"Configuration Management process is self-governed, taking the appropriate corrective actions as required.The process is continuously improved.
+
+Automated escalation across the organization and its ecosystem partners is applied.
+
+Monitoring techniques are based on the principle of digital twin.
+
+e2e measurement exists to measure and control the monitored AO components, the related events, their impacts as well as the activities and workflows triggered by those events.
+
+Innovation is achieved across AO technologies.
+
+Self-healing Problem Management is applied. There is continuous improvement on problem resolution of AI-driven AO services through feedback loops.
+
+AO Service Desk is used only for cases that self-healing cannot resolve.
+
+Policies and standards are defined for risk and security management, and embedded throughout all processes within the organization and with ecosystem partners for continuous feedback and improvement.",3.4.3
+3.4.4,3.4.4.1,"Performance Management processes are inconsistent. No metrics are used.
+
+No roles and responsibilities for the performance of the relevant components and systems in Production are defined.
+
+Knowledge sharing and transfer is performed in an ad-hoc way. No processes or practices for identifying, capturing, sharing, and applying knowledge.
+
+Reactive maintenance workflow is performed in response to an AO system failure. Emergency or corrective maintenance is used. Issues are diagnosed, fixed and restored quickly.
+
+Maintenance Request Management is ad-hoc or undefined. No ownership and responsibility for Maintenance Requests (MRs) is formaly assigned.
+
+There is no formal process for decommissioning unused applications, AO software assets or components. Identification of unused applications is done on an ad hoc basis.",3.4.4.2,"There is a developed  Performance Management strategy. AO initiative systems and components are integrated into a performance management system.
+
+Basic performance measurement methods are used.
+
+There is a Knowledge Management strategy including formal processes and practices as well as initiatives for testing KM tools for knowledge sharing and transfer workflows.
+
+Periodic planning to prevent AO components from issues or breakdowns is used. Maintenance activities are performed systematically at regular intervals for important AO components to avoid any failure occurrence or impact on operations.
+
+There is some standardization of maintenance requests management process in some functions. Ownership and responsibility for maintenance requests management is informally assigned to a technical role. Technology tools for maintenance requests management are not standardized.
+
+There is a decommissioning process for the replacement or upgrade of AO components that have reached end of life. This process also guides the removal of unused systems/applications and its associated resources from operating environments.",3.4.4.3,"AO performance management processes are well established. A Performance Management Platform supports the AO initiative deployment, and performance management processes. There is accountability for the performance of relevant AO components and systems in Production.
+
+Knowledge management practices are standardised and integrated into daily operations through a knowledge sharing culture, including KM process performance measures, KM competencies and capturing lessons learned to enable the organization optimize the standard processes and approaches to “fit” business needs.
+
+Proactive maintenance workflow involves continuous detection, diagnostic, and prognostic algorithms to forecast AO faults before they occur. Static rules or conditions of AO to support critical decision-making processes are used. The condition based Maintenance applies automation in monitoring of AO components, forecasting, and corrective action.
+
+AO maintenance  requests are processed through a single point of contact.
+
+Standardized technology tools are used. Maintenance Requests are registered, categorized, and prioritized, following a versioning control of approved application modifications.
+
+AO decommissioning process mitigates security risks that may arise as software assets/components approach their end-of-life. Proactive engagement with stakeholders including the customers and user groups to prevent disruption of service or support is used. Technology tools manage the decommissioning process within functions.",3.4.4.4,"AO performance is measured at all stages of its lifecycle and provides closed-loop feedback to systems and users (engineers, developers, data scientists, etc.).
+
+The real life performance of the AO initiative is measured. If a degradation of performances is noted, models are re-trained, and deployed automatically if they perform better than the former ones. AO performance teams are adequately skilled, trained, and rightsized to manage the massive deployment of AI components in Production.
+
+Knowledge Management is based on best practices. The change management strategy, refines  KM practices and processes into standard, replicable methodologies across the organization. The organization is actively learning and institutionalizing functional experience to continuously optimize most digital knowledge management processes and workflows.
+
+Predictive maintenance workflow combines automated data collection,  analytics and machine learning algorithms
+
+A 'digital twin' is used to monitor the performance of AO. AO maintenance teams are enabled to to address potential issues before they become critical.
+
+There is an MR repository for registering and tracking of AO process failures and user requests.
+
+Proactive communications report failures and planned preventive maintenance activities that impact various functions in the organization.
+
+MR management is continuously optimized within the organization.
+
+There is full visibility into lifecycle of all SW and HW assets through the integration of decommissioning into overall asset management plans. There is regular performance reporting, evaluation of the lifecycle state of every software asset component, and estimate their end-of-life.",3.4.4.5,"Performance metrics are monitored continuously to ensure quality of service and identify potential performance degradation due to data or concept drift.
+
+Performance auditing process is in place to assess solidity and robustness of the AO Performance Management process, current and expected performance of relevant AO components, systems, and services in Production, integrity and proper use of data, current issues and risks, compliance with given quality/legal/regulatory/security/ethical policies/rules/standards, end-user and stakeholder satisfaction, organizational and skills gaps.
+
+There is a Knowledge Center of Excellence including methodologies that are institutionalized to support the business strategy and business model in order to achieve desired business outcomes and breakthrough innovation.
+
+Prescriptive maintenance workflow involves the use of continuous streams of data from AO assets with data analytics and artificial intelligence/machine learning to predict failure events, recommend actions and intelligently schedule service maintenance to reduce operational risks.
+
+MRs management is continuously optimized across the organization's ecosystem with the AO management process linked to the maintenance improvement process. MR repository is operational and used for registering and tracking of failures and user requests within the organization and its ecosystem partners.
+
+Maintenance process performance are measured and documented, with details on the usage and the costs for all maintenance services.
+
+Standardized management reports for maintenance service request are made available to relevant stakeholders in the organization.
+
+The organization continuously reviews and optimizes the decommissioning process, to reflect lessons learned. There is a well established AO support plan with clear timelines for ending support on prior versions, and proactively engage with stakeholders across organization and ecosystem partners including customers to prevent disruption of AO service or support.",3.4.4
+4.1.1,4.1.1.1,Manual monitor networks and detect anomaly online,4.1.1.2,Automate monitoring networks and detecting anomaly with predefined logic.,4.1.1.3,Machine assisted monitoring networks and detecting anomaly through dynamic and programmable rules and policy.,4.1.1.4,AI-assisted cognitive monitoring networks and detecting anomaly,4.1.1.5,Full autonomous in monitoring networks and detecting anomaly,4.1.1
+4.1.2,4.1.2.1,Manual demarcate and root-cause locate online.,4.1.2.2,Automate demarcation and root-cause locating with predefined logic.,4.1.2.3,Machine assisted demarcating and root-cause locating through dynamic and programmable rules and policy.,4.1.2.4,AI-assisted cognitive demarcation and root-cause locating,4.1.2.5,Full autonomous in the demarcation and root-cause locating.,4.1.2
+4.1.3,4.1.3.1,Manual formulate and decide solution online,4.1.3.2,Automate solution formulation and decision with predefined logic.,4.1.3.3,Machine assisted solution formulation and decision through dynamic and programmable rules and policy.,4.1.3.4,AI-assisted cognitive solution formulation.,4.1.3.5,Full autonomous in the solution formulation and decision.,4.1.3
+4.1.4,4.1.4.1,Manual execute solution online.,4.1.4.2,Automate solution execution with predefined logic.,4.1.4.3,Machine assisted solution execution through dynamic and programmable rules and policy.,4.1.4.4,AI-assisted cognitive solution execution.,4.1.4.5,Full autonomous in the solution execution.,4.1.4
+4.2.1,4.2.1.1,Manual detect customer network experience online.,4.2.1.2,Automate customer network experience detecting with predefined logic.,4.2.1.3,Machine assisted network experience issue detecting through dynamic and programmable rules and policy.,4.2.1.4,AI-assisted cognitive network experience detection.,4.2.1.5,Full autonomous in the network experience detection.,4.2.1
+4.2.2,4.2.2.1,Manual determine root-cause online.,4.2.2.2,Automate root-cause determining with predefined logic.,4.2.2.3,Machine assisted corrective action determining through dynamic and programmable rules and policy.,4.2.2.4,AI-assisted cognitive corrective action identification,4.2.2.5,Full autonomous in determining the corrective action.,4.2.2
+4.2.3,4.2.3.1,Manual determine corrective action online.,4.2.3.2,Automate corrective action determining with predefined logic.,4.2.3.3,Machine assisted corrective action determining through dynamic and programmable rules and policy.,4.2.3.4,AI-assisted cognitive corrective action identification,4.2.3.5,Full autonomous in determining the corrective action.,4.2.3
+4.2.4,4.2.4.1,Manual implement corrective action online.,4.2.4.2,Automate corrective action implementing with predefined logic.,4.2.4.3,Machine assisted corrective action implementing through dynamic and programmable rules and policy.,4.2.4.4,AI-assisted cognitive corrective action implementation,4.2.4.5,Full autonomous in implementing the corrective action.,4.2.4
+4.3.1,4.3.1.1,Manual complaints pre-handling online.,4.3.1.2,Automate complaints pre-handling with predefined logic.,4.3.1.3,Machine assisted complaint pre-handling through dynamic and programmable rules and policy.,4.3.1.4,AI-assisted in the complaint pre-handling and resolution decision.,4.3.1.5,Full autonomous in the complaint pre-handling.,4.3.1
+4.3.2,4.3.2.1,Manual identify complaint root-cause online.,4.3.2.2,Automate complaint root-cause locating with predefined logic.,4.3.2.3,Machine assisted complaint root-cause identifying through dynamic and programmable rules and policy.,4.3.2.4,AI-assisted in customer complaint root-cause inference.,4.3.2.5,Full autonomous in the complaint root-cause identification.,4.3.2
+4.3.3,4.3.3.1,Manual develop corrective action online.,4.3.3.2,Automate corrective action developing with predefined logic.,4.3.3.3,Machine assisted corrective action developing through dynamic and programmable rules and policy.,4.3.3.4,AI-assisted in cognitive development of a corrective action plan.,4.3.3.5,Full autonomous in the corrective action plan development.,4.3.3
+4.3.4,4.3.4.1,Manual execute action online,4.3.4.2,Automate action plan execution with predefined logic.,4.3.4.3,Machine assisted action plan execution through dynamic and programmable rules and policy.,4.3.4.4,AI-assisted in the cognitive execution of an action plan.,4.3.4.5,Full autonomous in the action plan execution.,4.3.4
+4.4.1,4.4.1.1,Manual identify customer value gaps online.,4.4.1.2,Automate customer value gaps identification with predefined logic.,4.4.1.3,Machine assisted customer value gaps identifying through dynamic and programmable rules and policy.,4.4.1.4,AI-assisted in the customer value gaps inference.,4.4.1.5,Full autonomous in the customer value gaps identification.,4.4.1
+4.4.2,4.4.2.1,Manual develop value improvement online.,4.4.2.2,Automate value improvement developing with predefined logic.,4.4.2.3,Machine assisted value improvement plan developing through dynamic and programmable rules and policy.,4.4.2.4,AI-assisted in the cognitive development of a value improvement plan.,4.4.2.5,Full autonomous in the value improvement plan development.,4.4.2
+4.4.3,4.4.3.1,Manual design products and programs online.,4.4.3.2,Automate products and programs designing with predefined logic.,4.4.3.3,Machine assisted products and programs designing through dynamic and programmable rules and policy.,4.4.3.4,AI-assisted in the cognitive design of products and programs.,4.4.3.5,Full autonomous in the products and programs design.,4.4.3
+4.4.4,4.4.4.1,Manual execute programs online.,4.4.4.2,Automate program execution with predefined logic.,4.4.4.3,Machine assisted programs execution through dynamic and programmable rules and policy.,4.4.4.4,AI-assisted in the cognitive programs' execution.,4.4.4.5,Full autonomous in the program execution.,4.4.4
+4.5.1,4.5.1.1,"Energy saving is performed at discrete level of automation, mainly depending on manual intervention. (e.g., close the AAU module of the base station during idle hours (0 to 5 am), plus seasonal control of air conditioning).",4.5.1.2,"Recognizes ongoing implementation of autonomy-backed technology on the workflow of Energy saving. (e.g., close the AAU module of the base station during idle hours autonomously with the IOT control. System automatically controls and shuts down the air conditioning in winter).",4.5.1.3,"Energy saving is performed as an end-to-end process. Energy saving measures such as (e.g., symbol shutdown, channel shutdown, carrier shutdown, deep sleep, and power control have been deployed autonomously with IOT control).",4.5.1.4,"Energy saving is performed as an end-to-end process. Under the AI intelligent prediction model, using automated and advanced tools (e.g., predective traffic shifting and providing more idle time to electronics/data center) for energy saving purposes.",4.5.1.5,"Using advanced technologies, such as digital twins, big data, artificial intelligence, etc., across the AO ecosystem. Three-dimensional and visual planning, real-time and intelligent operation, dynamic closed-loop to achieve data-driven and value mining.",4.5.1
+4.5.2,4.5.2.1,"Energy saving is performed at discrete level of automation,mainly depend on manual intervation.Natural cold resource?PUE decrease 5%?,Lighting Control automation(lighting bill decrease 60% ),Decrease vacant racks (PUE decrease 20% ) in operation. Reducing manual handling of customer problems thereby reducing energy needs for office space and increasing per hour customer served etc.",4.5.2.2,"Recognizes ongoing implementation of autonomy-backed technology on the workflow of Energy saving,such as Optimal airflow circulation(PUE decrease 1.3%), Optimal terminal air conditioning parameters are achieved automatically according to threshold(power decrease35%)?
+
+
+",4.5.2.3,Energy saving is performed at end-to-end process(data collect?energy model training?AI high-precision optimization?Automatic distribution) by function. Air conditioning parameters are achieved through intelligent adjustment and optimization with the autonomous technology of big data analysis?AI prediction of energy consumption.,4.5.2.4,"Energy saving is performed at end-to-end process cross-functionally. Establish ""Standard&Poor's"" rating system, Split the PUE composition factors shift from overall PUE control to PUE factor control.Horizontal comparison of  PUE composition factors, demarcate and locate the abnormal PUE factors,formulate the resolutions autonomously, closed loop after deployment. This methodolgy make the system scalability, accessibility and retainability.
+
+PUE=Total energy consumption/IT Load energy consumption",4.5.2.5,"Using digital twins, big data, artificial intelligence  across the AO ecosystem. Three-dimensional and visual planning?real-time and intelligent operation?dynamic closed-loop to achieve data-driven and Value mining. Providing autonomous capability in system operation scheduling, load balancing, shifting of business functions across working hours etc",4.5.2
+4.6.1,4.6.1.1,Human centric validation process with little automation,4.6.1.2,Human centric validation process with automation within system and domain,4.6.1.3,"Automated validation process with validation across systems/domain
+
+Additional Examples- Catalogue-driven validation (with policies/rules configuration automatically applied)",4.6.1.4,AI enabled data correction capability- descereate level,4.6.1.5,End to end synchronized AI enabled validation and correction function,4.6.1
+4.6.2,4.6.2.1,Human centric order decomposition and resource allocation process,4.6.2.2,Automated decomposition process with manual resource reservation,4.6.2.3,"Automated end to end process for decomposition and resource allocation
+",4.6.2.4,AI enabled tools and system to take adaptive decision in resource reservation,4.6.2.5,AI driven process to handle resource shortfall and proactive least cost resource identification before allocation,4.6.2
+4.6.3,4.6.3.1,Manual queue based exceptional handling and jeopardy process,4.6.3.2,"Tools and system supported process with some level of automation	",4.6.3.3,Automated end to end process for exception handling and jeopardy management,4.6.3.4,AI enabled decision making and partner engagement process to address exceptions in order fulfilment,4.6.3.5,AI enabled realtime end to end workflow management to avoid any exception in order journey,4.6.3
+4.6.4,4.6.4.1,Sequential service activation and updation of inventory through manual operational workflow,4.6.4.2,Descrete automation within system/domain,4.6.4.3,End to end automated workflow for service activation and inventoy updation,4.6.4.4,Autonomous process to update and synchronize inventory with change in network/service configuration,4.6.4.5,Autonomous process for inventory data synchronization across systems and inventory data consumers woth change in network/service configuration,4.6.4
+5.1.1,5.1.1.1,"The organization does not embed/foster innovative spirit, but management started to explore the concept. ",5.1.1.2,The organization starts to see the importance of innovative spirit in relation to AO and  explore ways to embeds/fosters Innovative spirit in its organization but have just started. ,5.1.1.3,The organization embeds/fosters Innovative spirit in some of its operations so AO starts to form close-loop support. The organization established a special team to reward staff with innovate ideas and started to develop performance and reward system to encourage innovate spirit. ,5.1.1.4,The organization embeds/fosters Innovative spirit in most of its operations so AO forms close-loop linkage among most operation. The organization established clear performance and reward to those provide innovate ideas. ,5.1.1.5,The organization embeds/fosters Innovative spirit in all of its operations and AO forms close-loop linking up the whole organization. The organization has clear performance and reward systems to reward and honor those provide innovative ideas so to encourage all to innovate. ,5.1.1
+5.1.2,5.1.2.1,"The organization does not prioritize the resources required for innovation within its culture (people, tools, budget etc.)",5.1.2.2,he organisation prioritizes some resources required for innovation that is related to AO. ,5.1.2.3,The organization  prioritizes many of the resources required for innovation that is related to AO,5.1.2.4,The organisation prioritizes most of the resources required for innovation that is related to AO and also to support innovate teams and their initiatives. ,5.1.2.5,"The organisation prioritizes all the resources required for innovation that is related to AO. Also, the performance reward system also put innovation staff at the one of the top performance members. ",5.1.2
+5.1.3,5.1.3.1,The organization does not have any measure to foster innovative team for the development of AO. All teams are created under traditional hierarchy structure. ,5.1.3.2,"The organization starts to develop innovative teams under trial period to examine the right mix for the development of AO. After the trial period, management will then decide for the next steps.",5.1.3.3,The organization innovative teams (within business unit) creation for the development of AO is well-defined. Monetary support requires case by case approval.,5.1.3.4,The organization innovative teams (even for cross-functional team) creation for the development of AO is a standard process under the need demand. Monetary support guide established and under review. ,5.1.3.5,The organization innovative teams (even for cross-functional team) creation for the development of AO are well established with clear outcome defined. Monetary and management support are formalized. ,5.1.3
+5.1.4,5.1.4.1,"The organization's approach to innovation is ad hoc, informal, ineffective and not transparent and not supporting the development of AO. ",5.1.4.2,The organization approach to innovation is formal but not transparent and not transparent and not focus on development of AO. ,5.1.4.3,The organization approach to innovation is formal and semi-transparent. Part of the development is related to AO with measurable outcome. ,5.1.4.4,The organization approach to innovation is formal and transparent. Part of the development is related to AO with effective outcome. ,5.1.4.5,"The organization approach to innovation is formal, effective and fully transparent to the development of AO with leading benchmarking. ",5.1.4
+5.2.1,5.2.1.1,All activities and tasks related to AO does not have defined set of level of output. ,5.2.1.2,Some activities and tasks related to AO have defined set of output but still under fine-tuning to ensure desired level of excellence. ,5.2.1.3,"Some activities and tasks related to AO have defined set of desired level of output.  For below desired level of output,  review and corrective actions will be implemented to try to achieve the desired level. ",5.2.1.4,"Most activities and tasks related to AO have defined set of desired level of output.  For below desired level of output,  review and corrective actions will be implemented to try to achieve the desired level. ",5.2.1.5,"All activities and tasks related to AO have defined set of desired level of output.  For below desired level of output,  review and corrective actions will be implemented to try to achieve the desired level. ",5.2.1
+5.2.2,5.2.2.1,"No procedures, action or contrivance designed to lower or prevent the occurrence of AO defects. Only initial measurement to understand the occurrence of AO defects. ",5.2.2.2,"No procedures, Some ad hoc actions or contrivance designed to lower or prevent the occurrence of AO defects.  Measurement in place to understand the occurrence of AO defects.",5.2.2.3,"Some procedures, actions or contrivance designed to lower or prevent the occurrence of AO defects.",5.2.2.4,"Most procedures, actions or contrivance designed to lower or prevent the occurrence of AO defects. ",5.2.2.5,"All procedures, actions or contrivance designed to lower or prevent the occurrence of AO defects.  ",5.2.2
+5.2.3,5.2.3.1,No AO process established in preparing and delivering customer requirements. Only traditional process in place to satisfy customer demand. ,5.2.3.2,AO process under development and in trial period. Most customer requirements are delivered under traditional process. ,5.2.3.3,AO process in place and some customers' requirements are being delivered. Traditional process still in place to support complex and customized requirements. ,5.2.3.4,AO process in place and most customers' requirements are being delivered. Traditional process still in service for less than 20% of the delivery requirements. ,5.2.3.5,"AO process in place and able to deliver all various type of customers (B2C, ToB...etc) requirements (customized and standard). ",5.2.3
+5.2.4,5.2.4.1,The organization does not provide AO skill development. Staff need to gain these AO skill-sets from their own source.,5.2.4.2,The organization provides limited AO skill development. Measurement only limited to training hours and not yet on effectiveness. ,5.2.4.3,The organization provides AO skill development. Measurement of the effectiveness only on functional units and not on individual level. ,5.2.4.4,The organization provides AO skill development for all staff. Effectiveness are being measured by individual measurable targets and KPIs set within the functional unit. ,5.2.4.5,The organization provides AO skill development for all staff. Effectiveness are being measured by the direct contribution to business value. ,5.2.4
+5.3.1,5.3.1.1,Leadership creates a culture that does not put AO as a major initiative. AO implementation only on individual functional units and does not gain full attention. ,5.3.1.2,Leadership creates a culture that is aligned with the organizations purpose and values and partially addresses the AO opportunities and challenges and is partially implemented. ,5.3.1.3,Leadership creates a simplified AO culture that is aligned with the organizations purpose and values and fully addresses the AO opportunities and challenges and is implemented coherently in multiple core parts of the business.,5.3.1.4,Leadership creates a culture that is aligned with the organisations purpose and values and fully addresses the AO opportunities and challenges dynamically and at scale across the organization.,5.3.1.5,Leadership creates a culture that is demonstrating clear industry leadership in AO strategy implementation and in influencing industry and ecosystem direction,5.3.1
+5.3.2,5.3.2.1,Staff have not yet understood the importance of AO. Using AO mindset or view is on an ad hoc basis in the digital arena. ,5.3.2.2,Staff started to understand the importance of AO and just started to learn how to apply AO mindset in the digital arena. ,5.3.2.3,Staff started to accept the importance of AO and embrace AO mindset in certain digital initiatives and projects. ,5.3.2.4,Company as a whole embrace the importance of AO. Various ways to enhance AO mindset is applied to all digital arena. ,5.3.2.5,Company is able to work with ecosystem partners with various ways to improve AO mindset in all digital arena. ,5.3.2
+5.3.3,5.3.3.1,Management have not yet understood the importance of AO in digital transformation and guided by existing core values in digital arena.,5.3.3.2,Management started to accept the importance of AO in digital transformation. Evaluation started to adjust the core values to align with AO. ,5.3.3.3,Management started to accept the importance of AO in digital transformation and core values are lived in certain initiatives and projects and units.,5.3.3.4,Organisation as a whole embrace the importance of AO in digital transformation and core values are lived across all units.,5.3.3.5,Organisation is able to work with ecosystem partners and lead them in adopting AO as one of the core values to be developed amongst them.  ,5.3.3
+5.4.1,5.4.1.1,"The organization structure, incentive schemes, performance evaluation system and workplace is not aligned to the AO vision. ",5.4.1.2,"The organization structure, incentive schemes, performance evaluation system and workplace starts to review according to AO vision. ",5.4.1.3,"The organization structure, incentive schemes, performance evaluation system and workplace starts to align at senior levels to AO vision. ",5.4.1.4,"The organization structure, incentive schemes, performance evaluation system and workplace aligned amongst most functional units to AO vision. ",5.4.1.5,"The organization structure, incentive schemes, performance evaluation system and workplace aligned across all units to the AO vision. ",5.4.1
+5.4.2,5.4.2.1,Shared AO value and the Zero-X experience have not yet implemented in the customer experience. ,5.4.2.2,Shared AO value and the Zero-X experience are implemented to at one of the major products to give superior experience to customers. ,5.4.2.3,Shared AO value and the Zero-X experience are implemented in most service and products for superior experience to customers. ,5.4.2.4,Shared AO value and the Zero-X experience are implemented in all service and products across the whole customer journey and able to dynamically aligned with customer changing behavior and needs. ,5.4.2.5,Shared AO value and the Zero-X experience are implemented and linked up with ecosystem partners to give the best customer experience in the market. ,5.4.2
+5.4.3,5.4.3.1,"The organisation had the AO visions but does not have the framework and methodologies to support it.  Tangible measures like KPI/ OKRs, decision-making process and feedback system have not yet aligned to the AO vision. ",5.4.3.2,"The organisation had the AO visions and started to explore the company  framework and methodologies to support it.  Some tangible measures like KPI/ OKRs, decision-making process and feedback system is under construction to aligned to the AO vision. ",5.4.3.3,"The organisation had the AO visions and implementing the company  framework and methodologies to support it.  Some tangible measures like KPI/ OKRs, decision-making process and feedback system already aligned to the AO vision. ",5.4.3.4,"The organisation had the AO visions and implemented the framework and methodologies to support it. The organisation is still in alignment with its ecosystem partners.  All tangible measures like KPI/ OKRs, decision-making process and feedback system have aligned internally to the AO vision. ",5.4.3.5,"The organisation and its ecosystem partners had the AO visions and already implemented  the necessary framework and methodologies to support it.  All tangible measures like KPI/ OKRs, decision-making process and feedback system have aligned to the AO vision. ",5.4.3
+5.5.1,5.5.1.1,"The company has AO vision, but the working environment still require improvement to promote staff to accept AO and work under AO. ",5.5.1.2,"The working environment started to align with AO systems and processes. Staff still think AO is new, and the working environment still require gear up to Autonomous Operations.",5.5.1.3,The working environment enable and aligned to AO systems and processes. Around 50% of the staff think AO is useful under the working environment. ,5.5.1.4,The working environment enable Autonomous Operations. Most staff members think AO is the norms under the working environment. ,5.5.1.5,The working environment enable Autonomous Operations and also comply to international standards and out-performed most benchmarking. ,5.5.1
+5.5.2,5.5.2.1,"The company has AO vision, but the supporting tools still require improvement to promote staff to accept AO and work under AO.",5.5.2.2,"The supporting tools started to align with AO systems and processes. Staff still think AO is new, and the supporting tools still require gear up to Autonomous Operations. ",5.5.2.3,The supporting tools enable and aligned to AO systems and processes. Around 50% of the staff think AO is useful with the supporting tools.  ,5.5.2.4,The supporting tools enable Autonomous Operations. Most staff members think AO is the norms under the supporting tools.  ,5.5.2.5,The supporting tools enable Autonomous Operations and also comply to main international standards and out-performed most benchmarking. ,5.5.2
+5.5.3,5.5.3.1,"The company has AO vision, but the Corporate Policies still require improvement to promote staff to accept AO and work under AO. ",5.5.3.2,"The Corporate Policies started to align with AO systems and processes. Staff still think AO is new, and the Corporate Policies still require gear up to Autonomous Operations. ",5.5.3.3,The Corporate Policies enable and aligned to AO systems and processes. Around 50% of the staff think AO is useful under the Corporate Policies. ,5.5.3.4,The Corporate Policies enable Autonomous Operations. Most staff members think AO is the norms under the Corporate Policies. ,5.5.3.5,The Corporate Policies enable Autonomous Operations and also comply to main international standards and out-performed most benchmarking. ,5.5.3
+5.5.4,5.5.4.1,The company does not have knowledge capturing system and does not have the initiatives to capture knowledge related to AO and its relevant topics. ,5.5.4.2,The company does have a knowledge capturing system and started to capture knowledge related to AO. Still the categories are pre-mature and create difficulties for searching and sharing. ,5.5.4.3,The company has AO knowledge capturing system and indexing are clear and capable for expansion. Searching and Sharing are fully self-service. ,5.5.4.4,The company has AO knowledge capturing system and indexing are clear and capable for expansion. Categories are easy to understand and able to have intelligence tailored for different functional units and strong protection from illegal retrieval. ,5.5.4.5,The company has AO knowledge capturing system with advance indexing. Intelligent categorization and regular audit in place to retire out-dated documents.,5.5.4
+5.5.5,5.5.5.1,The company does not have knowledge capturing system and individual staff share AO knowledge on ad hoc base and no recording for later retrieval. ,5.5.5.2,The company does have a knowledge capturing system and started to capture knowledge related to AO. Still the categories are pre-mature and create difficulties to file systematically. ,5.5.5.3,The company has AO knowledge capturing system and indexing are clear and capable for expansion. Material being capture still need to enrich by semiautomatic ways. ,5.5.5.4,The company has AO knowledge capturing system and indexing are clear and capable for expansion. Categories are easy to understand and able to have intelligence tailored for different functional units and strong protection from illegal retrieval. ,5.5.5.5,"The company has AO knowledge capturing system with advance indexing. Intelligent categorization, regular feedback and audit to ensure latest AO information, security protection are in place and regular sessions to inspire staff to share. ",5.5.5
+6.1.1,6.1.1.1,The data requirement to support AO started to define and exploring the feasible data source for collection. Not yet able to support AO. ,6.1.1.2,The data requirement to support AO is defined. Data collection channels are fixed and only access to internal data sources. Only supporting limited AO. Initial KPIs are established and under fine-tuning. ,6.1.1.3,The data requirement to support AO is defined. Data collections channels established with limited APIs to interface some external data sources. KPI results are out to monitor the effectiveness of data collections. Corrective actions required. ,6.1.1.4,Data collection channels established for all defined requirements for AO. Any new requirements still require case by case study. Change request also in place. KPI are well established to monitor effectiveness on data collection. ,6.1.1.5,The data collection channels can collect both internal and external sources for effective AO. All new requirements and changes are in place with minimum interruption to existing data collection. Essential KPIs established and all meet to show data collection is in above benchmarking. ,6.1.1
+6.1.2,6.1.2.1,"During the transmission of data between source to a destination, no guarantee or control is provided for the transmission rate and security performance. ",6.1.2.2,"Establishing data transmission channels between source to a destination can enable data transmission, with basic and limited data encryption capabilities. ",6.1.2.3,Building a data transmission network can enable high-speed data transmission and provide dedicated channels to ensure data security automatically. ,6.1.2.4,Establishing a deterministic data transmission network can guarantee data transmission rates according to SLA levels enabled by intelligent automation. Achieve data value maximization through privacy computing techniques and prevent data leaks. ,6.1.2.5,The data is transmitted in a fully automated software-defined network and is encrypted using AI/ML assisted automation technology during transmission to prevent data leaks and tampering.,6.1.2
+6.1.3,6.1.3.1,"To meet the basic needs of data storage, manual intervention is required to conduct storage operations. ",6.1.3.2,"The appropriate data storage technologies and platforms need to be selected, and data storage can be automated through the use of DAS, NAS, and SAN storage technologies.",6.1.3.3,"Dynamic data storage solutions need to be implemented, including dynamic data migration and testing, and system stability needs to be ensured. ",6.1.3.4,"The performance of the data storage system needs to be optimized, with continuous AL/ML-driven monitoring and improvement to adapt to changing business storage needs. ",6.1.3.5,"Industry best practices need to be followed, innovative data storage technologies explored, and progress made in the field of data storage with the assisted automation",6.1.3
+6.1.4,6.1.4.1,"When customer information is consumed  through manual authorization for business goals , real-time alerts are detected manually for access and operation involving sensitive data, and all sensitive data leaving the company's network and computing environment need to be manually de-identified.",6.1.4.2,"When customer information is constumed  through manual authorization for business goals, real-time alerts are detected limited automation for access and operation involving sensitive data, and all sensitive data leaving the company's network and computing environment need to be manually de-identified.",6.1.4.3,"When customer information is consumed through manual authorization for business goals , real-time alerts are detected some automation for access and operation involving sensitive data, and a program is developed to implement partly automation of de-identification operations.",6.1.4.4,"When customer information is consumed through limited artificial intelligence authorization for business goals, real-time alerts are detected more  automation for access and operation involving sensitive data, and a program is developed to implement automated de-identification of all data.",6.1.4.5,"When customer information is consumed through full artificial intelligence authorization for business goals,  real-time alerts are detected full automation for access and operation involving sensitive data, and a program is developed to implement AI-based automation de-identification of all data.",6.1.4
+6.1.5,6.1.5.1,The process to share data is under development.,6.1.5.2,The process to share  data is in production for inner areas without any restrictions.,6.1.5.3,The process to share  data is in production  for inner areas with some restrictions.,6.1.5.4,The process to share  data is in production  for external areas with some restrictions.,6.1.5.5,"The process to share  data is in production  for ecosystem areas with some restrictions.
+",6.1.5
+6.1.6,6.1.6.1,The process to retire data is under development. ,6.1.6.2,The process to retire data is in production. The set of KPIs to monitor this is under evaluation. ,6.1.6.3,The process to retire data is in production for most areas. KPIs are set to monitor the effectiveness of this process and some KPIs results has achieved satisfactory. ,6.1.6.4,The process to retire data is in production for all areas. KPIs are set to monitor the effectiveness of this process and most KPI results has achieved satisfactory. ,6.1.6.5,The process to retire data is in production for all areas. External audit certify the process are well established. ,6.1.6
+6.2.1,6.2.1.1,Error-free records that can be used as a reliable source of information to establish AO with quality results is in exploring stage. ,6.2.1.2,Error-free records that can be used as a reliable source of information to establish AO with quality results is being established and under expert evaluation.,6.2.1.3,Error-free records that can be used as a reliable source of information to establish AO with quality results is in place in some areas. Limited KPI to review the success of the process,6.2.1.4,"Error-free records that can be used as a reliable source of information to establish AO with quality results is in place for all areas. KPIs, regular drill, audit and comply to international standard (e.g. ISO) are implemented to ensure data accuracy first time and every time. ",6.2.1.5,"Error-free records that can be used as a reliable source of information to establish AO with quality results are in place for all areas. KPIs, regular drill and audit had implemented to ensure data accuracy first time and every time. ",6.2.1
+6.2.2,6.2.2.1,Both the data model and data sets have complete information to establish AO with quality results is in exploring stage. ,6.2.2.2,Both the data model and data sets have complete information to establish AO with quality results is being established and under expert evaluation. ,6.2.2.3,Both the data model and data sets have complete information to establish AO with quality results is in place in some areas. Limited KPI to review the success of the process. ,6.2.2.4,"Both the data model and data sets have complete information to establish AO with quality results is in place for all areas. KPIs, regular drill, audit and comply to international standard (e.g. ISO) had implemented to ensure data completeness first time and every time.  ",6.2.2.5,"Both the data model and data sets have complete information to establish AO with quality results is in place for all areas. KPIs, regular drill and audit had implemented to ensure data completeness first time and every time. ",6.2.2
+6.2.3,6.2.3.1,The capability of noise reduction of the multidimensional orginal data to ensure data unbiasing is characterised by minimal recognition and manual handling.,6.2.3.2,The capability of noise reduction of the multidimensional orginal data to ensure data unbiasing is under initial implementation of static rules and policies to identify and mitigate biases.,6.2.3.3,The capability of noise reduction of the multidimensional orginal data to ensure data unbiasing is under dynamic and proactive management based on historical data.,6.2.3.4,The capability of noise reduction of the multidimensional orginal data to ensure data unbiasing is  advanced with AI-assisted continuous learning and proactive prevention.,6.2.3.5,The capability of noise reduction of the multidimensional orginal data to ensure data unbiasing is fully automated with AI-driven predictive capabilities to ensure unbiased data handling at an expert level.,6.2.3
+6.2.4,6.2.4.1,"The capability to format the data for organizing, processing, retrieving and storing data for AO is under testing stage and under trial.",6.2.4.2,"The capability toformat the data fororganizing, processing, retrieving and storing data for AO is just in place and initial KPIs are under fine-tuning.",6.2.4.3,"The capability to format the
+data for organizing, processing, retrieving and storing data for AO is in place. KPI results are out to monitor the effectiveness of data structuring. Some KPIs are being achieved.",6.2.4.4,"The capability to format the data for organizing, processing, retrieving and  storing data for  AO is cross-functional.
+KPI results are out to monitor the effectiveness of  data structuring. Most KPIs are being  achieved.",6.2.4.5,"The processes to format the data for organizing, processing, retrieving and  storing data for  AO is across the ecosystem.
+KPI results are out to monitor the effectiveness of  data structuring. Full KPIs are being  achieved.",6.2.4
+6.2.5,6.2.5.1,The capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results is in exploring stage.,6.2.5.2,The capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results is being established and under expert evaluation.  ,6.2.5.3,The capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results is in place in some areas. Limited KPI to review the success of the process. ,6.2.5.4,"The capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results  is in place for all areas. KPIs, regular drill, audit and comply to international standard (e.g. ISO) had implemented to ensure data consistency first time and every time.   	",6.2.5.5,"The capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results  is in place for all areas. KPIs, regular drill and audit had implemented to ensure data consistency first time and every time.",6.2.5
+6.3.1,6.3.1.1,The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact is just in exploring stage.,6.3.1.2,The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact is being established and under expert evaluation.,6.3.1.3,The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact is in place in some areas. Limited KPI to review the success of the process. ,6.3.1.4,The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact is in place for most areas. KPIs are in place to examine the effectiveness.,6.3.1.5,"The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact is in place for all areas. KPIs, regular drill and audit had implemented to ensure it is in place when needed. ",6.3.1
+6.3.2,6.3.2.1,"The process of Recovering data that has been lost, accidentally deleted, corrupted or made inaccessible for AO is just in exploring stage. ",6.3.2.2,"The process of restoring data that has been lost, accidentally deleted, corrupted or made inaccessible for AO is being established and under expert evaluation. ",6.3.2.3,"The process of restoring data that has been lost, accidentally deleted, corrupted or made inaccessible for AO is in place in some areas. Limited KPI to review the success of the process. ",6.3.2.4,"The process of restoring data that has been lost, accidentally deleted, corrupted or made inaccessible for AO is in place for most areas. KPIs are in place to examine the effectiveness. ",6.3.2.5,"The process of restoring data that has been lost, accidentally deleted, corrupted or made inaccessible for AO is in place for all areas. KPIs, regular drill and audit had implemented to ensure it is in place when needed. ",6.3.2
+6.3.3,6.3.3.1,"There is no formal audit on data security, data integrity and the practices of data owners. ",6.3.3.2,Internal Data Audits are carried out only for specific departments that interface external customers or need to comply to government requirements. ,6.3.3.3,Only internal audits on data are carried out on a regular basis. Improvements are carried out to comply to the latest requirements. Data Audits are being seen as risk management instead of value management. ,6.3.3.4,Both internal and external audits on data are carried out on a regular basis. Improvements are carried out to comply to the latest requirements. Data audits start to be seen as value management instead of risk management only. ,6.3.3.5,Data audits are being recognized by the company as of critical importance for the success of AO. Data Audits are also being seen as value management. Both internal and external audits on all data handling by the company. Company also complies to external standards (e.g. ISO 27001). Regular reports are also being issued to communicate to external stakeholders to see the business value through data control and data intelligence. ,6.3.3
+6.3.4,6.3.4.1,Data protection is based on Zero Trust principles to establish an initial framework for data protection.,6.3.4.2,"Data protection begins to implement the Zero Trust model, gradually enhancing data security",6.3.4.3,Data protection fully applies Zero Trust principles to ensure the effective execution of data security measures.,6.3.4.4,"Data protection continuously optimizes the Zero Trust model, improving data security protection capabilities.",6.3.4.5,Data protection leads the industry in data security standards through innovation and practice of the Zero Trust model.,6.3.4
+6.3.5,6.3.5.1,"Users can access and modify all data or resources, no security rules or access policies set by the system.  ",6.3.5.2,"Under the static rules or policies (limited change set by the administrator), users can only access and modify  the resources they are authorized to access.",6.3.5.3,"Under the  static rules or policies (regular change set by the administrator), users can only access and modify the resources they are authorized to access.",6.3.5.4,"Under the dynamic rules or policies set by the administrator, users can only access and modify the resources they are authorized to access.",6.3.5.5,"Under the  AI-driven rules or policies set by the administrator, users can only access and modify the resources they are authorized to access.",6.3.5
+6.4.1,6.4.1.1,Data monetization efforts are ad hoc and not strategically planned. Data is collected but not effectively utilised.,6.4.1.2,The organization understands the value of their data and start to monetize it in a more structured manner. Data monetisation efforts are repeatable but may lack standardisation and integration.,6.4.1.3,"Data monetization is a defined process within the organisation, with clear strategies and objectives. Data monetization initiatives are more integrated and standardised, with clear ownership and accountability.",6.4.1.4,"Data monetization is managed across the organisation as a core capability, with metrics and performance targets.Data monetization is measured and optimised with the help of AI-assisted , a focus on scalability and sustainability.",6.4.1.5,"Data monetization is fully optimised and contributes significantly to the business strategy and revenue. The organisation leverages advanced analytics, AI, and machine learning to maximise data value. A culture of data-driven decision-making and a focus on creating new business models based on data insights.",6.4.1
+6.4.2,6.4.2.1,"Manual collection and organization of raw data. Basic tools are utilized for data cleaning and formatting, with a heavy reliance on manual operations.",6.4.2.2,"Data preprocessing begins to incorporate semi-automated tools, reducing some of the manual work.",6.4.2.3,"The processes of data collection, cleaning, processing, and analysis have achieved a certain degree of automation. ",6.4.2.4,"The production process of data products is highly automated, including automatic data updates, cleaning, and analysis.",6.4.2.5,"The entire lifecycle of data products, from data collection to insight delivery, is fully automated. The system is capable of adapting to market changes and user needs.",6.4.2
+6.4.3,6.4.3.1,"Reporting and analysis functionalities are elementary, with limited automation. Primarily dependent on manual data collection and basic statistical reporting. Visualization and dashboard features may not be fully realized.",6.4.3.2,"The reporting and analysis tools have the capability to automatically generate standardized reports; however, custom analyses continue to require substantial manual involvement. The visualization and dashboard features are undergoing continuous improvement.",6.4.3.3,"The reporting and analysis capabilities are designed to automatically process extensive data, producing a wide range of business reports. Additionally, the visualization and dashboard tools are notable for their high level of usability.",6.4.3.4,The reporting and analysis tools have the capability to monitor data changes in real-time and adjust the analysis models autonomously. The visualization and dashboard features are characterized by their high level of intelligence.,6.4.3.5,"The reporting and analysis features are designed to self-optimize, leveraging artificial intelligence to anticipate business trends and furnish decision-makers with proactive insights. The visualization and dashboard tools are renowned for their exceptional ease of use, facilitating seamless engagement with users.",6.4.3
+6.4.4,6.4.4.1,"Essential services to assist clients in taking action, Depend on the expertise and experience of individual specialists. On-site support is somewhat restricted, in the early stages of implementing process automation and outsourcing, currently the least automated operations.",6.4.4.2,"Services are evolving to be more systematic, with an enhanced level of automation. Consulting services are moving towards standardization, on-site support is increasing in frequency,  expand process automation and outsourcing initiatives.",6.4.4.3,"Services have reached a high level of maturity, with a notable increase in automation. Consulting services and on-site support are now more efficient, extensively implemented process automation and outsourcing.",6.4.4.4,"Services are characterized by a high degree of automation and intelligence. Consulting services and on-site support offer predictive insights through sophisticated data analysis, process automation and outsourcing on a sophisticated level.",6.4.4.5,"Services have attained industry-leading standards, with automation and intelligence at their peak. Consulting services and on-site support are now capable of actively adjusting to customer needs, process automation and outsourcing strategies have realized the maximum possible benefits.",6.4.4

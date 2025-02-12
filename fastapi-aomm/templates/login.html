@@ -1,0 +1,100 @@
+{% extends "base_login.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<main class="main-content">
+    <div class="container mt-4">
+        <form class="container mt-4" action="/login" method="post" id="theForm">        
+        <h2 class="text-primary">Login</h2>
+        
+        <br/>
+        <!-- Filter Section -->
+        <div class="filter-section my-4 d-flex justify-content-center align-items-center gap-3">
+            <div style="font-size:14px;font-family:verdana;color:#e0391f;text-align:left">
+                <!-- Display error message if present -->
+                {% if error_message %}
+                    Error: {{ error_message }}
+                {% endif %}
+            </div>
+        </div>
+        <br/><br/>
+        <!-- Table Section -->
+        <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left">  
+            <table id="signupTable" style="font-size: 1.0em; width:80%;">
+                <tbody class="table-primary">
+                    <tr>
+                        <th>Email : </th><td style="vertical-align: top; text-align: left;"><input type="text" name="email" id="email" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Password :  <input type="text" id="caps" value="Caps is ON" disabled style="font-size:0.95em; color:#ff0000; border:0; display:none; width:75px; padding:0px;"></th>
+                        <td style="vertical-align: top; text-align: left;"><input type="password" name="hashed_password" id="hashed_password" value=""></td>
+                    </tr>
+                    <tr>
+                        <th></th><td style="vertical-align: top; text-align: left;">
+                                    <input type="button" id="loginBtn" name="loginBtn" value="Login">
+                                </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </form>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Include DataTables -->
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.user_table').DataTable({
+                "scrollY": "960px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+        });
+        
+        // Get the input field
+        var input = document.getElementById("hashed_password");
+
+        $('#loginBtn').on('click', function () {
+            if (document.getElementById('email').value != "" && document.getElementById('hashed_password').value != "")   {
+                $('#theForm').submit();
+            }
+        });
+
+        // Get the warning text
+        var text = document.getElementById("caps");
+
+        // When the user presses any key on the keyboard, run the function
+        input.addEventListener("keyup", function(event) {
+            // If "caps lock" is pressed, display the warning text
+            if (event.getModifierState("CapsLock")) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none"
+            }
+        });
+    </script>
+    <style>
+        .filter-section select {
+            font-size: 0.85rem;
+            padding: 0.2rem 0.5rem;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        } 
+        input[type=text], input[type=password] {
+            width: 400px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }               
+    </style>
+{% endblock %}

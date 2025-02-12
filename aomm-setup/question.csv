@@ -1,0 +1,300 @@
+question_id,question_description,criteria_id
+1.1.1,"Intelligent automation is leveraging user portrait and any other customer insight (through analytics) in order to define* the target for marketing campaigns (Right-X e.g. right target, channel, offer, moment, customer profile).
+*ideally self-generate",1.1.1
+1.1.2,"Intelligent automation is leveraging customer profile and context insights to offer personalized products, services, bundles or discounts (Right-X).",1.1.2
+1.1.3,"Guided workflow proposes offering customization suggestions based on customer control and choice - e.g. when interrogated on their lifestyle (via self-service portal or app), or their preferences for promotions but also notifications (frequency for promotion push)",1.1.3
+1.1.4,"Usability of: service, product, self-service portal or app etc. Is optimal (Zero-effort).",1.1.4
+1.1.5,Enjoyable for the customer to fulfill their needs /  measured by customer feedback (exceeding expectations) captured  automatically (based on behavior or conversation tone capture in agent/machine interactions).,1.1.5
+1.1.6,Digital channels enabled by autonomous operations: AI-driven e.g. chatbot,1.1.6
+1.1.7,Self-care is preferred option offered for support and it is offering advanced capabilities based on intelligent automation (comparable or exceeding to agent-assisted care),1.1.7
+1.1.8,Loyalty offers are being personalized based on customer profile (persona and preferences) based on intelligent automation,1.1.8
+1.2.1,"Intelligent automation of experience modelling (qualitative, quantitative, contextual)",1.2.1
+1.2.2,Intelligent automation of CX (QoE) measuring and CX (QoE) monitoring for continuous improvement,1.2.2
+1.2.3,"Intelligent automation is capturing, tracking and analyzing customer behavior (e.g. customer usage or customer-initiated changes), and executing closed loop",1.2.3
+1.2.4,Intelligent automation of the customer onboarding experience (e.g. simplified ordering and activation),1.2.4
+1.2.5,Made easy for the customer to start from one and seamlessly resume from any channel,1.2.5
+1.2.6,Automated optimization based on measured CX / QoE (user-level experience-driven optimization),1.2.6
+1.3.1,User portrait modelling (advanced customer profiling) is available for customer operations - beyond customer segmentation,1.3.1
+1.3.2,"Customer value determined through customer scoring (combining multiple inputs such as: credit worthiness, lifetime value etc.) is available to be used in customer operations ",1.3.2
+1.3.3,Every touchpoint of the customer journey is providing customer insights useful for customer operations ,1.3.3
+1.3.4,"Automated collection of customer insights (account status, service heath checks, equipment or network status, order status etc.) is available to customer operations e.g. as a single pane of glass",1.3.4
+1.3.5,"Customer feedback e.g. complaint and sentiment are automatically collected, analyzed and made available for processing in customer operations",1.3.5
+1.3.6,Customer intent is captured and predicted in support of decision for the Next Best Action in customer operations,1.3.6
+1.4.1,"Intelligent automation enables simplified assisted care, as well as personalized care to build customer trust when they are searching for support.
+It enables evolution towards preventive, preemptive and predictive care (Zero Wait, Zero Effort, Zero Touch) where customers may be notified of QoS degradation or potentially impacting issues.",1.4.1
+1.4.2,"The commitment to agreed service levels in line with metrics or KPIs (e.g. minimum speed, full coverage or superior bandwidth, care response time) is met.
+This information is transparently shared with the customer.",1.4.2
+1.4.3,Automated monitoring and control of privacy and ethical use of customer data is ensured by the organization.,1.4.3
+1.5.1,Autonomous operations are enabling a seamless onboarding of a new B2B2X partner.,1.5.1
+1.5.2,Autonomous operations are providing experience to new B2B2X partners.,1.5.2
+1.5.3,Autonomous operations are providing intent-based care to existing B2B2X partners.,1.5.3
+1.5.4,Autonomous operations enable collecting feedback and ensuring SLA compliancy for existing B2B2X partners,1.5.4
+1.5.5,Autonomous operations are providing insights and value management capabilities to B2B2X partner (e.g. revenue sharing from service monetization) ,1.5.5
+1.6.1,"Autonomous Operations reduce the need for employees to perform hazardous tasks, as these can be automated or assisted by technology. This leads to a safer workplace and potentially lower rates of work-related injuries.
+Compliance to security rules include adherence to data handling and privacy best practices and it is being monitored autonomously.",1.6.1
+1.6.2,"As routine tasks get automated, the organization gives employees the opportunity to learn new skills and advance their careers (inc. training in advanced technologies, data analysis, system management, and other areas that are increasingly important in a digitized workplace).",1.6.2
+1.6.3,"Intelligent automation can relieve employees from monotonous, repetitive tasks, allowing them to focus on more challenging and rewarding aspects of their job. This can lead to higher job satisfaction and motivation.
+ Sense of Fulfillment (augmented by intelligent agent)",1.6.3
+1.6.4,"Efficiency gains and productivity improvements are measured with the ratio of routine tasks automated. Key operational metrics are improved, such as issue resolution times and network uptime. Improvements in employee productivity and the ability to focus on higher-value tasks are measured.",1.6.4
+1.6.5,"With improved efficiency and productivity, there can be a need to adapt jobs and roles to new operating model with AO.
+Introduction of AO creates new roles and career paths within an organization. Employees have the chance to move into these emerging areas, which can be both professionally and personally rewarding.",1.6.5
+1.6.6,"The extent to which employees are implementing and using intelligent automation in their daily tasks. Introduction of AO enables staff empowerment (augmented by intelligent agent).
+
+Access to advanced tools and data empowers employees to make more informed decisions and contribute more effectively to the organization's goals.",1.6.6
+1.6.7,"Introduction of AO creates greater involvement in innovation applying to the organization. Employees can play a more active role in innovation and continuous improvement initiatives within the organization, as they are more likely to identify opportunities for improvements and efficiency gains.
+(to be moved to Culture as it is staff - if including measurement of innovation contribution is there at organization level?)",1.6.7
+1.6.8,"AO facilitates robust feedback integration from the employee towards intelligent agent - with more effective communication tools and collaboration platforms among teams, departments, and even with external partners, leading to a more integrated and dynamic work environment. Feedback integration (capturing intent of employee in a continuous and structured way could be intelligently automated)",1.6.8
+1.7.1,"self-installation / self-configuration: machine-to-machine (no human intervention), including self-training",1.7.1
+1.7.2,"Smart Things enable predictive maintenance by continuously monitoring the condition of equipment. Sensors can predict failures before they occur, allowing for timely maintenance, thereby reducing downtime and extending the life of equipment.",1.7.2
+1.7.3,operational efficiency augmented by intelligent agent: via machine-to-machine dynamic adaptation (no human intervention),1.7.3
+1.7.4,augmented by intelligent agent: autonomous  machine-to-machine communication and learning (no human intervention),1.7.4
+1.7.5,"augmented by intelligent agent: machine-to-machine, machine-to-human: interact safely with the environment, humans and other things",1.7.5
+2.1.1,"Strategy to Value Alignment ensures that the AO strategy gets solidified into clear, measurable operational objectives linked to strategic goals.
+The organization ensures an effective AO strategy to value alignment, linking objectives to realization, which encompasses a clear vision and helps ensure resources are used effectively with regard to autonomous operations",2.1.1
+2.1.2,"AO initiatives definition captures all the elements from (Value Proposition, Value Stream, and Value Stage as per the Value Operations Framework); this criterion aligns well to agreed and established concepts and practices modeled as value chains; it is no longer a design but a specific intention, which may be realized as a business case. AO initiatives refer to AO-related initiatives or internal campaigns undertaken by the organization leadership in advancement of the Strategic Plan, through which the organization sets out to achieve certain goals or visions, e.g., like solving specific issues within the work environment, improving policy or business strategies, etc.
+
+The organization ensures an optimal definition of its AO initiatives, as it pursues best alignment with agreed and established concepts and practices modeled as value chains.",2.1.2
+2.1.3,"Value Modeling & Design is a process whose purpose is to proactively visualize, assess and quantify the benefits and value from operations optimization initiatives by leveraging standard business and finance calculation and assessment methodologies, such as Cost-Benefits-Analysis (CBA), Return of Investment (ROI), and Total Cost of Ownership (TCO) and combines it with the Value Tree Analysis and the Value Stream Concept into an executable Value Realization Plan.
+
+The organization is able to proactively visualize, assess and quantify the benefits and value of operations optimization initiatives, by applying various methods, such as CBA, ROI, TCO, Value Tree Analysis, etc.",2.1.3
+2.1.4,"A business case exists to provide the justification for undertaking one or more AO initiatives. The business case includes AO initiative(s) benefit, cost and risk of alternative options, and it provides a rationale for the preferred solution.
+
+The organization has developed and relies on a business case to drive all AO related initiatives.",2.1.4
+2.1.5,"Value Realization in the context of Autonomous Operation is achieved by the implementation of AO initiatives and the ongoing operation of the AO enabled operations environment.
+
+The organization is achieving its target value realization through an AO enabled operations environment.",2.1.5
+2.1.6,"Continous Value improvement is a process whose purpose is to evaluate performance of AO strategies in meeting economic, operational and sustainability goals, along with defined levels of business and risks tolerance, it is used to assess strategic choices, ensure and improve business value, ensure AO costs and budgets are aligned to business priorities, improve AO capabilities to support AO-related business activities, whether AO Risk is cost-effectively managed and whether AO performance is measured.
+
+The organization has put in place and leverages a continuous value  improvement process to ensure optimal performance of its AO strategies.",2.1.6
+2.2.1,"The purpose of the Business Architecture Vision is to provide key stakeholders and involved parties with a formally agreed outcome, to focus efforts and allocate resources necessary to validate and embark on the pursuit of the agreed AO business vision. A Business Architecture Vision also facilitates communication with all stakeholders and involved parties.
+
+The organization has developed and relies on a Business Architecture Vision for AO initiatives to guide requirements and specifications for all architecture projects linked to AO strategic objectives.",2.2.1
+2.2.2,"A Transformation Roadmap is a strategic blueprint which specifies the individual projects and work packages that are needed to achieve the business-wide objectives of the AO program.
+
+The organization has developed and relies on a Transformation Roadmap to lay out and manage on a time scale any work packages associated with AO initiatives and their business value, including any transitional states to effectively deliver the target AO architecture. ",2.2.2
+2.2.3,"The organization has an AO Operating Model that describes how operations are to be conducted in an efficient way, to deliver the intended value proposition to both, customers and the business itself. It does so through rational and equitable deployment of resources and capabilities following its vision and business model.
+
+The organization has a well-established AO operating model, with clear roles, responsibilities to enable agile design and deployment of AO use cases with a feedback loop that drives the business strategy.",2.2.3
+2.2.4,"A stakeholder is any individual, group or organization that can affect, be affected by, or perceive itself to be affected by a programme.
+
+The organization makes extensive use of Stakeholder Management techniques as a critical success factor to achieve successful delivery of any project, programme or activity that contributes to AO. ",2.2.4
+2.3.1,"Documented investment strategy which includes the investment objectives that meets the set financial goals of the organization with regard to the AO program.
+
+The organization has developed and agreed on an Investment Plan to ensure a rational deployment of financial resources in support of all of its AO initiatives.",2.3.1
+2.3.2,"The organisation has developed and maintained a formal structure and a process for funding AO  innovation from ideation through implementation with all concerned parties across multiple departments.
+
+The organization has secured financial resources through one or more sources for the purpose of funding all of its AO initiatives.",2.3.2
+2.3.3,"Investment Evaluation ensures an effective assessment of various investment factors, such as ROI, risk, liquidity, tax benefits, and convenience; these are all critical attributes that need to be taken into account before investing in any projects, initiatives or resources related to AO.
+
+The organization applies one or more methods to assess critical factors such as ROI, risk, liquidity, tax benefits and convenience, to ensure AO related investments are aligned with agreed goals and business performance levels.",2.3.3
+2.4.1,"Autonomous Operations Performance Measurement is a systematic methodology to guarantee the expected quality of (autonomous) operations end-to-end, and that the service delivery systems operate in a safe and efficient way according to design values and conditions and meet the operational requirements.
+
+The organization has a dedicated autonomous operations Performance Measurement methododolgy in place to ensure that the service delivery systems meet contractual performance requirements.",2.4.1
+2.4.2,"AO Program governance establishes systems and methods by which a program's strategy is defined, authorized, and monitored. Program governance boards are established to represent the organization's interest in the program.
+
+AO Program Governance is well represented as part of the broader Corporate Governance, it is headed by executives and representatives of the AO function.",2.4.2
+2.4.3,"Operational continuity refers to the ability of a system or operational systems to continue working despite damages, losses or critical events. It implies the need to determine the level of resilience of the system, its ability to recover after an event, and ensure that operational systems resist to external and internal events or are able to recover after an event without losing its external performance management capability. 
+
+The organization has developed, controls and ensures continuous  (autonomous) operations in the event of external or internal disrupting events occurring.",2.4.3
+2.4.4,"Regulatory compliance is a set of rules organisations must follow to protect sensitive information and human safety. Any business that has implemented AO and works with digital assets, consumer data, health regulations, employee safety, and private communications is subject to regulatory compliance. The organization has a regulations compliance strategy in place as part of its Governance Framework as it applies to AO.",2.4.4
+2.4.5,"Security & Risk management identifies, evaluates and prioritizes risks as the effect of uncertainty on strategic and operational objectives, followed by a coordinated orchestration of resources to minimize, monitor, and control the probability or impact of unfortunate events. It also provides the principles, policies, and guidelines that drive and supervise AOs' development and deployment, addressing potential risks and security concerns.
+
+The organization makes use of best practices and standard processes to manage and mitigate risks and ensure security concerns are addressed through effective policies and principles.",2.4.5
+2.4.6,"Best Practices is not a capability by itself, but instead, in the context of AO, the ability to leverage and apply best practices is considered a ""Strategic"" plus or capability. 
+
+The organization actively investigates and encourages the adoption of best practices for AO.",2.4.6
+2.5.1,"Sustainable Value Generation applies various use cases that consider the interests of all stakeholders (such as customers, employees, investors, suppliers and communities) by integrating three aspects - environmental, social, and economic - into a business mindset which considers environmental impacts in its operations and its products. Moreover, it recognises the existence of many capitals (e.g., natural, social and economic) and focuses on long-term growth rather than short-term gains.
+
+The organization is generating sustainable value through AO by going beyond regulatory compliance and energy conservation. It differentiates its products by making them more accessible and focusing on the development of new products that address environmental and social problems.",2.5.1
+2.5.2,"Sustainable investing is the practice of analyzing a company’s environmental, social and governance (ESG) risks, as well as assessing its opportunities and progress, using ESG data and leveraging AO insights, to inform the allocation of capital.
+
+The organization assesses current and potential impacts and opportunities of AO with regard to sustainable development, and adapts its investing policies and allocation of financial resources accordingly.",2.5.2
+2.5.3,"Promotion and incorporation of ecological and social awareness across the organization, with the aim of achieving sustainable AO-driven operations.
+
+The organization promotes and incorporates current and potential opportunities for AO with regard to sustainable development, and adapts its actions, policies  and resources accordingly.",2.5.3
+3.1.1,"The ability of a system to take decisions without the need of human intervention.
+
+Self-learning agents are used to take the decisions.
+
+Systems are capable of analyzing vast amounts of data quickly and accurately.
+
+Systems' cognitive ability matures from understanding 'what is happening', 'what to do'. 'how to solve a problem', 'why perform an action', to 'self evolution and adaptability to change'.",3.1.1
+3.1.2,"As a criterion, it evaluates:
+
+how model training is taking place (mode, versioning, etc.)
+the security approach selected",3.1.2
+3.1.3,CLA technologies enable translation of goals into a set feed-forward and feed-back interactions that target reducing dependence on human intervention.,3.1.3
+3.1.4,Intent Management evaluates how technologies are implemented to understand and respond to user intents (requirements and implied goals).,3.1.4
+3.1.5,"Zero-touch integration evaluates how information flows across AO value streams, including systems, functions and processes, without the need of human intervention.",3.1.5
+3.1.6,"Simulation Management technologies enable the modelling of processes, resources, or environment to predict outcomes, optimize performance and support decision making (e.g., utilizing Digital Twin).",3.1.6
+3.2.1,Solution Architecture covers the functional specifications and the definition of the application architecture whose capabilities support the specified functional requirements and expected behavior of the AO solution.,3.2.1
+3.2.2,"Integration Architecture refers to the architecture of information flow across systems.
+
+It is evaluated the degree of open and standardized technology used with regard to Integration Architecture.
+
+For example, integration to Partners' or Customers' platforms and systems for the creation and delivery of Services, e.g. a network platform where multiple network providers are cooperating.
+
+It serves AO initiatives' integration requirements and constraints, internal and external interfaces, and open APIs.",3.2.2
+3.2.3,"It evaluates how the architecture for all AO relevant environments (Development, ML Training, Testing, Production, Maintenance, etc) is well defined.
+
+Based on AO initiative objectives and targets as well general project requirements (security, compliance, etc.), risks and contraints, it is included:
+
+scalability needs (CPU/GPU resources) of the underpinning applications, infrastructure components, ML training environment
+correlation between performance and capacity metrics for the in-scope components
+cloud strategy (private, public, hybrid)
+connectivity needs",3.2.3
+3.2.4,"It is evaluated how well redundancy, business continuity and design for failure (DDF) architectural requirements are defined.
+
+Logical Architecture (logical control flow)
+Physical Architecture (physical elements)
+Component Architecture (products/applications and the respective delivery team which implements this architecture)",3.2.4
+3.3.1,"The right people are employed to fulfill the roles required (Project Manager, Business/Solution Architects, AI Engineers, SW Engineers, Data Scientists, Data Engineers, Domain SMEs, etc.) for the development and implementation of AO.
+
+There is effective human-machine collaboration which is assessed according to:
+
+Analysis
+Awareness
+Decision
+Execution
+Experience (Intent)
+
+e.g., (Gen)AI-agent assistance.",3.3.1
+3.3.2,"It is evaluated the extend to which the platforms and tools used by the organization, efficiently address AO Technology requirements, during project's lifetime (conceptualization, design, testing, deployment, production), e.g. they are automated, or used in a company-wise formalised manner.
+
+Such Applications & Platforms include:
+Operational Canvas
+IDE (Integrated Development Environment)
+AI/ML frameworks, libraries, programming languages, orchestration tools to meet the development needs of algorithm engineering
+AI Development Tools for automatic design model, automatic parameter adjustment, automatic training, and automatic deployment of the model application, classification/regression
+ML Platforms for models creation/training/optimization
+
+APIs that can be called externally to meet the needs of third-party applications and development integration
+
+Third-party mature algorithm models
+Self-management tools (self-checking/self-repairing, version management, etc.)
+Data Platforms for data exploration, visual mining modelling, etc.
+Data Management Tools for data acquisition, storage, processing, and sharing
+System Management Tools (monitoring/statistics)
+Knowledge/Models Repository",3.3.2
+3.3.3,"It is evaluated the ability to establish and maintain reliable and secure communication channels between different devices, systems, networks and stakeholders, across AO, e.g. high-quality connections with ultra large bandwidth, ultra long distances, ultra-low latency, ultra-high security, ultra-high reliability, flexibility and adjustability, and green energy conservation.
+
+It includes, amongst others the hardware and software elements which make up the networking and physical communications links used by a system as well as other systems connected to the network  e.g. routing,wireless.
+
+Routing: determining end-to-end paths in the network when data or packet from source  to destination  
+
+Wireless: long distance transmission and communication between network nodes, not through conductors or cables, instead using radios in the air.",3.3.3
+3.3.4,"It is evaluated how redundant and scalable virtualized resources are.
+
+In the Cloud, large amounts of computing and storage resources are pooled to serve users with various demands.
+
+Abstracting network resources that were traditionally delivered in hardware to software.",3.3.4
+3.3.5,"It is evaluated how AO infrastructure is managed effectively, throughout its lifecycle.
+
+Infrastructure includes data center, CPUs/GPUs, machine room environment and the relevant resources (power and air conditioning) for conducting internet business, as well as various value-added services, offering the required computing power while establishing the future computing trade platform.",3.3.5
+3.3.6,"It is evaluated the degree that cloud or edge is used for AO.
+
+AO consume the resources they require in a global, multi-tenant environment, allowing for efficiencies.
+
+For example,
+
+for 'Autonomous Network-as-a- Platform' Service, the cloud is a must
+for organization specific AO, the cloud is a choise, though it provides advantages of cost, collaboration, efficiencies, etc.
+for mission critical applications in manufacturing industry, the edge allows for high accuracy insights at the point of interest.
+
+
+Multi-tenancy capabilities are used in offering AO services to a diversified business/private customer base.",3.3.6
+3.3.7,"It evaluates how effectively and efficiently the system is connected with device manufacturers, IoT platform and solution providers in order to create and deliver vertical services over AO, e.g. for  'Drone-as-a-Platform' Service. Involve the respective stakeholders e.g. Network Operator(s),  Customers, Device Manufactures, letting them communicate with the platform using specific IoT technolgy.
+
+The selection of IoT technology can be application specific. However, for leading AO, IoT technology needs to be leading, too.",3.3.7
+3.4.1,"It evaluates how effectively and efficiently:
+
+a) Business Requirements (Business Architecture) are translated into AO functional and technical capabilities (Technology Architecture).
+
+b) AO initiative requirements and specifications (products, services, processes, capabilities) are defined according to AO strategic objectives.
+
+c) Feasibility study and project chart/planning services are provided.
+
+d) Specific project enablers and risks are assessed.
+
+e) AO related metrics are defined to measure the success of AO.",3.4.1
+3.4.2,"It evaluates how Design and Development of the AO initiative, and the related SW and HW components (apps, data, AI/ML models, infrastructure) as well as the required capacity and integrations, is implemented, across any environment (production, test, etc.).
+
+It includes best practices, evaluation and testing, risk mitigation, and adjustment as per risk performance.",3.4.2
+3.4.3,"It evaluates how mature is the process of operationalizing and deploying relevant and business-critical autonomous systems and operations. It includes assessment of the following processes:
+
+Configuration Management
+Change Management 
+Monitoring & Event Management
+Incident Management
+Problem Management
+Service Desk Management",3.4.3
+3.4.4,"The process of AO maintainace and monitoring is evaluated against.
+
+Performance Management
+Knowledge Management
+Maintenance Requests Management
+Dicommissioning",3.4.4
+4.1.1,The ability to automate the network operations; for example monitoring network and detecting anomaly based on the pattern behavior.,4.1.1
+4.1.2,"The ability to perform anomal analysis through troubleshooting operations which includes demarcation, root-cause analysis, and problem locating.",4.1.2
+4.1.3,The ability to formulate solution options and decide on the optimized solution for anomaly recovery.,4.1.3
+4.1.4,The ability to execute the decided solution or automate the dispatch of an appropriate FME onsite for problem recovery. The execution ability also includes the automation of part of the resolution procedure such as self-configuring. ,4.1.4
+4.2.1,The ability to detect and identify customer network experience issues.,4.2.1
+4.2.2,"The ability to perform anomaly analysis through troubleshooting operations which includes demarcation, root-cause analysis, and problem locating.",4.2.2
+4.2.3,"The ability to formulate, evaluate and determine an optimal corrective action gathered from the analysis stage.",4.2.3
+4.2.4,The ability to implement the corrective action based on the selected solution and validate that the issue is resolved.,4.2.4
+4.3.1,The ability to be aware and identify the nature of customer complaints as part of  the customer complaint pre-handling stage.,4.3.1
+4.3.2,"The ability to analyze the complaint which includes complaint demarcation, root-cause analysis, and problem locating.",4.3.2
+4.3.3,The ability to develop corrective action plan based on the information analyzed to address the customer complaint.,4.3.3
+4.3.4,The ability to implement customer complaint corrective action plan and verify customer network experience problem is resolved,4.3.4
+4.4.1,"The ability to identify customers' desire, expectation and their level of satisfaction with the products and services they use. Such information is used for customer value gaps analysis purpose.",4.4.1
+4.4.2,The ability to create customer segmentation based on customer intent and consumption behavior throughout the customer journey. Analyze value improvement key drivers for each customer segment and identify the target customer segments for prioritized value enhancement.,4.4.2
+4.4.3,"The ability to design appropriate products to close the product gaps based on the key drivers of the target customer segments.
+Develop marketing programs for target customers with consideration which include offers, channels and timing, as well as budget, plan, management and control.",4.4.3
+4.4.4,"The ability to execute programs by utilizing customer segmentation, next best offers, event-based campaigns, channels, and collaterals. Track program performance and optimize it by considering customer selection, offer relevance, channel effectiveness, and collateral combination to enhance campaign efficiency, effectiveness and achieve business objectives.",4.4.4
+4.5.1,"Telecom service delivery needs operations of significant indoor (Network equipment, data center, applications and tools) and outdoor resources (active fibre, eNodeB etc) that are heavily dependent upon external source of energy. Therefore objective is to optimize operations in such a way that energy consumption is minimize as compared to energy needs in conventional operational methods.",4.5.1
+4.5.2,"Communication service providers need to run significant support functions, apart from core service delivery functions to enable delivery of services and managing business  functions ( e.g. Call Center Building, Knowledge Management, Revenue Assurance, Business Analytics). Intelligent technology adapatation and autonomous control mechanism can help in significvantly reducing energy in such business functions.",4.5.2
+4.6.1,"Order received from customer needs to be validated from various perspective e.g. Data completeness, Feasibility & Availability, Schedule validation etc.",4.6.1
+4.6.2,Customer order needs to be decomposed for further processing and resource needs to be reserved against the order,4.6.2
+4.6.3,"During fulfilment journey multiple types of exception occur, some of those are internal to CSP and some require partner intervention",4.6.3
+4.6.4,"In last leg or service fulfilment, service needs to be activated in resources and respective inventory needs to be updated. In case of rollback inventory needs to be cleaned up/released",4.6.4
+5.1.1,Mindset that actively seeks to implement AO rather than waiting to adapt to AO,5.1.1
+5.1.2,"The organization prioritizes the resources required for innovation related to AO within its culture (people, tools, budget etc.)",5.1.2
+5.1.3,The organization is able to foster innovative teams that  produce great ideas and soar to new heights in relationship with AO. ,5.1.3
+5.1.4,The organization adopts and implements fully transparent innovation framework and related practices to develop AO.,5.1.4
+5.2.1,The act of overseeing all activities (focus to AO) and tasks (focus to AO) that must be accomplished to maintain a desired level of excellence.,5.2.1
+5.2.2,"Action, procedure or contrivance designed to lower or prevent the occurrence of AO defects.",5.2.2
+5.2.3,The AO process of preparing and delivering customers' requirements first time and every time. ,5.2.3
+5.2.4,"The organization is able to provide short term to long term AO skill development (learning,  training, practicing and measurement) to enable professional and accurate work for the business",5.2.4
+5.3.1,Leadership creates and drives an AO culture that enables the organization to continually adapt and optimize its operations to its environment and stakeholder needs.,5.3.1
+5.3.2,The general attitudes and the way they typically think about things with AO as one of the prime consideration. ,5.3.2
+5.3.3,"Organizational puts AO as one of the most important focuses so to shape organizational culture, behaviors and mindsets. When aligned and embedded, it is a competitive advantage that can engage the workforce to create tangible business values. Also, creating a positive climate amongst stakeholders and allowing for greater transparency.",5.3.3
+5.4.1,The process of creating unity between the company’s AO vision of success and the way leaders and individual contributors drive business results.,5.4.1
+5.4.2,The organisation's shared AO value and Zero-X initiatives are aligned to deliver an optimal customer experience.,5.4.2
+5.4.3,"The organisation has the ability to choose the right frameworks and methodologies (including reward and performance review) which supports the AO vision. 
+
+And align across the company culture and vision. ",5.4.3
+5.5.1,The condition or space that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality. ,5.5.1
+5.5.2,A piece of equipment or a system or a software application that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality. ,5.5.2
+5.5.3,"The set principles, guidelines, performance and reward system that can facilitate staff to work in AO and can produce goods and services that is both innovative and in superior quality. ",5.5.3
+5.5.4,"The method to record and retrieve  'understanding or skill gained by experience'	",5.5.4
+5.5.5,Purposely pass to others on  'Understanding or skill gained by experience' ,5.5.5
+6.1.1,The process of gathering data and creation from various sources in an established systematic fashion that enables AO to be effectively implement within the organization. ,6.1.1
+6.1.2,The process of transferring data from a source to a destination over one or more data links according to a certain protocol. ,6.1.2
+6.1.3,"The process of recording data  in a certain format within or on the external storage media of a computer, which  reflects the characteristics of static data in the system.",6.1.3
+6.1.4,"The process of identifying stakeholders of Data (Data Users and Data Owner) so that meaningful analyses,  authorization and de-identified can be established.",6.1.4
+6.1.5,"The process to  allow users who use different computers and software in different locations to read and perform various operations, calculations, and analyses on others' data.",6.1.5
+6.1.6,"The process to evaluate the life-span of the data for the use of AO. Also, when come to the end of the life-span, the process of data archiving and the process to approve the destruction of the data and the actual process to destroy.",6.1.6
+6.2.1,Error-free records that can be used as a reliable source of information to establish AO with quality results.,6.2.1
+6.2.2,Both the data model and data sets have complete information to establish AO with quality results. ,6.2.2
+6.2.3,"The capability of noise reduction of the multidimensional orginal data such as alarms, performance, work order and logs to ensure rigorous fairness, ethical standards and equitable decision-making.",6.2.3
+6.2.4,"The capability to format the data for organizing, processing, retrieving and storing data for AO.",6.2.4
+6.2.5,The  capability to ensure that data is not lost or corrupted as it travels throughout the system to establish AO with quality results. ,6.2.5
+6.3.1,The process of duplicating data to allow retrieval of the duplicate set after a data loss event to allow AO function with minimum impact. ,6.3.1
+6.3.2,"The process of recovering data that has been lost, accidentally deleted, corrupted or made inaccessible for AO.",6.3.2
+6.3.3,"The process of conducting an official examination of the quality, condition and protection of datasets required to regulatory compliance.",6.3.3
+6.3.4,"Data protection is ensured through a zero-trust security model, which guarantees the security, integrity, and privacy of data under all circumstances.",6.3.4
+6.3.5," Under the security rules or policies set by governance?users can only access the resources they are authorized to access, can modify their own data while preventing any impact on other users' or programs' data.",6.3.5
+6.4.1,Data Monetization Capability refers to an organization’s ability to generate revenue from its data assets.,6.4.1
+6.4.2,"The data products offered by data companies, which include both raw and prepared data. The quality of these products profoundly affects the value of any subsequent products derived from them.",6.4.2
+6.4.3,"Reports and analyses are crucial tools for informing and enhancing business processes and decision-making. They offer dashboards, visualization tools, and cloud-based content powered by sophisticated data packaging engines, enabling users to grasp data trends and insights. 	",6.4.3
+6.4.4,"Assist companies in turning insights into actionable strategies by streamlining processes design and process execution, thereby achieving business objectives.",6.4.4

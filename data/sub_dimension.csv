@@ -1,0 +1,111 @@
+sub_dimension_id,sub_dimension_name,sub_dimension_definition,sub_dimension_context,dimension
+1.1,Customer Engagement,The extent to which the organisation is using intelligent automation to consistently engage with customers with the best approach for customer's interest.,"The organization delivers a Zero-effort engagement to its (human) customers
+
+i.e. for the external customers (note that Zero-X for internal / users will be addressed as part of Customer Operations in the Operations dimension)
+
+How intelligent automation is enabling the best approach for customer's interest i.e.:
+
+offering the most tailored service: based on their profile or their individual preferences
+making it easy for customer to subscribe, consume and get support on services
+rewarding their loyalty
+and always anticipating their expectations
+with Zero-Effort from customer side.",Party
+1.2,Customer Experience,the extent to which the organization is using intelligent automation to consistently realize positive CX across all touchpoints and channels.,"An internal organization and governance system is in place to deliver in an autonomous way an optimal customer experience.
+
+The following are key enabling capabilities:
+
+- customer feedback (Voice of Customer = VoC) being used to improve interactions
+- customer satisfaction being automatically captured, measured and considered in all interactions (as an extension/proxy to the NPS score)
+- customer journeys being automatically optimized
+- customer complaints being handled effectively and efficiently
+- targeting Zero-Effort from customer side.
+
+Proactive Customer Engagement: Instead of only reacting to customer feedback or complaints, organizations can take a proactive approach by engaging with customers regularly.",Party
+1.3,Customer Insight,the extent to which the organization uses intelligent automation to collect and analyze relevant insights from customers throughout their journey to better understand their needs and translate them into intent that are met by autonomous closed loop solutions.,The organization makes effective use of data to generate customer insights in an autonomous way.,Party
+1.4,Customer Trust,"the extent to which the organization builds and maintains trust with customers by ensuring the quality, security, privacy and integrity of intelligent automation.","The delivered experience aligns with the brand promise of Zero-X experience to the Customer.
+
+It also implies that organization creates and delivers clearly communicated and measured value to its customers through autonomous solutions with focus on customer benefits and business outcomes.",Party
+1.5,B2B2X Partner Engagement,The extend to which the organization engages with B2B2X partners leveraging  autonomous capabilities for the benefit of the end-customer.,"The B2B2X delivery model integrates partner ecosystem management* capabilities that contribute to Zero-X experience for  business partners. 
+
+*see Strategy dimension
+
+NB: Suppliers are not considered in this sub-dimension (when they provide inputs or resources only, without being recipient of the service value).
+
+Focus would be on B2B2X strategies for operators serving enterprise customers.",Party
+1.6,Employee Engagement,the extend to which the organization engages with employees leveraging  autonomous capabilities for the benefit of all parties involved.,"The organization delivers an improved experience to its employees, augmented by intelligent agent capabilities
+
+How intelligent automation is enabling the best approach for employee's interest, for the ultimate benefit of the organization and its customers",Party
+1.7,Engagement of Smart Things,"Smart Things (IoT, AuT) open up opportunities for developing new services and business models, for the benefit of the service provider and end-customer.
+this dimension explores interaction of Smart Things in the ecosystem.
+Smart Things (IoT, AuT) contribute to AO efficiency by optimizing resource use, automating routine tasks, and reducing downtime.
+Smart or Cognitive things perform tasks that require human-like. cognition: learning from interactions, making decisions based on data, and adapting to new information without human intervention.","Smart Things (IoT, AuT) contribute to the organization's AO efficiency by optimizing resource use, automating routine tasks, and reducing downtime.
+
+Autonomous things (AuT) include: robotics, vehicles, drones, smart devices etc.
+
+IoT can help in ensuring safety and compliance with regulations. For example, in industries like manufacturing or energy, sensors can monitor environmental conditions and ensure compliance with health and safety regulations.",Party
+2.1,Value Model,"A value model is a framework that describes the organization's intended value propositions and benefits generated through the exposure of its products and services to the market.
+
+It articulates the understanding of the organization's value proposition of its products and services, both current and planned.","The organization has a value model that helps identify and measure the factors that contribute to the value of its products and services from the perspective of the customer or user targeted by specific AO initiatives.
+
+It assumes that one would have identified clearly the AO investment and associated benefits, to the organization, and the related value fabric/chain/stream which is involved to contextualize the value model for AOMM.  ",Strategy
+2.2,Business Architecture,"Business Architecture is the enterprise blueprint of its business capabilities, end-to-end value delivery, information and organizational structure as well as relationship among business views, strategies, products and initiatives, and stakeholders. (This maps to MAMA value realization module).
+
+The organization has a Business Architecture in place, which provides the necessary integration between its strategy, business model, and the business functionality of the enterprise.","The organization has defined and manages its Business Architecture as a means to ensure and measure the business value generated by the organization's operations and their return on investment.
+
+Knowledge of the Business Architecture is a prerequisite for all architecture work in any other domains e.g. Data, Application, Technology, Security, Integration, etc and is therefore a strategic element for AO; it is the first architecture activity that needs to be undertaken.
+
+In practical terms, Business Architecture often provides a means of demonstrating the business value of any architecture work to key stakeholders, and the return on investment to those stakeholders from supporting and participating in the subsequent work.",Strategy
+2.3,Financial Management,Defines the AO budget and optimizes the financial / investment management for AO to ensure the organization achieves maximum value from allocated financial resources.,"The organization has a strong financial management capability in place, which enables effective decision-making, investment funding, liquidity, profitability, cash runway, etc.
+
+Financial management is the practice concerned with the making of a business plan and managing factors such as: profitability, expenses, cashflow, credit, financial assets, etc., for the ultimate purpose of maximizing value to stockholders. Solid financial management enables the organization to ensure a long-range vision, through effective decision-making, investment funding, liquidity, profitability, cash runway, etc. It represents a fundamental capability for the successful implementation and operating of AO.
+",Strategy
+2.4,Governance Framework,The organization has an effective AO Governance Framework in place,"The organization has a Governance Framework in place which is foundational to ensure and manage technology, data, AI and other key capabilities which are key enablers of Autonomous Operations.
+
+For the deployment and management of AO, an organization needs to have a Governance Framework in place. With technology, data, AI and other key capabilities being enablers in AO, ensuring solid governance and compliance is a must. A well-articulated governing body within the organization that has clear demarcation of accountability and ownership for activities is paramount. An effective governance framework must ensure direction and control and the management of key processes such as security, risk management,  compliance, etc., while fulfilling the requirements associated with the characteristics of governance (Discipline, Transparency, Independence, Accountability, Responsibility, Fairness). Autonomous Operations will come with their own set of challenges; for instance, AI adoption amongst other innovative technologies.",Strategy
+2.5,Sustainability Management,"Follow a sustainable AO-based strategy toward products and services, operations, and investment","The organization embraces a sustainable AO-based strategy toward its products and services, operations, and investments.
+
+Sustainability encompasses a comprehensive approach that integrates sustainable AO-based value generation, along with operations, and investments. It involves adopting strategies and practices that consider the environmental, social, and economic dimensions of value creation. Through sustainable AO-based value generation, businesses focus on products and services that minimize environmental impacts, embrace circular economy principles, and foster innovation for sustainable solutions. Sustainable AO-based operations prioritize energy efficiency, waste reduction, and green supply chain practices, utilizing AI optimization algorithms to enhance operational sustainability. Lastly, sustainable AO-based investments involve incorporating ESG criteria, impact investing, and sustainable asset management to align financial decisions with sustainable development goals, generating positive environmental and social outcomes alongside financial returns. By integrating these aspects, sustainability promotes a holistic approach that balances the needs of the present and future generations while driving value and operational efficiency.",Strategy
+3.1,Autonomous Architecture,"Technology capabilities required to enable Autonomous Operations.
+","The organization has the right automation capabilities in place,  including cognitive technologies and other types of technologies as enablers of its autonomous operations.",Technology
+3.2,Technology Architecture,"Technology Architecture for Autonomous Operations drives the design and implementation of the systems, processes, and tools that enable an organization to successfuly achieve AO.","There is a technology  architecture in place which enables effective Autonomous Operations across all of its technology estate within the organization, as well as its ecosystem.",Technology
+3.3,Technology Resources Management,Technology resources must be in place and effectively managed to enable AO.,"Technology resources, such as people, applications, platforms, infrastructure, connectivity, compute power, etc., are in place and effectively managed as key enablers of Autonomous Operations.",Technology
+3.4,Technology Lifecycle Management,"Technology Lifecycle Management Dimension evaluates the extend to which the organization is applying the right processes, for an AO initiative to be analyzed, planned, designed, developed and monitored, efficiently, effectively, and uniteruptly.","The organization is applying the right processes encompassed with best practices from the industry and international standards to effectively implement and optimize AO-enabling  technology throughout its lifecycle (Business Analysis, Planning, Design, Development, Deployment, Production, and Maintenance).",Technology
+4.1,Anomaly Resolution,"Anomaly resolution involves the day-to-day operation activities necessary to detect and resolve any operations related anomalies, and ensure healthy operations across the enterprise.",The organization has automated technology capabilities in place which enable the resolution of anomalies in day-to-day operations and avoid any disruption in its operations.,Operations
+4.2,Customer Network Experience Assurance,Customer network experience assurance defines the capability to identify customer network experience issues with the purpose of resolving them.,"The organization has an effective Customer network experience assurance in place.
+
+Customer network experience assurance consists of the capability that enables the detection of any customer network experience issues, determining the root-cause and  corrective action and final resolution.",Operations
+4.3,Customer Network Complaints Resolution,"Customer network complaints resolution defines the capability to manage network-related customer complaints, by identifying the root cause, as well as definining and executing a corrective action plan.","The organization has an effective Customer network complaints resolution capability in place.
+
+Customer network complaints resolution consists of resolving of customer complaints with regard to their network experience. This includes the diagnosis of complaints across channels, identifying the root-cause and developing and executing the corrective action plan.",Operations
+4.4,Customer Value Preservation and Uplift ,"Customer value preservation and uplift  focuses on the identification and resolution of customer value gaps, and preserves customer value through value improvement plans and programs for customer operations.","The organization has an effective Customer Value Preservation and Uplift capability in place.
+
+Customer value preservation and uplift  involves goal setting, customer value gaps identification and development of a value improvement plan, as well as product and program design and execution.",Operations
+4.5,Energy Optimization and Operations Carbon Footprint,A key objective and business value of Autonomous Operation is its ability to deliver tangible energy savings and reduce carbon emissions.,"The organization effectively achieves energy savings and optimizes its carbon footprint.
+
+Autonomous operations induces efficieny in terms of resource utilization, predictive scheduling, reduced dependency on manual intervation etc., thereby providing significant energy savings and carbon emission reductions.(That otherwise in absnece of AO would have been significantly high) Hence this very important aspect of autonomous operation needs to be measured to drive operations maturity.",Operations
+4.6,Order Fulfillment ,"Order fulfillment capability involves order acceptance, validation, decomposition and orchestration to activate services in the network resources.
+
+Key objective and business value of Autonomous Operations is its ability to enable a faster and more efficient delivery of services (Order Fulfillment) with better tracking of the process and reduced order fallout.","The organization has an autonomous order fulfillmentValidate received order capability in place.
+
+The ability to automate and further achieve autonomy in operations results in flexible, realtime, self-adjusting and adapting of the overall order fulfilment journey, enabling decision-making and a successful service orchestration and activation.",Operations
+5.1,Innovation Culture ,"Innovation is the use of new ideas, products, or methods where they have not been used before. As Autonomous Operations is an emerging trend, it requires an innovative approach to development. ","The organization fosters a culture of innovation within and throughout its ecosystem by implementing and leveraging Autonomous Operations.
+
+This is achieved through various methods, including the tangible application of ideas that enhance cultural values, organizational capabilities, and the provision of goods or services to customers via Autonomous Operations. Innovation is upheld through collaboration and exercising  diversity and inclusion within the company.  ",Culture
+5.2,Quality Culture ,"A quality culture is an environment where team members genuinely care about the quality of Autonomous Operations, and make decisions in consideration of quality output.","The organization fosters a culture of quality within and throughout its ecosystem by implementing and leveraging Autonomous Operations.
+
+Quality is being upheld through collaboration, respect diversity and inclusion.  ",Culture
+5.3,Culture Management ,The culture management sub-dimension assesses an organization's preparedness and capability to develop and scale a work culture in the context of Autonomous Operations.,"The organization continuously tracks progress and employs incentives, effective communication of values, storytelling, and evaluation tools to realize its cultural aspirations. 
+
+The organization culture encourages staff to adopt a digital mindset, aiming to deliver a Zero-X, Right-X experience through Autonomous Operations.",Culture
+5.4,Organization Alignment ,"Organization Alignment involves aligning the organization's overarching vision of success through Autonomous Operations, with the way in which leaders and individual contributors promote operational alignment across business units.","Leadership teams and business functions are effectively aligned throughout the organization, they form a powerful collective of motivated, accountable individuals.
+
+This alignment contributes to achieve substantial improvements in business outcomes, rendering Autonomous Operations far more effective and efficient.",Culture
+5.5,Workplace Enablement,"The organization's work environment, tools, and established practices not only enable Autonomous Operations but also foster a positive, productive, and innovative team spirit.","The work environment plays a crucial role in enhancing the productivity of Autonomous Operations and nurturing a culture of innovation and quality.
+
+Utilizing digital technologies, operators can establish an environment that boosts employee well-being, motivation, and engagement, resulting in a workforce that is both more efficient and effective.",Culture
+6.1,Data Life-Cycle Management  ,"Data Lifecycle Management (DLM) directs and controls data throughout its lifecycle, from data entry to data archiving or destruction. An effective automation of the management of Data Lifecycle will contribute and facilitate Autonomous Operations.","The organization facilitates Autonomous Operations by directing and controling data throughout its lifecycle, from data entry to data archiving or destruction.",Data
+6.2,Data  Quality,"Data Quality refers to the accuracy , completeness, consistency and structuring of data over its lifecycle.","The organization ensures the quality of its data through a combination of processes, rules, and standards  implemented across the data lifecycle.",Data
+6.3,Data Security,"Data Security is the process of safeguarding important data from corruption, compromise or loss.","The organization ensures the security of its data by safeguarding it from corruption, compromise or loss in its Autonomous Operations environment.
+
+",Data
+6.4,Data Monetization,"Data Monetization is the process of converting data into monetary value, by utilizing data to create new sources of revenue or optimize existing business processes.","The organization has shifted the role of data from supporting asset to utility asset by productizing and monetizing it, by leveraging AO in technology and data capabilities.",Data

@@ -1,0 +1,292 @@
+{% extends "base.html" %}
+{% block title %}AOMM - Assessment REVIEW{% endblock %}
+{% block content %}
+<main class="main-content">
+    <div class="container mt-4">
+        <form class="container mt-4" action="/review?access_token={{ access_token }}" method="post" id="theForm" name="theForm">   
+            <input type="hidden" name="access_token" id="access_token" value="{{ access_token }}">
+            <input type="hidden" name="session_id" id="session_id" value="{{ session_id }}">
+            <input type="hidden" name="service" id="service" value="{{ user_selection["service"] }}">
+            <input type="hidden" name="operation" id="operation" value="{{ user_selection["operation"] }}">
+            <input type="hidden" name="operation_sub_group" id="operation_sub_group" value="{{ user_selection["operation_sub_group"] }}">  
+            <h2 class="text-primary">Review Capability - Question mapping</h2>
+
+            <!-- Filter Section -->
+            <div class="filter-section my-4 d-flex justify-content-center align-items-center gap-3">
+                <div style="font-size:14px;font-family:verdana;color:#e0391f;text-align:left">
+                    <!-- Display error message if present -->
+                    {% if error_message %}
+                        Error: {{ error_message }}
+                    {% endif %}                
+                </div>
+                <select id="service-select" class="form-select form-select-sm">
+                    <!--<option value="" disabled selected>Select Service</option>-->
+                    <option value="SERVICE_HOME_BB">Home Broadband</option>
+                    <option value="SERVICE_MOBILE" selected>Mobile Service</option>
+                    <option value="SERVICE_ENT_SOLS">Enterprise Solutions</option>
+                    <option value="SERVICE_HBB_ENT_SOLS">Home BB & Ent. Soln.</option>
+                    <option value="SERVICE_ALL">All Services</option>
+                </select>
+                <select id="operation-select" class="form-select form-select-sm">
+                    <option value="default" disabled selected>Select Operations</option>
+                    {% if "OP_TM" in user_ops_list %}
+                    <option value="OP_TM">Network Planning and Topology Management</option>
+                    {% endif %}
+                    {% if "OP_NOC" in user_ops_list %}
+                    <option value="OP_NOC">Network Operations Center</option>
+                    {% endif %}
+                    {% if "OP_NA" in user_ops_list %}
+                    <option value="OP_NA">Service Operations Center</option>
+                    {% endif %}
+                    {% if "OP_FO" in user_ops_list %}
+                    <option value="OP_FO">Field Operations</option>
+                    {% endif %}
+                    {% if "OP_IM" in user_ops_list %}
+                    <option value="OP_IM">Inventory Management</option>
+                    {% endif %}
+                    {% if "OP_SO" in user_ops_list %}
+                    <option value="OP_SO">Products and Services</option>
+                    {% endif %}
+                    {% if "OP_CX" in user_ops_list %}
+                    <option value="OP_CX">Customer Experience</option>
+                    {% endif %}
+                    {% if "OP_NO" in user_ops_list %}
+                    <option value="OP_NO">Network Optimization</option>
+                    {% endif %}
+                    {% if "OP_AO" in user_ops_list %}
+                    <option value="OP_AO">Autonomous Operations</option>
+                    {% endif %}
+                    {% if "OP_OT" in user_ops_list %}
+                    <option value="OP_OT">Other Topics</option>
+                    {% endif %}
+                </select>
+                <select id="operation-sub-group-select" class="form-select form-select-sm">
+                    <option value="" disabled selected>Select Operation Sub-Group</option>
+                </select>
+            </div>
+
+            <!-- Table Section -->
+            <div style="text-align:left;font-size:12px;font-family:verdana;color:blue;">
+                Service: [<b>{{ user_selection_text["service"] }}</b>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Operation: [<b>{{ user_selection_text["operation"] }}</b>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Operation Sub Group: [<b>{{ user_selection_text["operation_sub_group"] }}</b>]    
+            </div>
+            <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left">  
+                <table id="capabilityTable" style="font-size: 0.85em; width:100%">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Id</th>
+                            <th>Value Steam</th>
+                            <th>Id</th>
+                            <th>Capability</th>
+                            <th>Description</th>
+                            <th>Id</th>
+                            <th>Criteria (Question)</th>
+                            <th>Weighting</th>
+                            <th>Option Level 1 (Initiating)</th>
+                            <th>Option Level 2 (Emerging)</th>
+                            <th>Option Level 3 (Performing)</th>
+                            <th>Option Level 4 ((Advancing)</th>
+                            <th>Option Level 5 (Leading)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% set previd = '0.0' %}
+                        {% for row in review_data %}
+                        <tr>
+                            {% if previd != row.value_stream_id %}
+                                <td style="vertical-align: top; text-align: left;">{{ row.value_stream_id }}</td>
+                            {% else %}
+                                <td></td>
+                            {% endif %}
+                            <td style="vertical-align: top; text-align: left;">{{ row.value_stream_name }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.capability_id }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.capability_name }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.capability_definition }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.question_id }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.question_description }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.weighting }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.cla_level1_description }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.cla_level2_description }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.cla_level3_description }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.cla_level4_description }}</td>
+                            <td style="vertical-align: top; text-align: left;">{{ row.cla_level5_description }}</td>
+                        </tr>
+                        {% set previd = row.value_stream_id %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</main>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Include DataTables -->
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.capabilityTable').DataTable({
+                "scrollY": "960px",
+                "scrollCollapse": true,
+                paging: true,
+                "pageLength": 20,
+                lengthMenu: [5, 10, 20]
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+
+    <style>
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }         
+        .filter-section select {
+            font-size: 0.85rem;
+            padding: 0.2rem 0.5rem;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            // Initialize DataTable with Bootstrap styling
+            $('#capabilityTable').DataTable({
+                paging: true,
+                "pageLength": 20,
+                lengthMenu: [5, 10, 20],
+                searching: true,
+                ordering: true,
+                scrollX: true,
+                columnDefs: [
+                    { orderable: false, targets: [6, 7, 8, 9, 10] } // Disable sorting for radio button columns
+                ],
+                language: {
+                    search: "Search:",
+                    lengthMenu: "Show _MENU_ entries per page",
+                    zeroRecords: "No matching records found"
+                }
+            });
+
+        // Mapping of operations to operations-sub-groups values
+        const operationFilterValueMapping = {
+                OP_TM: { subOperation: ['OP_TM_01','OP_TM_02','OP_TM_03'] },
+                OP_NOC: { subOperation: ['OP_NOC_1','OP_NOC_2','OP_NOC_3','OP_NOC_4','OP_NOC_5','OP_NOC_6','OP_NOC_7','OP_NOC_8'] },
+                OP_NA: { subOperation: ['OP_NA_01','OP_NA_02','OP_NA_03','OP_NA_04'] },
+                OP_FO: { subOperation: ['OP_FO_01','OP_FO_02'] },
+                OP_IM: { subOperation: ['OP_IM_01','OP_IM_02'] },
+                OP_SO: { subOperation: ['OP_SO_01','OP_SO_02','OP_SO_03','OP_SO_04','OP_SO_05','OP_SO_06'] },
+                OP_CX: { subOperation: ['OP_CX_01','OP_CX_02','OP_CX_03','OP_CX_04'] },
+                OP_NO: { subOperation: ['OP_NO_01','OP_NO_02','OP_NO_03','OP_NO_04','OP_NO_05','OP_NO_06','OP_NO_07'] },
+                OP_AO: { subOperation: ['OP_AO_01','OP_AO_02','OP_AO_03'] },
+                OP_OT: { subOperation: ['OP_OT_01','OP_OT_02','OP_OT_03'] }
+            };
+
+            // Mapping of operations to operations-sub-groups display text
+            const operationFilterTextMapping = {
+                OP_TM: { subOperation: ['Network Planning','Network Deployment','Network Topology Management'] },
+                OP_NOC: { subOperation: ['RAN Network Performance Management','RAN Network Trouble Management','Core Network Performance Management',
+                                         'Core Network Trouble Management','IP Network Performance Management','IP and Backhaul Network Trouble Management',
+                                         'Network Usage Management','E2E Network Performance Management'] },
+                OP_NA: { subOperation: ['Service Analysis','Service Management','Service Problem Management','Service Quality and Performance Management'] },
+                OP_FO: { subOperation: ['Asset Management','Work Order Management'] },
+                OP_IM: { subOperation: ['Inventory Management','Supply Chain Fulfillment'] },
+                OP_SO: { subOperation: ['Product and Service Configuration & Activation','Product and Service Operational Analysis','Product and Service Performance Management',
+                                        'Product and Service Problem Management','Security Management','Service Offer Management'] },
+                OP_CX: { subOperation: ['Customer Experience Management','Customer Information Management','Customer Order Management',
+                                        'Customer Behavior Analysis'] },
+                OP_NO: { subOperation: ['Network Capacity Management','Network Optimization for RAN','Network Optimization for Core',
+                                        'Network Optimization for IP and Backhaul','Network Optimization for QoE','Network Traffic Management','Anomaly Management'] },
+                OP_AO: { subOperation: ['Autonomous Operations Platform and People','Autonomous Operations Culture','Autonomous Operations Business Strategy'] },
+                OP_OT: { subOperation: ['B2B2X Partner Engagement','Employee Engagement','Engagement of Smart Things'] }
+            };
+
+            function removeOptions(selectElement) {
+                var i, L = selectElement.options.length - 1;
+                for(i = L; i >= 0; i--) {
+                    selectElement.remove(i);
+                }
+                var el = document.createElement("option");
+                el.value = "";
+                el.textContent = "Select Sub-Operation";
+                selectElement.appendChild(el);
+                selectElement.options[0].disabled = true;
+            }
+
+
+            // Handle operation select change
+            $('#operation-select').on('change', function() {
+                const selectedOperation = $(this).val();
+                if (operationFilterValueMapping[selectedOperation]) {
+                    var select = document.getElementById("operation-sub-group-select");
+                    removeOptions(select);
+                    for(var i = 0; i < operationFilterValueMapping[selectedOperation].subOperation.length; i++) {
+                        var opt = operationFilterValueMapping[selectedOperation].subOperation[i];
+                        var txt = operationFilterTextMapping[selectedOperation].subOperation[i];
+                        var el = document.createElement("option");
+                        el.value = opt;
+                        el.textContent = txt;
+                        select.appendChild(el);
+                    }
+                }
+                console.log('Selected Filters:', {
+                    service: $('#service-select').val(),
+                    operation: $('#operation-select').val(),
+                    operationSubGroup: $('#operation-sub-group-select').val()
+                });
+            });
+
+            // Handle additional dropdown filter functionality
+            $('#operation-sub-group-select').on('change', function() {
+                const selectedSubOperation = $(this).val();
+                const selectedOperation = $('#operation-select').val();
+                const selectedService = $('#service-select').val();
+                window.location = "/review?access_token=" + $('#access_token').val()+ "&session_id=" + $('#session_id').val() + "&service=" + selectedService + "&operation=" + selectedOperation + "&operation_sub_group=" + selectedSubOperation;
+                console.log('Selected Filters:', {
+                    access_token: $('#access_token').val(),
+                    service: $('#service-select').val(),
+                    operation: $('#operation-select').val(),
+                    operationSubGroup: $('#operation-sub-group-select').val()
+                });               
+            });
+
+            // Handle additional dropdown filter functionality
+            window.onload = function() {
+                document.getElementById('service-select').value = "{{ user_selection['service'] }}"
+                document.getElementById('operation-select').value = "{{ user_selection['operation'] }}"
+                const selectedService = "{{ user_selection['service'] }}";
+                const selectedOperation = "{{ user_selection['operation'] }}";
+                const selectedOperationSubGroup = "{{ user_selection['operation_sub_group'] }}";
+                var select = document.getElementById("operation-sub-group-select");
+                removeOptions(select);
+                for(var i = 0; i < operationFilterValueMapping[selectedOperation].subOperation.length; i++) {
+                    var opt = operationFilterValueMapping[selectedOperation].subOperation[i];
+                    var txt = operationFilterTextMapping[selectedOperation].subOperation[i];
+                    var el = document.createElement("option");
+                    el.value = opt;
+                    el.textContent = txt;
+                    select.appendChild(el);
+                }
+                document.getElementById('operation-sub-group-select').value = "{{ user_selection['operation_sub_group'] }}"
+            }; 
+
+
+        });
+    </script>
+{% endblock %}

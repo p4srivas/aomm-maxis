@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}AOMM - Criteria - Atrributes{% endblock %}
+{% block content %}
+    <main class="main-content">
+        <form class="container mt-4" action="/attributes?access_token={{ access_token }}" method="get" name="theForm">
+            <input type="hidden" name="access_token" id="access_token" value="{{ access_token }}">
+            <div><h2>Criteria - Attributes</h2></div>
+            <div style="font-size:24px;font-family:verdana;color:blue;text-align:center"></div>
+            <div style="font-size:14px;font-family:verdana;color:#1f56e0;text-align:left">
+                {{ attributes_table | safe }}
+            </div>
+        </form>
+    </main>
+{% endblock %}
+{% block scripts %}
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.display').DataTable({
+                "scrollY": "760px",
+                "scrollCollapse": true,
+                "paging": true,
+                "pageLength": 5,
+                lengthMenu: [5, 10, 20],                
+                searching: true, 
+            });
+
+            // Toggle sidebar
+            $('.sidebar').hover(
+                function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                }
+            );
+        });
+    </script>
+
+{% endblock %}

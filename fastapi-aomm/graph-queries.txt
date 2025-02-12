@@ -1,0 +1,219 @@
+SELECT 
+	t6.value_stream_id AS value_stream_id,
+	t6.value_stream_name AS value_stream_name,
+	t5.capability_id AS capability_id,
+	t5.capability_name AS capability_name,
+	t5.capability_definition AS capability_definition, 
+	t3.question_id AS question_id, 
+	t3.question_description AS question_description, 
+	t3.weighting AS weighting,                    
+	t2.cla_level1_id, t2.cla_level1_description,
+	t2.cla_level2_id, t2.cla_level2_description,
+	t2.cla_level3_id, t2.cla_level3_description,
+	t2.cla_level4_id, t2.cla_level4_description,
+	t2.cla_level5_id, t2.cla_level5_description,
+	t1.cla_level, t1.capability_score
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id  
+INNER JOIN cla t2 ON t2.question_id = t1.question_id
+INNER JOIN question t3 ON t3.question_id = t1.question_id 
+INNER JOIN capability t5 ON t5.capability_id = t1.capability_id 
+INNER JOIN value_stream t6 ON t6.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id = (SELECT self_assessment_id FROM self_assessment WHERE 
+								operation_sub_group = 'OP_FO_01'
+								AND operation = 'OP_FO' 
+								AND service = 'Enterprise Solutions'
+								AND user_id = 'WKOAY@maxis.com.my' 
+								AND is_archived = 'f'
+								ORDER BY update_time DESC LIMIT 1)
+ORDER BY t6.value_stream_id, t5.capability_id, t3.question_id ASC;
+
+
+
+--original
+SELECT 
+    t3.value_stream_id AS value_stream_id,
+    t3.value_stream_name AS value_stream_name,
+    t2.capability_id AS capability_id,
+    t2.capability_name AS capability_name,
+    t1.cla_level, t1.capability_score 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN capability t2 ON t2.capability_id = t1.capability_id 
+INNER JOIN value_stream t3 ON t3.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id = (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND user_id = 'WKOAY@maxis.com.my' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1) 
+ORDER BY t3.value_stream_id, t2.capability_id ASC;
+
+--user capability
+SELECT 
+    t2.capability_id AS capability_id,
+    t.user_id,
+    t1.cla_level 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN capability t2 ON t2.capability_id = t1.capability_id 
+WHERE t.self_assessment_id = (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND user_id = 'WKOAY@maxis.com.my' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1) 
+ORDER BY t2.capability_id ASC;
+
+--average capability
+SELECT 
+    t2.capability_id AS capability_id,
+    'average',
+    AVG(t1.cla_level::INT)::NUMERIC(5,2)::TEXT
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN capability t2 ON t2.capability_id = t1.capability_id 
+WHERE t.self_assessment_id IN (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND is_archived = 'f')
+GROUP BY t2.capability_id, 'average' 
+ORDER BY t2.capability_id ASC;
+
+
+
+--user value stream
+SELECT 
+    t2.value_stream_id AS value_stream_id,
+    t.user_id,
+    avg(t1.capability_score)::numeric(5,2) 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN value_stream t2 ON t2.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id = (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND user_id = 'WKOAY@maxis.com.my' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1)
+GROUP BY t2.value_stream_id, t.user_id 
+ORDER BY t2.value_stream_id ASC;
+
+--average value stream
+SELECT 
+    t2.value_stream_id AS value_stream_id,
+    'average',
+    avg(t1.capability_score)::numeric(5,2) 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN value_stream t2 ON t2.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id IN (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND is_archived = 'f')
+GROUP BY t2.value_stream_id 
+ORDER BY t2.value_stream_id ASC;
+
+
+
+
+
+
+import pandas as pd
+
+df = pd.DataFrame({
+  "Value Stream Id": ["6.1", "6.2", "6.3", "6.1", "6.2", "6.3"],
+  "comparison": ["user", "user", "user", "average", "average", "average"],
+  "Score": [2, 1, 3, 1, 3, 2],
+})
+
+
+# Plotly Express
+
+import plotly.express as px
+
+fig = px.bar(df, x="Value Stream Id", y="Score", color="comparison", barmode="group")
+fig.show()
+
+
+
+
+import pandas as pd
+
+df = pd.DataFrame({
+  "Capability Id": ["6.1", "6.2", "6.3", "6.1", "6.2", "6.3"],
+  "comparison": ["user", "user", "user", "average", "average", "average"],
+  "Score": [2, 1, 3, 1, 3, 2],
+})
+
+
+# Plotly Express
+
+import plotly.express as px
+
+fig = px.bar(df, x="Capability Id", y="Score", color="comparison", barmode="group")
+fig.show()
+
+
+
+
+
+
+--backup
+
+SELECT 
+    t3.value_stream_id AS value_stream_id,
+    t3.value_stream_name AS value_stream_name,
+    t2.capability_id AS capability_id,
+    t2.capability_name AS capability_name,
+    t1.cla_level, t1.capability_score 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id 
+INNER JOIN capability t2 ON t2.capability_id = t1.capability_id 
+INNER JOIN value_stream t3 ON t3.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id IN (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_NOC_1'
+	AND operation = 'OP_NOC' 
+	AND service = 'Mobile Service' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1) 
+ORDER BY t3.value_stream_id, t2.capability_id ASC;
+
+
+SELECT 
+    t2.capability_id AS capability_id,
+    t2.capability_name AS capability_name,
+    t1.cla_level 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN capability t2 ON t2.capability_id = t1.capability_id 
+WHERE t.self_assessment_id IN (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_FO_01'
+	AND operation = 'OP_FO' 
+	AND service = 'Enterprise Solutions' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1) 
+ORDER BY t2.capability_id ASC;
+
+
+SELECT 
+    t2.value_stream_id AS value_stream_id,
+    t2.value_stream_name AS value_stream_name,
+    avg(t1.capability_score)::numeric(5,2) 
+FROM self_assessment t
+INNER JOIN sa_question_relation t1 ON t1.self_assessment_id = t.self_assessment_id AND t1.is_archived = 'f' 
+INNER JOIN value_stream t2 ON t2.value_stream_id = t1.value_stream_id  
+WHERE t.self_assessment_id = (SELECT self_assessment_id FROM self_assessment WHERE 
+	operation_sub_group = 'OP_FO_01'
+	AND operation = 'OP_FO' 
+	AND service = 'Enterprise Solutions' 
+	AND user_id = 'WKOAY@maxis.com.my' 
+	AND is_archived = 'f' 
+	ORDER BY update_time DESC LIMIT 1)
+GROUP BY t2.value_stream_id, t2.value_stream_name 
+ORDER BY t2.value_stream_id ASC;

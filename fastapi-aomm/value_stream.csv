@@ -1,0 +1,119 @@
+value_stream_id,valud_stream_name,operation,operation_sub_group
+1.11,Customer Experience Analysis,OP_CX,OP_CX_01
+1.12,Customer Experience Digitalization,OP_CX,OP_CX_01
+1.13,Personalize Customer Interaction,OP_CX,OP_CX_01
+1.14,Customer Interaction Management,OP_CX,OP_CX_01
+1.15,Loyalty Program Management,OP_CX,OP_CX_01
+1.16,Customer Experience Modelling,OP_CX,OP_CX_01
+1.17,Customer Trust,OP_CX,OP_CX_01
+1.21,Customer Information Collection,OP_CX,OP_CX_02
+1.31,Recommended Action Result Analysis,OP_CX,OP_CX_04
+1.32,Customer Support Guiding,OP_CX,OP_CX_04
+1.33,Customer Behaviour Prediction,OP_CX,OP_CX_04
+1.41,Customer Order Validation,OP_CX,OP_CX_03
+1.42,Customer Order Management,OP_CX,OP_CX_03
+1.43,Customer Order Completion,OP_CX,OP_CX_03
+1.51,B2B2x Partner Management,OP_OT,OP_OT_01
+1.52,B2B2x Partner Value Measurement,OP_OT,OP_OT_01
+1.61,Employee Satisfaction,OP_OT,OP_OT_02
+1.62,Employee Productivity,OP_OT,OP_OT_02
+1.71,Smart IoT Adoption,OP_OT,OP_OT_03
+1.72,Smart IoT Management,OP_OT,OP_OT_03
+1.73,Smart IoT Communication,OP_OT,OP_OT_03
+10.1,Network Capacity Management,OP_NO,OP_NO_01
+10.2,Network Traffic Management,OP_NO,OP_NO_06
+10.3,2G Radio Network Optimization,OP_NO,OP_NO_02
+10.4,3G Radio Network Optimization,OP_NO,OP_NO_02
+10.5,4G Radio Network Optimization,OP_NO,OP_NO_02
+10.6,Core Optimization,OP_NO,OP_NO_03
+10.7,IP Network Optimization,OP_NO,OP_NO_04
+10.8,QoE Optimization,OP_NO,OP_NO_05
+11.42,Anomaly Detection,OP_NO,OP_NO_07
+11.43,Anomaly Prediction,OP_NO,OP_NO_07
+11.44,Anomaly Mitigation,OP_NO,OP_NO_07
+12.2,AO Platform Architecture Framework,OP_AO,OP_AO_01
+12.3,AO Resource Management,OP_AO,OP_AO_01
+12.4,AO Technology Lifecycle Management,OP_AO,OP_AO_01
+12.5,AO Innovation Culture,OP_AO,OP_AO_02
+12.6,AO Quality Culture,OP_AO,OP_AO_02
+12.7,Forster AO Culture,OP_AO,OP_AO_02
+12.8,AO Centricity,OP_AO,OP_AO_02
+12.9,AO Workplace Enablement,OP_AO,OP_AO_02
+2.1,Work Order Assignment and Plan,OP_FO,OP_FO_02
+2.2,Work Order Establishment,OP_FO,OP_FO_02
+2.3,Work Order Tracking and Business Value,OP_FO,OP_FO_02
+2.4,Vehicle Fleet Management,OP_FO,OP_FO_01
+3.1,Location Management,OP_IM,OP_IM_01
+3.10,Logistic Availability,OP_IM,OP_IM_02
+3.2,Network Audit and Discovery,OP_IM,OP_IM_01
+3.3,Network Repository Management,OP_IM,OP_IM_01
+3.4,Network Simulation,OP_IM,OP_IM_01
+3.5,Network Mediation,OP_IM,OP_IM_01
+3.6,Stock Inventory Control,OP_IM,OP_IM_02
+3.7,Stock Inventory Management,OP_IM,OP_IM_02
+3.8,Stock Level Management,OP_IM,OP_IM_02
+3.9,Stock Movements Management,OP_IM,OP_IM_02
+4.1,Network Planning and Deployment,OP_TM,OP_TM_01
+4.2,Network Handover to Delivery Management,OP_TM,OP_TM_02
+4.3,Network Change Management,OP_TM,OP_TM_02
+4.4,Network Infrastructure Analysis,OP_TM,OP_TM_03
+4.5,Network Resource Performance Analysis,OP_TM,OP_TM_03
+4.6,Network Diagnostic and Performance Testing,OP_TM,OP_TM_03
+4.7,Network Resource Strategy Design and Planning,OP_TM,OP_TM_01
+5.1,Service Quality and Performance Analysis,OP_NA,OP_NA_01
+5.10,Service Problem Policy Management,OP_NA,OP_NA_03
+5.11,Service Trouble Analysis,OP_NA,OP_NA_03
+5.12,Service Trouble Tracking and Business Value Development,OP_NA,OP_NA_03
+5.13,Service Performance Development,OP_NA,OP_NA_04
+5.14,Service Quality Development,OP_NA,OP_NA_04
+5.15,Service Performance Management,OP_NA,OP_NA_04
+5.16,Service Quality and Performance Supervision,OP_NA,OP_NA_04
+5.17,Service Quality and Performance Repository Management,OP_NA,OP_NA_04
+5.2,Service Repository Management,OP_NA,OP_NA_02
+5.3,Service Impact Assessment,OP_NA,OP_NA_02
+5.4,Service Audit,OP_NA,OP_NA_02
+5.5,Service Reconciliation,OP_NA,OP_NA_02
+5.6,Service Usage Analysis,OP_NA,OP_NA_02
+5.7,Service Delivery Management,OP_NA,OP_NA_02
+5.8,Service Problem Repository Management,OP_NA,OP_NA_03
+5.9,Service Problem Resolution,OP_NA,OP_NA_03
+6.1,RAN Alarm Repository Management,OP_NOC,OP_NOC_1
+6.10,Core Network Alarm Repository Management,OP_NOC,OP_NOC_3
+6.11,Core Network Alarm Management,OP_NOC,OP_NOC_3
+6.12,Core Network Performance Monitoring,OP_NOC,OP_NOC_3
+6.13,Core Network Trouble Repository Management,OP_NOC,OP_NOC_4
+6.14,Core Network Trouble Resolution,OP_NOC,OP_NOC_4
+6.15,Core Network Trouble Ticket Management,OP_NOC,OP_NOC_4
+6.16,Core Network Trouble Analysis,OP_NOC,OP_NOC_4
+6.17,IP and Backhaul Network Alarm Repository Management,OP_NOC,OP_NOC_5
+6.18,IP and Backhaul Network Alarm Management,OP_NOC,OP_NOC_5
+6.19,IP and Backhaul Network Performance Monitoring,OP_NOC,OP_NOC_5
+6.2,RAN Alarm Management,OP_NOC,OP_NOC_1
+6.20,IP and Backhaul Network Trouble Repository Management,OP_NOC,OP_NOC_6
+6.21,IP and Backhaul Network Trouble Resolution,OP_NOC,OP_NOC_6
+6.22,IP and Backhaul Network Trouble Ticket Management,OP_NOC,OP_NOC_6
+6.23,IP and Backhaul Network Trouble Analysis,OP_NOC,OP_NOC_6
+6.24,E2E Performance Monitoring,OP_NOC,OP_NOC_8
+6.3,RAN Performance Monitoring,OP_NOC,OP_NOC_1
+6.4,RAN Trouble Repository Management,OP_NOC,OP_NOC_2
+6.5,RAN Trouble Resolution,OP_NOC,OP_NOC_2
+6.6,RAN Trouble Ticket Management,OP_NOC,OP_NOC_2
+6.7,RAN Trouble Analysis,OP_NOC,OP_NOC_2
+6.8,Network Usage Collection,OP_NOC,OP_NOC_7
+6.9,Network Fraud Detection,OP_NOC,OP_NOC_7
+11.1,Product Usage Analysis,OP_SO,OP_SO_02
+11.2,Product QoS Analysis,OP_SO,OP_SO_03
+11.3,Product Performance Analysis,OP_SO,OP_SO_03
+11.9,Loyalty Account Management,OP_SO,OP_SO_01
+11.11,Loyalty Events Management,OP_SO,OP_SO_01
+11.13,Fraud Detection,OP_SO,OP_SO_05
+11.14,Product Usage Tracking,OP_SO,OP_SO_04
+11.30,Product Performance Analysis,OP_SO,OP_SO_03
+11.18,Product Performance Reporting,OP_SO,OP_SO_03
+11.19,Product Performance Commitment Follow-up,OP_SO,OP_SO_04
+11.20,Product Performance Supervision,OP_SO,OP_SO_03
+11.22,Product Trouble Ticket Resolution,OP_SO,OP_SO_04
+11.23,Product Problem Diagnose,OP_SO,OP_SO_04
+11.38,Enterprise Knowledge Management,OP_AO,OP_AO_03
+11.41,Security Strategy Definition and Management,OP_SO,OP_SO_05
+11.15,Pushed Offer Management,OP_SO,OP_SO_06

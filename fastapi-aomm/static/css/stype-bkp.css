@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fafafb; /* Black background */
+    color: #fff; /* White text color */
+  }
+  .quadrant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 400px; /* Fixed height, adjust if needed */
+    overflow-y: auto;
+  }
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; /* Smaller font size */
+    font-weight: 300; /* Lighter font weight for a modern look */
+  }
+  .inner-quadrant table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;  /* Keep background white for contrast */
+  }
+  
+  .inner-quadrant th, .inner-quadrant td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    color: #fff;  /* Set text color to white */
+    background-color: #f0e9e9;  /* Dark background for better readability */
+  }
+  
+  .inner-quadrant th {
+    background-color: #efe8e8;  /* Slightly different shade for header */
+  }
+  .inner-quadrant h2 {
+    margin-top: 0;
+  }
+  .inner-quadrant table {
+    width: 100%; /* Adjust width as necessary, or keep at 100% */
+    border-collapse: collapse;
+    font-size: 0.8em; /* Reduce font size to shrink table */
+  }
+  
+  .inner-quadrant th, .inner-quadrant td {
+    padding: 4px; /* Reduce padding to decrease cell size */
+    text-align: left;
+    border: 1px solid #ccc;
+    color: #000; /* Ensure text is readable on smaller sizes */
+  }
+  .error-message {
+    color: #D8000C;
+    background-color: #FFBABA;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #D8000C;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
